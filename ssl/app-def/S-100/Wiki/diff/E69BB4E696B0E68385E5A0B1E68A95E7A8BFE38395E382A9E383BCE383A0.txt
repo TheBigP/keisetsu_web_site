@@ -1,0 +1,5 @@
+-[[111]]
+-** 提案場 [#NewsLog]
+-LEFT:提案・要望等があれば投稿してください。
+-LEFT:[[%%%全部読む%%%>NewsLog]] [[%%%投稿された内容の編集%%%:http://pspwiki.to/index.php?cmd=edit&page=NewsLog]]
+-#pcomment(NewsLog,5,below,noname);

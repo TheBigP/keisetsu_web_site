@@ -1,0 +1,115 @@
+a.office_honsya{
+    background-position:0px 0px;
+}
+a:hover.office_honsya{
+    background-position:0px 0px;
+}
+a.office_akanehama{
+    background-position:0px -46px;
+}
+a:hover.office_akanehama{
+    background-position:0px -46px;
+}
+a.office_tokyo{
+    background-position:0px -92px;
+}
+a:hover.office_tokyo{
+    background-position:0px -92px;
+}
+a.office_yokkaichi{
+    background-position:0px -138px;
+}
+a:hover.office_yokkaichi{
+    background-position:0px -138px;
+}
+a.office_suzuka{
+    background-position:0px -184px;
+}
+a:hover.office_suzuka{
+    background-position:0px -184px;
+}
+a.iso_torikumi{
+    background-position:0px -230px;
+}
+a:hover.iso_torikumi{
+    background-position:0px -230px;
+}
+a.iso_housin{
+    background-position:0px -276px;
+}
+a:hover.iso_housin{
+    background-position:0px -276px;
+}
+a.company_aisatsu{
+    background-position:0px -322px;
+}
+a:hover.company_aisatsu{
+    background-position:0px -322px;
+}
+a.company_gaiyo{
+    background-position:0px -368px;
+}
+a:hover.iso_gaiyo{
+    background-position:0px -368px;
+}
+a.recuit_shinsotsu{
+    background-position:0px -414px;
+}
+a:hover.recuit_shinsotsu{
+    background-position:0px -414px;
+}
+a.recuit_obo1{
+    background-position:0px -460px;
+}
+a:hover.recuit_obo1{
+    background-position:0px -460px;
+}
+a.recuit_career{
+    background-position:0px -506px;
+}
+a:hover.recuit_career{
+    background-position:0px -506px;
+}
+a.recuit_obo2{
+    background-position:0px -552px;
+}
+a:hover.recuit_obo2{
+    background-position:0px -552px;
+}
+a.recuit_entry{
+    background-position:0px -598px;
+}
+a:hover.recuit_entry{
+    background-position:0px -598px;
+}
+a.recuit_intv{
+    background-position:0px -644px;
+}
+a:hover.recuit_intv{
+    background-position:0px -644px;
+}
+ul#tatemenu {
+	list-style:none;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+}
+ul#tatemenu li{
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	width: 267px;
+}
+ul#tatemenu a{
+	display:block;
+	width:267px;
+	height:46px;
+	background-image:url(image/tatemenu.jpg);
+	text-indent: -9999px;
+}
+ul#tatemenu a:hover{
+	display:block;
+	width:267px;
+	height:46px;
+	background-image:url(image/tatemenu_ro.jpg);
+}

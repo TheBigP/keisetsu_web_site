@@ -1,0 +1,349 @@
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background-color: #EEEEEE;
+	font-size: 12px;
+	line-height: 150%;
+	color: #666666;
+}
+
+td.note {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-collapse:collapse;
+	padding-left: 10px;
+}
+
+td.note2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	border-collapse:collapse;
+	padding-left: 10px;
+}
+
+h1 {
+	font-size: 11px;
+	width: 797px;
+	font-weight: normal;
+	text-align: left;
+	background-position: center;
+	color: #666666;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 13px;
+}                            
+td.hyo {
+	padding-left: 10px;
+}
+
+h2 {
+	font-weight: normal;
+	margin-bottom: 5px;
+	line-height: 140%;
+	margin-top: 0px;
+	font-size: 12px;
+}                            
+h3 {
+	font-weight: normal;
+	margin-bottom: 5px;
+	line-height: 140%;
+	margin-top: 0px;
+	font-size: 12px;
+}
+a:link {
+	color: #666666;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+a:hover {
+	text-decoration: underline;
+	color: #0033FF;
+}
+a:active {
+	text-decoration: none;
+	color: #666666;
+}                             
+.f12 {
+
+	font-size: 12px;
+	line-height: 140%;
+	color: #666666;
+}
+em {
+	font-weight: normal;
+	font-style: normal;
+}
+.hd_t {
+	background-image: url(image/ht_shadow.jpg);
+	background-repeat: no-repeat;
+	height: 130px;
+	width: 760px;
+	padding-top: 0px;
+	padding-right: 538px;
+	padding-left: 200px;
+	padding-bottom: 0px;
+}
+td.f01 {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #210063;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	padding-left: 13px;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+}
+td.f02 {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	padding-top: 6px;
+	padding-bottom: 7px;
+	padding-right: 10px;
+	padding-left: 13px;
+}
+ul.info {
+list-style:none;
+padding: 0px;
+margin: 0px;
+}
+ul.info li {
+padding:0px 2px 0px 20px;
+margin: 5px 0px;
+background:url(image/p_01.gif) no-repeat left top;
+}
+td.text {
+	background-color: #FFFFFF;
+	text-align: left;
+	font-size: 12px;
+	line-height: 140%;
+	color: #888888;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+td.recruit {
+	padding-top: 9px;
+	padding-right: 15px;
+	padding-bottom: 9px;
+	padding-left: 10px;
+	background-image: url(image/con_2.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 244px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	line-height: 145%;
+	height: 148px;
+}
+td.entry {
+	padding-top: 9px;
+	padding-right: 15px;
+	padding-bottom: 9px;
+	padding-left: 10px;
+	background-image: url(image/con_3.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 244px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	line-height: 145%;
+	height: 148px;
+}
+td.pdserv {
+	padding-top: 9px;
+	padding-right: 15px;
+	padding-bottom: 9px;
+	padding-left: 10px;
+	background-image: url(image/con_1.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 245px;
+	line-height: 145%;
+	height: 148px;
+}
+td.under10 {
+	padding-bottom: 10px;
+}
+td.top10 {
+	padding-top: 10px;
+}
+blockquote {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+td.lc_mado {
+	line-height: 140%;
+	padding-left: 25px;
+	padding-top: 7px;
+}
+ol ol {
+	list-style-type: none;
+	margin-left: 48px;
+	text-indent: -28px;
+}
+ol li {
+	margin-bottom: 10px;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+td.under150 {
+	padding-bottom: 150px;
+}
+.bluegreen {
+	color: #7EACB6;
+}
+.entrybt {
+	background-image: url(image/bt_entry.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 52px;
+	width: 182px;
+}
+.entrybt:hover {
+	background-image: url(image/bt_entry_ro.jpg);
+	background-repeat: no-repeat;
+}
+.shinsotsubt {
+	background-image: url(image/bt_shinsotsu.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 52px;
+	width: 182px;
+}
+.shinsotsubt:hover {
+	background-image: url(image/bt_shinsotsu_ro.jpg);
+	background-repeat: no-repeat;
+}
+.kiyaku1 {
+	width: 467px;
+	border: 2px solid #6666FF;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 14px;
+	padding-right: 17px;
+	padding-bottom: 7px;
+	padding-left: 0px;
+}
+.f11 {
+	font-size: 11px;
+}
+.gyokan {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.column {
+	height: 366px;
+	width: 510px;
+	overflow: auto;
+	scrollbar-base-color:#EBE8F2;
+	scrollbar-arrow-color:#210063;
+	scrollbar-3dlight-color:#b9b9cc;
+	scrollbar-darkshadow-color:#b9b9cc;
+	scrollbar-highlight-color:#;
+	scrollbar-shadow-color:#EBE8F2;
+	scrollbar-face-color:#;
+	scrollbar-track-color:#;
+	padding-top: 5px;
+
+}
+
+.column2 {
+	height: 366px;
+	width: 510px;
+}
+
+.isokatudo {
+	height: 201px;
+	width: 243px;
+	overflow: auto;
+	scrollbar-base-color:#EBE8F2;
+	scrollbar-arrow-color:#210063;
+	scrollbar-3dlight-color:#b9b9cc;
+	scrollbar-darkshadow-color:#b9b9cc;
+	scrollbar-highlight-color:#;
+	scrollbar-shadow-color:#EBE8F2;
+	scrollbar-face-color:#;
+	scrollbar-track-color:#;
+	border: 1px solid #CCCCCC;
+
+}
+#left .isokatudo strong {
+	color: #444444;
+}
+td.under10kasen {
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+}
+#left .isokatudo p {
+	margin-top: 7px;
+}
+.spcleft7 {
+	margin-left: 7px;
+	margin-bottom: 7px;
+}
+td.under7kasen {
+	padding-bottom: 7px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+	padding-top: 7px;
+}
+td.under7 {
+	padding-bottom: 7px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+}
+.f_violet {
+	color: #210063;
+}
+.link {
+	color: #0033CC;
+}
+
+#imgarea{
+width: 810px;
+height:230px;
+background:url(image/flash_image.jpg);
+}

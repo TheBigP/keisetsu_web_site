@@ -1,0 +1,20 @@
+#freeze
+#norelated
+* FrontPage [#qb249ac2]
+
+トップページです。
+&br;
+
+&color(red){&size(20){※常駐先からの書き込みはセキュリティ等の問題でご遠慮お願いします。};};
+** メインページ [#if72ced0]
+
+- &new([[MONODUKURI]]); -- 2010年度活動計画（モノづくり）
+
+
+** ドキュメント [#o366701b]
+- [[SandBox]] -- 編集をお試しください
+- [[InterWikiSandBox]] -- [[InterWiki]]を試してみてください
+- [[PukiWiki]] -- PukiWikiのご紹介
+- [[ヘルプ>Help]] -- PukiWikiで編集するには？
+- [[テキスト整形のルール(詳細版)>FormattingRules]]
+- [[プラグインマニュアル>PukiWiki/1.4/Manual/Plugin]]

@@ -1,0 +1,79 @@
+/*全体を囲む場合のボックス*/
+#frame{
+	width:810px;
+	padding: 0px;
+	margin: 0px;
+	align: center;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	background-color: #FFFFFF;
+}      
+
+/*ヘッダボックス*/
+#header {
+	width: 810px;
+	text-align: left;
+}
+
+/*コンテンツ部分外側のボックス*/
+#contents{
+	width:810px;
+	align:center;
+	bottom: auto;
+	background-image: url(image/lm_bg.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*メインの部分のボックス*/
+#main{
+	width:510px;
+	background-color: #FFFFFF;
+	padding-right: 12px;
+	padding-left: 15px;
+	float: right;
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: #B9B9CC;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+/*左側のボックス*/
+#left{
+	width:254px;
+	padding-left: 13px;
+	line-height: 140%;
+	padding-top: 25px;
+}
+
+/*ヘッダボックスboth回り込み解除*/
+#footer {
+	width:810px;
+	clear: both;
+	font-size: 11px;
+	color: #666666;
+	text-align: left;
+}
+#right {
+	width:510px;
+	background-color: #FFFFFF;
+	padding-right: 14px;
+	float: right;
+	padding-top: 15px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	padding-left: 15px;
+	padding-bottom: 20px;
+}
+#leftmenu {
+	width:267px;
+}

@@ -1,0 +1,102 @@
+A.office_honsya {
+	BACKGROUND-POSITION: 0px 0px
+}
+A.office_honsya:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+A.office_akanehama {
+	BACKGROUND-POSITION: 0px -46px
+}
+A.office_akanehama:hover {
+	BACKGROUND-POSITION: 0px -46px
+}
+A.office_tokyo {
+	BACKGROUND-POSITION: 0px -92px
+}
+A.office_tokyo:hover {
+	BACKGROUND-POSITION: 0px -92px
+}
+A.office_yokkaichi {
+	BACKGROUND-POSITION: 0px -138px
+}
+A.office_yokkaichi:hover {
+	BACKGROUND-POSITION: 0px -138px
+}
+A.office_suzuka {
+	BACKGROUND-POSITION: 0px -184px
+}
+A.office_suzuka:hover {
+	BACKGROUND-POSITION: 0px -184px
+}
+A.iso_torikumi {
+	BACKGROUND-POSITION: 0px -230px
+}
+A.iso_torikumi:hover {
+	BACKGROUND-POSITION: 0px -230px
+}
+A.iso_housin {
+	BACKGROUND-POSITION: 0px -276px
+}
+A.iso_housin:hover {
+	BACKGROUND-POSITION: 0px -276px
+}
+A.company_aisatsu {
+	BACKGROUND-POSITION: 0px -322px
+}
+A.company_aisatsu:hover {
+	BACKGROUND-POSITION: 0px -322px
+}
+A.company_gaiyo {
+	BACKGROUND-POSITION: 0px -368px
+}
+A.iso_gaiyo:hover {
+	BACKGROUND-POSITION: 0px -368px
+}
+A.recuit_shinsotsu {
+	BACKGROUND-POSITION: 0px -414px
+}
+A.recuit_shinsotsu:hover {
+	BACKGROUND-POSITION: 0px -414px
+}
+A.recuit_obo1 {
+	BACKGROUND-POSITION: 0px -460px
+}
+A.recuit_obo1:hover {
+	BACKGROUND-POSITION: 0px -460px
+}
+A.recuit_career {
+	BACKGROUND-POSITION: 0px -506px
+}
+A.recuit_career:hover {
+	BACKGROUND-POSITION: 0px -506px
+}
+A.recuit_obo2 {
+	BACKGROUND-POSITION: 0px -552px
+}
+A.recuit_obo2:hover {
+	BACKGROUND-POSITION: 0px -552px
+}
+A.recuit_entry {
+	BACKGROUND-POSITION: 0px -598px
+}
+A.recuit_entry:hover {
+	BACKGROUND-POSITION: 0px -598px
+}
+A.recuit_intv {
+	BACKGROUND-POSITION: 0px -644px
+}
+A.recuit_intv:hover {
+	BACKGROUND-POSITION: 0px -644px
+}
+UL#tatemenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL#tatemenu LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 267px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL#tatemenu A {
+	DISPLAY: block; BACKGROUND-IMAGE: url(image/tatemenu.jpg); WIDTH: 267px; TEXT-INDENT: -9999px; HEIGHT: 46px
+}
+UL#tatemenu A:hover {
+	DISPLAY: block; BACKGROUND-IMAGE: url(image/tatemenu_ro.jpg); WIDTH: 267px; HEIGHT: 46px
+}

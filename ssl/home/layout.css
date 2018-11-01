@@ -1,0 +1,24 @@
+#frame {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 810px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff; align: center
+}
+#header {
+	WIDTH: 810px; TEXT-ALIGN: left
+}
+#contents {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left 50%; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(image/lm_bg.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 810px; BOTTOM: auto; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-y; TEXT-ALIGN: left; align: center
+}
+#main {
+	PADDING-RIGHT: 12px; MARGIN-TOP: 25px; PADDING-LEFT: 15px; FLOAT: right; MARGIN-BOTTOM: 20px; BORDER-LEFT: #b9b9cc 3px solid; WIDTH: 510px; BACKGROUND-COLOR: #ffffff
+}
+#left {
+	PADDING-LEFT: 13px; WIDTH: 254px; LINE-HEIGHT: 140%; PADDING-TOP: 25px
+}
+#footer {
+	CLEAR: both; FONT-SIZE: 11px; WIDTH: 810px; COLOR: #666666; TEXT-ALIGN: left
+}
+#right {
+	PADDING-RIGHT: 14px; PADDING-LEFT: 15px; FLOAT: right; PADDING-BOTTOM: 20px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 510px; PADDING-TOP: 15px; BACKGROUND-COLOR: #ffffff
+}
+#leftmenu {
+	WIDTH: 267px
+}
