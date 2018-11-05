@@ -27,101 +27,10 @@
 </head>
 
 <body style="padding-top:  60px;">
-    <menu class="menubar">
-        <menuitem>
-        <button class="menu-trigger"> </button>
-        </menuitem>
-
-        <menuitem class="logo" title="Your Logo Goes Here">
-        <a href="index.html" style="color:white">京設工業株式会社</a>
-        </menuitem>
-    </menu>
-
-    <div class="menu-head">
-        <span class="layer">
-            <div>
-                <!-- <div class="row for-pic"> -->
-                <!-- <div class="profile-pic"> -->
-                <img src="../image/rogo.gif" alt="京設工業株式会社" />
-                <!-- </div> -->
-                <!-- </div> -->
-            </div>
-            <!--//col-->
-        </span>
-    </div>
-    <!--//menu-head-->
-
-    <nav class="menu-container">
-
-        <ul class="menu-items">
-            <li> <a href="index.html" align="left">
-                    HOME </a></li>
-            <li> <a href="prdt_serv.html" align="left">
-                    製品＆サービス </a></li>
-            <li class="has-sub">
-                <span class="dropdown-heading" align="left">
-                    事業所紹介 </span>
-                <ul align="left">
-                    <li> <a href="jigyosyo.html" style="padding-left:75px">事業所紹介 </a> </li>
-                    <li> <a href="jigyosyo.html" style="padding-left:75px">本社／システム・ソフト開発事業部 </a> </li>
-                    <li> <a href="jigyosyo_akanehama.html" style="padding-left:75px">茜浜事業所 </a> </li>
-                    <li> <a href="jigyosyo_tokyo.html" style="padding-left:75px">東京事業所 </a> </li>
-                    <li> <a href="jigyosyo_yokkaichi.html" style="padding-left:75px">四日市事業所 </a> </li>
-                </ul>
-            </li>
-            <li class="has-sub">
-                <span class="dropdown-heading" align="left">
-                    ISOの取り組み </span>
-                <ul align="left">
-                    <li> <a href="iso.html" style="padding-left:75px">ISOの取り組み </a> </li>
-                    <li> <a href="iso.html" style="padding-left:75px">環境への取り組み </a> </li>
-                    <li> <a href="iso_hoshin.html" style="padding-left:75px">環境方針・品質方針 </a> </li>
-                </ul>
-            </li>
-
-            <li class="has-sub">
-                <span class="dropdown-heading" align="left">
-                    採用情報 </span>
-                <ul align="left">
-                    <li> <a href="recruite.html" style="padding-left:75px">採用情報 </a> </li>
-                    <li> <a href="recruite.html" style="padding-left:75px">新卒採用情報 </a> </li>
-                    <li> <a href="#obo1" style="padding-left:75px">応募方法・選考の流れ（新卒） </a> </li>
-                    <li> <a href="recruite_career.html" style="padding-left:75px">キャリア採用情報 </a> </li>
-                    <li> <a href="recruite_career.html#obo2" style="padding-left:75px">応募方法・選考の流れ（キャリア） </a> </li>
-                    <li> <a href="recruite_kojin.html" style="padding-left:75px">エントリーフォーム </a> </li>
-                    <li> <a href="recruite_interview.html" style="padding-left:75px">社員インタビュー </a> </li>
-                </ul>
-            </li>
-
-            <li><a href="../../ssl/home/postmail2/postmail.html" align="left">
-                    お問い合わせ </a></li>
-        </ul>
-    </nav>
+<?php include 'header.php';?>
     <div class="container">
         <div class="row" style="font-size: 1.2rem;">
-            <div class="col-sm-4 d-none d-sm-block">
-                <div id="left">
-                    <img src="../image/lc_aboutus.jpg" alt="会社案内" width="100%">
-                    <div style="text-align: left;margin-left: 2%;box-shadow: 0 0 3px 0px #9588bc;">
-                        <strong id="under10kasen_id">京設工業株式会社</strong>
-                        <h3 id="under10kasen_id" style="font-size:15px">〒275-0024　千葉県習志野市茜浜1-2-6<br>
-                            ＴＥＬ．047-453-7711　 ＦＡＸ．047-453-0670</h3>
-                        【営業品目】<br>
-                        <h2 id="under10kasen_id" style="font-size:15px">コンピューター・ソフトウェア開発、 ソフトウェア検証、機械設計、電気設計、 デザイン、技術者派遣事業
-                        </h2>
-                    </div>
-                    <div class="">
-                        <img src="../image/lc_group.jpg" alt="グループ会社" width="100%">
-                        <h2 style="margin:0%"><a href="http://www.sankyo-kikai.co.jp/" target="sankyo"><img src="../image/lc_bt_sankyo.jpg"
-                                    alt="三京機械工業株式会社" width="100%" border="0"></a></h2>
-                        <h2 style="margin:0%"><a href="http://erimos.co.jp/" target="erimos"><img src="../image/lc_bt_erimose.jpg"
-                                    alt="株式会社エリモス" width="100%" border="0"></a>
-                            <img style="padding-bottom:5%" src="../image/lc_bg_shita.jpg" alt="" width="100%">
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-8">
+            <div class="col-sm-12">
                 <div id="left">
                     <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
                         <thead>
@@ -202,39 +111,8 @@
                 </div>
             </div>
         </div>
-        <div id="footer">
-            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="color:black">
-                <tr>
-                    <td colspan="2" class="f01"><img src="../image/p_footer.gif" alt=""><a href="index.html">ＨＯＭＥ</a>　<img
-                            src="../image/p_footer.gif" alt=""><a href="prdt_serv.html">製品&amp;サービス</a>　<img src="../image/p_footer.gif"
-                            alt=""><a href="jigyosyo.html">事業所紹介</a>　<img src="../image/p_footer.gif" alt="" width="13"
-                            height="11"><a href="iso.html">ＩＳＯの取り組み</a>　<img src="../image/p_footer.gif" alt=""><a
-                            href="recruite.html">採用情報</a>　<img src="../image/p_footer.gif" alt=""><a href="company.html">会社案内</a>　<img
-                            src="../image/p_footer.gif" alt=""><a href="sitemap.html">サイトマップ</a>　<img src="../image/p_footer.gif"
-                            alt=""><a href="../../ssl/home/postmail2/postmail.html">お問い合わせ</a></td>
-                </tr>
-                <tr>
-                    <td class="f02"><a href="privacy.html">個人情報保護</a></td>
-                    <td align="right" class="f02">Copyright (C) 2007 Keisetsu.co.</td>
-                </tr>
-            </table>
-        </div>
+        <?php include 'footer.php';?>
     </div>
-    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    <script src="../js/jquery.jside.menu.js"></script>
-    <!-- <script src="js/demo-only.js"></script> -->
-    <script>
-        $(document).ready(function () {
-
-            $(".menu-container").jSideMenu({
-                jSidePosition: "position-left", //possible options position-left or position-right
-
-                jSideSticky: true, // menubar will be fixed on top, false to set static
-
-                jSideSkin: "default-skin", // to apply custom skin, just put its name in this string
-            });
-        });
-    </script>
 </body>
 <!-- InstanceEnd -->
 
