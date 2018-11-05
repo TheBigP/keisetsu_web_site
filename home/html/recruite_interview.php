@@ -27,7 +27,7 @@
 </head>
 
 <body style="padding-top:  60px;">
-<?php include 'header.php';?>
+    <?php include 'header.php';?>
     <div class="container">
         <div class="row" style="font-size: 1.2rem;">
             <div class="col-sm-12">
@@ -105,8 +105,7 @@
                         </tbody>
                     </table>
                     <div align="right" style="margin-top:1.5rem">
-                        <a href="#top" class="back-to-top"><img src="../image/pagetop.gif" alt="このページの先頭へ" width="60"
-                                height="27" border="0"></a>
+                        <a href="#top" class="back-to-top"><img src="../image/pagetop.gif" alt="このページの先頭へ" width="60" height="27" border="0"></a>
                     </div>
                 </div>
             </div>

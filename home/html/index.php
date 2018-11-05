@@ -14,7 +14,7 @@
 </head>
 
 <body style="padding-top:  60px;">
-<?php include 'header.php';?>
+    <?php include 'header.php';?>
     <div class="container">
         <div id="page-content-wrapper" style="padding: top 60px;">
             <div class="page-content inset" data-spy="scroll" data-target="#spy">
@@ -24,8 +24,7 @@
                         <div class="pdserv"><img src="../image/mida_01.gif" alt="製品＆サービス" width="125" height="46"><br>コンピューター・ソフトウェア開発、ソフトウェア検証、機械設計、電気設計、デザイン、技術者派遣事業という５つの部門でみなさまにご提案・ご提供いたしております。
                             <ul class="nav nav-pills flex-column">
                                 <li class="nav-item">
-                                    <a href="prdt_serv.php"><img src="../image/bt_syosai.gif" alt="製品・サービスについて詳しくはこちら"
-                                                                 width="86" height="24" border="0"></a>
+                                    <a href="prdt_serv.php"><img src="../image/bt_syosai.gif" alt="製品・サービスについて詳しくはこちら" width="86" height="24" border="0"></a>
                                 </li>
                             </ul>
                         </div>
@@ -37,8 +36,7 @@
                             プラスティック容器設計、DTP技術者 などの募集をしております。
                             <ul class="nav nav-pills flex-column">
                                 <li class="nav-item">
-                                    <a href="recruite.php"><img src="../image/bt_syosai.gif" alt="採用について詳しくはこちら"
-                                                                width="86" height="24" border="0"></a>
+                                    <a href="recruite.php"><img src="../image/bt_syosai.gif" alt="採用について詳しくはこちら" width="86" height="24" border="0"></a>
                                 </li>
                             </ul>
                         </div>
@@ -50,8 +48,7 @@
                             という 企業カルチャーを持つ京設工業 で一緒に働きませんか？
                             <ul class="nav nav-pills flex-column">
                                 <li class="nav-item">
-                                    <a href="recruite_kojin.php"><img src="../image/bt_syosai.gif" alt="エントリーについて詳しくはこちら"
-                                                                      width="86" height="24" border="0"></a>
+                                    <a href="recruite_kojin.php"><img src="../image/bt_syosai.gif" alt="エントリーについて詳しくはこちら" width="86" height="24" border="0"></a>
                                 </li>
                             </ul>
                         </div>
@@ -79,9 +76,7 @@
                     </table>
                     <img src="../image/bn_whatnew.jpg" alt="What's New " width="100%">
                     <div class="column2">
-                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E4%25BA%25AC%25E8%25A8%25AD%25E5%25B7%25A5%25E6%25A5%25AD%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE-893386934127550%2F&tabs=timeline&width=510&height=360&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
-                            width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                            allowTransparency="true"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E4%25BA%25AC%25E8%25A8%25AD%25E5%25B7%25A5%25E6%25A5%25AD%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE-893386934127550%2F&tabs=timeline&width=510&height=360&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                     </div>
                 </div>
             </div>

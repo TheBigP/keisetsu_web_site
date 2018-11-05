@@ -27,76 +27,7 @@
 </head>
 
 <body style="padding-top:  60px;">
-    <menu class="menubar">
-        <menuitem>
-        <button class="menu-trigger"> </button>
-        </menuitem>
-
-        <menuitem class="logo" title="Your Logo Goes Here">
-        <a href="../index.html" style="color:white">京設工業株式会社</a>
-        </menuitem>
-    </menu>
-
-    <div class="menu-head">
-        <span class="layer">
-            <div>
-                <!-- <div class="row for-pic"> -->
-                <!-- <div class="profile-pic"> -->
-                <img src="../image/rogo.gif" alt="京設工業株式会社" />
-                <!-- </div> -->
-                <!-- </div> -->
-            </div>
-            <!--//col-->
-        </span>
-    </div>
-    <!--//menu-head-->
-
-    <nav class="menu-container">
-
-        <ul class="menu-items">
-            <li> <a href="../../home/index.html" align="left">
-                    HOME </a></li>
-            <li> <a href="prdt_serv.php" align="left">
-                    製品＆サービス </a></li>
-            <li class="has-sub">
-                <span class="dropdown-heading" align="left">
-                    事業所紹介 </span>
-                <ul align="left">
-                    <li> <a href="jigyosyo.php" style="padding-left:75px">事業所紹介 </a> </li>
-                    <li> <a href="jigyosyo.php" style="padding-left:75px">本社／システム・ソフト開発事業部 </a> </li>
-                    <li> <a href="jigyosyo_akanehama.php" style="padding-left:75px">茜浜事業所 </a> </li>
-                    <li> <a href="jigyosyo_tokyo.php" style="padding-left:75px">東京事業所 </a> </li>
-                    <li> <a href="jigyosyo_yokkaichi.php" style="padding-left:75px">四日市事業所 </a> </li>
-                </ul>
-            </li>
-            <li class="has-sub">
-                <span class="dropdown-heading" align="left">
-                    ISOの取り組み </span>
-                <ul align="left">
-                    <li> <a href="iso.php" style="padding-left:75px">ISOの取り組み </a> </li>
-                    <li> <a href="iso.php" style="padding-left:75px">環境への取り組み </a> </li>
-                    <li> <a href="iso_hoshin.php" style="padding-left:75px">環境方針・品質方針 </a> </li>
-                </ul>
-            </li>
-
-            <li class="has-sub">
-                <span class="dropdown-heading" align="left">
-                    採用情報 </span>
-                <ul align="left">
-                    <li> <a href="recruite.php" style="padding-left:75px">採用情報 </a> </li>
-                    <li> <a href="recruite.php" style="padding-left:75px">新卒採用情報 </a> </li>
-                    <li> <a href="#obo1" style="padding-left:75px">応募方法・選考の流れ（新卒） </a> </li>
-                    <li> <a href="recruite_career.php" style="padding-left:75px">キャリア採用情報 </a> </li>
-                    <li> <a href="recruite_career.php#obo2" style="padding-left:75px">応募方法・選考の流れ（キャリア） </a> </li>
-                    <li> <a href="recruite_kojin.php" style="padding-left:75px">エントリーフォーム </a> </li>
-                    <li> <a href="recruite_interview.php" style="padding-left:75px">社員インタビュー </a> </li>
-                </ul>
-            </li>
-
-            <li><a href="#1" align="left">
-                    お問い合わせ </a></li>
-        </ul>
-    </nav>
+    <?php include 'header.php';?>
     <div class="container">
         <div class="row" style="font-size: 1.2rem;">
             <div class="col-sm-4 d-none d-sm-block">
@@ -112,10 +43,8 @@
                     </div>
                     <div class="">
                         <img src="../image/lc_group.jpg" alt="グループ会社" width="100%">
-                        <h2 style="margin:0%"><a href="http://www.sankyo-kikai.co.jp/" target="sankyo"><img src="../image/lc_bt_sankyo.jpg"
-                                    alt="三京機械工業株式会社" width="100%" border="0"></a></h2>
-                        <h2 style="margin:0%"><a href="http://erimos.co.jp/" target="erimos"><img src="../image/lc_bt_erimose.jpg"
-                                    alt="株式会社エリモス" width="100%" border="0"></a>
+                        <h2 style="margin:0%"><a href="http://www.sankyo-kikai.co.jp/" target="sankyo"><img src="../image/lc_bt_sankyo.jpg" alt="三京機械工業株式会社" width="100%" border="0"></a></h2>
+                        <h2 style="margin:0%"><a href="http://erimos.co.jp/" target="erimos"><img src="../image/lc_bt_erimose.jpg" alt="株式会社エリモス" width="100%" border="0"></a>
                             <img style="padding-bottom:5%" src="../image/lc_bg_shita.jpg" alt="" width="100%">
                         </h2>
                     </div>
@@ -134,20 +63,17 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem"
-                                                href="../index.html">トップページ</a></strong></h2>
+                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem" href="../index.html">トップページ</a></strong></h2>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem"
-                                                href="prdt_serv.php">製品＆サービス</a></strong></h2>
+                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem" href="prdt_serv.php">製品＆サービス</a></strong></h2>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem"
-                                                href="jigyosyo.php">事業所紹介</a></strong></h2>
+                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem" href="jigyosyo.php">事業所紹介</a></strong></h2>
                                     <p><img src="../image/p_6.gif" alt="" width="41" height="17" align="left"><a href="jigyosyo.php">本社／システム・ソフト開発事業部</a></p>
                                     <p><img src="../image/p_6.gif" alt="" width="41" height="17" align="left"><a href="jigyosyo_akanehama.php">茜浜事業所</a></p>
                                     <p><img src="../image/p_6.gif" alt="" width="41" height="17" align="left"><a href="jigyosyo_tokyo.php">東京事業所</a></p>
@@ -156,16 +82,14 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem"
-                                                href="iso.php">ISOの取り組み</a></strong></h2>
+                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem" href="iso.php">ISOの取り組み</a></strong></h2>
                                     <p><img src="../image/p_6.gif" alt="" width="41" height="17" align="left"><a href="iso.php">環境への取り組み</a></p>
                                     <p><img src="../image/p_6.gif" alt="" width="41" height="17" align="left"><a href="iso_hoshin.php">環境方針・品質方針</a></p>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem"
-                                                href="recruite.php">採用情報</a></strong></h2>
+                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem" href="recruite.php">採用情報</a></strong></h2>
                                     <p><img src="../image/p_6.gif" alt="" width="41" height="17" align="left"><a href="recruite.php">新卒採用情報</a></p>
                                     <p><img src="../image/p_6.gif" alt="" width="41" height="17" align="left"><a href="recruite.php#obo1">応募方法・選考の流れ（新卒）</a></p>
                                     <p><img src="../image/p_6.gif" alt="" width="41" height="17" align="left"><a href="recruite_career.php">キャリア採用情報</a></p>
@@ -176,28 +100,24 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem"
-                                                href="https://keisetsu.co.jp/postmail2/postmail.html">お問い合わせ</a></strong></h2>
+                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem" href="https://keisetsu.co.jp/postmail2/postmail.html">お問い合わせ</a></strong></h2>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem"
-                                                href="company.html">会社案内</a></strong></h2>
+                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem" href="company.html">会社案内</a></strong></h2>
                                     <p><img src="../image/p_6.gif" alt="" width="41" height="17" align="left"><a href="company.html">ごあいさつ</a></p>
                                     <p><img src="../image/p_6.gif" alt="" width="41" height="17" align="left"><a href="company_gaiyo.html">会社概要・沿革</a></p>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem"
-                                                href="privacy.html">個人情報保護について</a></strong></h2>
+                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem" href="privacy.html">個人情報保護について</a></strong></h2>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem"
-                                                href="sitemap.html">サイトマップ</a></strong></h2>
+                                    <h2><img src="../image/p_5.gif" alt="" width="27" height="16" align="left"><strong><a style="font-size:1.5rem" href="sitemap.html">サイトマップ</a></strong></h2>
                                 </td>
                             </tr>
                         </tbody>
@@ -208,13 +128,7 @@
         <div id="footer">
             <table width="100%" border="0" cellspacing="0" cellpadding="0" style="color:black">
                 <tr>
-                    <td colspan="2" class="f01"><img src="image/p_footer.gif" alt=""><a href="../index.html">ＨＯＭＥ</a>　<img
-                            src="image/p_footer.gif" alt=""><a href="html/prdt_serv.html">製品&amp;サービス</a>　<img src="image/p_footer.gif"
-                            alt=""><a href="html/jigyosyo.html">事業所紹介</a>　<img src="image/p_footer.gif" alt="" width="13"
-                            height="11"><a href="html/iso.html">ＩＳＯの取り組み</a>　<img src="image/p_footer.gif" alt=""><a
-                            href="html/recruite.html">採用情報</a>　<img src="image/p_footer.gif" alt=""><a href="html/company.html">会社案内</a>　<img
-                            src="image/p_footer.gif" alt=""><a href="html/sitemap.html">サイトマップ</a>　<img src="image/p_footer.gif"
-                            alt=""><a href="https://keisetsu.co.jp/postmail2/postmail.html">お問い合わせ</a></td>
+                    <td colspan="2" class="f01"><img src="image/p_footer.gif" alt=""><a href="../index.html">ＨＯＭＥ</a>　<img src="image/p_footer.gif" alt=""><a href="html/prdt_serv.html">製品&amp;サービス</a>　<img src="image/p_footer.gif" alt=""><a href="html/jigyosyo.html">事業所紹介</a>　<img src="image/p_footer.gif" alt="" width="13" height="11"><a href="html/iso.html">ＩＳＯの取り組み</a>　<img src="image/p_footer.gif" alt=""><a href="html/recruite.html">採用情報</a>　<img src="image/p_footer.gif" alt=""><a href="html/company.html">会社案内</a>　<img src="image/p_footer.gif" alt=""><a href="html/sitemap.html">サイトマップ</a>　<img src="image/p_footer.gif" alt=""><a href="https://keisetsu.co.jp/postmail2/postmail.html">お問い合わせ</a></td>
                 </tr>
                 <tr>
                     <td class="f02"><a href="html/privacy.html">個人情報保護</a></td>
@@ -223,21 +137,6 @@
             </table>
         </div>
     </div>
-    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    <script src="../js/jquery.jside.menu.js"></script>
-    <!-- <script src="js/demo-only.js"></script> -->
-    <script>
-        $(document).ready(function () {
-
-            $(".menu-container").jSideMenu({
-                jSidePosition: "position-left", //possible options position-left or position-right
-
-                jSideSticky: true, // menubar will be fixed on top, false to set static
-
-                jSideSkin: "default-skin", // to apply custom skin, just put its name in this string
-            });
-        });
-    </script>
 </body>
 <!-- InstanceEnd -->
 

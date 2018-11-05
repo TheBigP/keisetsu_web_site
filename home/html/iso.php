@@ -15,7 +15,7 @@
 </head>
 
 <body style="padding-top:  60px;">
-<?php include 'header.php';?>
+    <?php include 'header.php';?>
     <div class="container">
         <div class="row" style="font-size: 1.2rem;">
             <div class="col-sm-12">
@@ -23,8 +23,7 @@
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <td class="under10"><img src="../image/bmida_isotorikumi.jpg" alt="コンピュータ・ソフトウエア開発部門"
-                                        width="100%"></td>
+                                <td class="under10"><img src="../image/bmida_isotorikumi.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%"></td>
                             </tr>
                         </thead>
                         <tbody>

@@ -15,7 +15,7 @@
 </head>
 
 <body style="padding-top:  60px;">
-<?php include 'header.php';?>
+    <?php include 'header.php';?>
     <div class="container">
         <div class="row" style="font-size: 1.2rem;">
             <div class="col-sm-12">
@@ -42,10 +42,7 @@
                                                         <tr>
                                                             <td>東京都江東区亀戸6－57－14<br>
                                                                 ひまわり江東ビル 4F</td>
-                                                            <td align="right"><a href="http://maps.google.co.jp/maps?f=q&amp;hl=ja&amp;geocode=&amp;time=&amp;date=&amp;ttype=&amp;q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E4%BA%80%E6%88%B86%EF%BC%8D57%EF%BC%8D14+%E3%81%B2%E3%81%BE%E3%82%8F%E3%82%8A%E6%B1%9F%E6%9D%B1%E3%83%93%E3%83%AB+%E4%BA%AC%E8%A8%AD%E5%B7%A5%E6%A5%AD&amp;ie=UTF8&amp;z=19&amp;iwloc=A&amp;om=1"
-                                                                    target="map"><img src="../image/bt_googlemap.gif"
-                                                                        alt="京設工業 東京事業所 詳細地図はこちら" width="110" height="25"
-                                                                        border="0"></a></td>
+                                                            <td align="right"><a href="http://maps.google.co.jp/maps?f=q&amp;hl=ja&amp;geocode=&amp;time=&amp;date=&amp;ttype=&amp;q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E4%BA%80%E6%88%B86%EF%BC%8D57%EF%BC%8D14+%E3%81%B2%E3%81%BE%E3%82%8F%E3%82%8A%E6%B1%9F%E6%9D%B1%E3%83%93%E3%83%AB+%E4%BA%AC%E8%A8%AD%E5%B7%A5%E6%A5%AD&amp;ie=UTF8&amp;z=19&amp;iwloc=A&amp;om=1" target="map"><img src="../image/bt_googlemap.gif" alt="京設工業 東京事業所 詳細地図はこちら" width="110" height="25" border="0"></a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>

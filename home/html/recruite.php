@@ -27,7 +27,7 @@
 </head>
 
 <body style="padding-top:  60px;">
-<?php include 'header.php';?>
+    <?php include 'header.php';?>
     <div class="container">
         <div class="row" style="font-size: 1.2rem;">
             <div class="col-sm-12">
@@ -55,8 +55,7 @@
                                     <td colspan="2" bgcolor="#FFFFFF" style="font-size:15px">本年度に卒業予定の方、及び既卒の第二新卒の方</td>
                                 </tr>
                                 <tr>
-                                    <th rowspan="2" bgcolor="#F8F4F9" style="font-size:15px"><img src="../image/p_2.gif" alt="" width="9"
-                                            height="10">募集学科</th>
+                                    <th rowspan="2" bgcolor="#F8F4F9" style="font-size:15px"><img src="../image/p_2.gif" alt="" width="9" height="10">募集学科</th>
                                     <td bgcolor="#FFFFFF" v>
                                         <p class="gyokan"><img src="../image/p_1.gif" alt="" width="10" height="6">ソフトウェア開発</p>
                                         <p class="gyokan"><img src="../image/p_1.gif" alt="" width="10" height="6">DTP技術者</p>
@@ -128,8 +127,7 @@
                         <a href="recruite_kojin.php" class="entrybt"></a>
                     </div>
                     <div align="right" class="under10">
-                        <a href="#top" class="back-to-top"><img src="../image/pagetop.gif" alt="このページの先頭へ" width="60"
-                                height="27" border="0"></a>
+                        <a href="#top" class="back-to-top"><img src="../image/pagetop.gif" alt="このページの先頭へ" width="60" height="27" border="0"></a>
                     </div>
                     <div style="overflow:auto">
                         <img src="../image/minibn_oubonagare.gif" alt="アプリケーションソフト開発エンジニア募集要項　※実務未経験者も歓迎">
@@ -156,8 +154,7 @@
                             </colgroup>
                             <tbody>
                                 <tr>
-                                    <td class="top10" style="font-size:15px"><img src="../image/flw_syoruisenko.jpg" alt="書類選考" width="90"
-                                            height="60"></td>
+                                    <td class="top10" style="font-size:15px"><img src="../image/flw_syoruisenko.jpg" alt="書類選考" width="90" height="60"></td>
                                     <td class="top10" style="font-size:15px">お送りいただいた応募データをもとに書類選考をいたします。<br>
                                         ※ 選考後の面接日程等については追ってご連絡いたします。</td>
                                 </tr>
@@ -177,7 +174,7 @@
                             </colgroup>
                             <tbody>
                                 <tr>
-                                    <td ><img src="../image/flw_mensetsu.jpg" alt="面接・試験" width="90" height="60"></td>
+                                    <td><img src="../image/flw_mensetsu.jpg" alt="面接・試験" width="90" height="60"></td>
                                     <td style="font-size:15px">２回～３回の面接と適性検査・筆記試験を予定しております。<br>
                                         ※ 面接日時についてはご相談下さい。</td>
                                 </tr>
@@ -230,8 +227,7 @@
                             </tbody>
                         </table>
                         <div align="right">
-                            <a href="#top" class="back-to-top"><img src="../image/pagetop.gif" alt="このページの先頭へ" width="60"
-                                    height="27" border="0"></a>
+                            <a href="#top" class="back-to-top"><img src="../image/pagetop.gif" alt="このページの先頭へ" width="60" height="27" border="0"></a>
                         </div>
                     </div>
                 </div>

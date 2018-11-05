@@ -1,43 +1,21 @@
-
-<!DOCTYPE html>
-<html lang="zh">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>京設工業株式会社</title>
-    <link rel="stylesheet" href="../material-design/css/material-design-iconic-font.css" />
-    <link rel="stylesheet" href="../css/jside-menu.css" />
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-    <link rel="index" href="../index.html">
-    <link href="../layout.css" rel="stylesheet" type="text/css">
-    <link href="../keisetsu.css" rel="stylesheet" type="text/css">
-    <link href="../menu.css" rel="stylesheet" type="text/css">
-
-</head>
-
-<body style="padding-top:  60px;">
 <menu class="menubar">
     <menuitem>
-        <button class="menu-trigger"> </button>
+    <button class="menu-trigger"> </button>
     </menuitem>
 
     <menuitem class="logo" title="Your Logo Goes Here">
-        <a href="index.php" style="color:white">京設工業株式会社</a>
+    <a href="index.php" style="color:white">京設工業株式会社</a>
     </menuitem>
 </menu>
 
 
 <div class="menu-head">
-        <span class="layer">
-            <div>
-                <img src="../image/rogo.gif" alt="京設工業株式会社" />
-            </div>
-            <!--//col-->
-        </span>
+    <span class="layer">
+        <div>
+            <img src="../image/rogo.gif" alt="京設工業株式会社" />
+        </div>
+        <!--//col-->
+    </span>
 </div>
 <!--//menu-head-->
 
@@ -50,9 +28,9 @@
         <li> <a href="prdt_serv.php" align="left">
                 製品＆サービス </a></li>
         <li class="has-sub">
-                <span class="dropdown-heading" align="left">
+            <span class="dropdown-heading" align="left">
 
-                    事業所紹介 </span>
+                事業所紹介 </span>
             <ul align="left">
                 <li> <a href="jigyosyo.php" style="padding-left:75px">事業所紹介 </a> </li>
                 <li> <a href="jigyosyo.php" style="padding-left:75px">本社／システム・ソフト開発事業部 </a> </li>
@@ -62,9 +40,9 @@
             </ul>
         </li>
         <li class="has-sub">
-                <span class="dropdown-heading" align="left">
+            <span class="dropdown-heading" align="left">
 
-                    ISOの取り組み </span>
+                ISOの取り組み </span>
             <ul align="left">
                 <li> <a href="iso.php" style="padding-left:75px">ISOの取り組み </a> </li>
                 <li> <a href="iso.php" style="padding-left:75px">環境への取り組み </a> </li>
@@ -73,9 +51,9 @@
         </li>
 
         <li class="has-sub">
-                <span class="dropdown-heading" align="left">
+            <span class="dropdown-heading" align="left">
 
-                    採用情報 </span>
+                採用情報 </span>
             <ul align="left">
                 <li> <a href="recruite.php" style="padding-left:75px">採用情報 </a> </li>
                 <li> <a href="recruite.php" style="padding-left:75px">新卒採用情報 </a> </li>
@@ -94,7 +72,7 @@
 <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 <script src="../js/jquery.jside.menu.js"></script>
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
 
         $(".menu-container").jSideMenu({
             jSidePosition: "position-left", //possible options position-left or position-right
