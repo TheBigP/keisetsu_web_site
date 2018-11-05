@@ -1,24 +1,79 @@
-#frame {
-	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 810px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff; align: center
-}
+/*�S�̂�͂ޏꍇ�̃{�b�N�X*/
+#frame{
+	width:810px;
+	padding: 0px;
+	margin: 0px;
+	align: center;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	background-color: #FFFFFF;
+}      
+
+/*�w�b�_�{�b�N�X*/
 #header {
-	WIDTH: 810px; TEXT-ALIGN: left
+	width: 100%;
+	text-align: left;
 }
-#contents {
-	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left 50%; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(image/lm_bg.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 810px; BOTTOM: auto; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-y; TEXT-ALIGN: left; align: center
+
+/*�R���e���c�����O���̃{�b�N�X*/
+#contents{
+	width:810px;
+	align:center;
+	bottom: auto;
+	background-image: url(http://www.keisetsu.co.jp/image/lm_bg.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
 }
-#main {
-	PADDING-RIGHT: 12px; MARGIN-TOP: 25px; PADDING-LEFT: 15px; FLOAT: right; MARGIN-BOTTOM: 20px; BORDER-LEFT: #b9b9cc 3px solid; WIDTH: 510px; BACKGROUND-COLOR: #ffffff
+
+/*���C���̕����̃{�b�N�X*/
+#main{
+	width:510px;
+	background-color: #FFFFFF;
+	padding-right: 12px;
+	padding-left: 15px;
+	float: right;
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: #B9B9CC;
+	margin-top: 25px;
+	margin-bottom: 20px;
 }
-#left {
-	PADDING-LEFT: 13px; WIDTH: 254px; LINE-HEIGHT: 140%; PADDING-TOP: 25px
+
+/*�����̃{�b�N�X*/
+#left{
+	/* width:254px; */
+	padding-left: 13px;
+	line-height: 140%;
+	padding-top: 25px;
 }
+
+/*�w�b�_�{�b�N�Xboth��荞�݉�*/
 #footer {
-	CLEAR: both; FONT-SIZE: 11px; WIDTH: 810px; COLOR: #666666; TEXT-ALIGN: left
+	/* width:810px; */
+	clear: both;
+	font-size: 11px;
+	color: #666666;
+	text-align: left;
 }
 #right {
-	PADDING-RIGHT: 14px; PADDING-LEFT: 15px; FLOAT: right; PADDING-BOTTOM: 20px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 510px; PADDING-TOP: 15px; BACKGROUND-COLOR: #ffffff
+	width:510px;
+	background-color: #FFFFFF;
+	padding-right: 14px;
+	float: right;
+	padding-top: 15px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	padding-left: 15px;
+	padding-bottom: 20px;
 }
 #leftmenu {
-	WIDTH: 267px
+	width:267px;
 }

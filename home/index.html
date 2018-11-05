@@ -1,169 +1,227 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="ja">
+<!DOCTYPE html>
+<html lang="zh">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
-<meta http-equiv="Content-Script-Type" content="text/javascript">
-<meta http-equiv="Content-Style-Type" content="text/css">
-<meta content="index,follow" name="robots">
-<meta name="Description" content="‹žÝH‹ÆŠ”Ž®‰ïŽÐ‚Íƒ\ƒtƒgƒEƒFƒAŠJ”­/ŒŸØE‹@ŠBÝŒvE“d‹CÝŒvEƒGƒ“ƒWƒjƒA”hŒ­EDTPƒfƒUƒCƒ“‚Ì‚T‚Â‚Ì•”–å‚©‚ç‚¨‹q—l‚Ì‘½—l‚Èƒj[ƒY‚É‰ž‚¦‘±‚¯‚Ä‚¢‚Ü‚·B">
-<meta name="keyword" content="‹žÝH‹Æ,ƒ\ƒtƒgƒEƒFƒA,ŠJ”­,ŒŸØ,“d‹C,“dŽq,‹@ŠB,ÝŒv,ƒVƒXƒeƒ€,ƒGƒ“ƒWƒjƒA,‹ZpŽÒ,Ì—p,lÞ”hŒ­,“]E,‹l,ƒvƒ‰ƒXƒ`ƒbƒN—eŠí,ƒfƒUƒCƒ“,DTP">
-<title>ƒ\ƒtƒgƒEƒFƒAŠJ”­/ŒŸØE‹@ŠBÝŒvE“d‹CÝŒvEƒGƒ“ƒWƒjƒA”hŒ­EDTPƒfƒUƒCƒ“‚Ì‹žÝH‹ÆŠ”Ž®‰ïŽÐ/ƒVƒXƒeƒ€ƒGƒ“ƒWƒjƒA/‹ZpŽÒ/lÞ”hŒ­/“]E/ƒvƒ‰ƒXƒ`ƒbƒN—eŠí</title>
-<link rel="index" href="http://www.keisetsu.co.jp/">
-<link href="layout.css" rel="stylesheet" type="text/css">
-<link href="keisetsu.css" rel="stylesheet" type="text/css">
-<link href="menu.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>äº¬è¨­å·¥æ¥­æ ªå¼ä¼šç¤¾</title>
+    <link rel="stylesheet" href="material-design/css/material-design-iconic-font.css" />
+    <link rel="stylesheet" href="css/jside-menu.css" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <link rel="index" href="index.html">
+    <link href="layout.css" rel="stylesheet" type="text/css">
+    <link href="keisetsu.css" rel="stylesheet" type="text/css">
+    <link href="menu.css" rel="stylesheet" type="text/css">
+
 </head>
-<body>
 
-<div align="center">
-<div id="frame">
-<div id="header">
-<h1>ƒ\ƒtƒgƒEƒFƒAŠJ”­/ŒŸØE‹@ŠBÝŒvE“d‹CÝŒvEDTPƒfƒUƒCƒ“EƒGƒ“ƒWƒjƒA”hŒ­‚Ì‹žÝH‹ÆŠ”Ž®‰ïŽÐ</h1>
-<table width="810" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td colspan="2"><img src="image/line_purp.gif" alt="" width="810" height="7"></td>
-</tr>
-<tr>
-<td width="270" rowspan="2"><a href="index.html"><img src="image/rogo.gif" alt="‹žÝH‹ÆŠ”Ž®‰ïŽÐ" width="270" height="79" border="0"></a></td>
-<td width="540" align="right">
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td><a href="html/company.html"><img src="image/m_company.gif" alt="‰ïŽÐˆÄ“à" width="72" height="25" border="0"></a></td>
-<td><a href="html/sitemap.html"><img src="image/m_sitemap.gif" alt="ƒTƒCƒgƒ}ƒbƒv" width="90" height="25" border="0"></a></td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td valign="bottom">
-<ul id="menu">
-<li><a href="https://keisetsu.co.jp/postmail2/postmail.html" class="home"><span>‹žÝH‹ÆŠ”Ž®‰ïŽÐbƒz[ƒ€</span></a></li>
-<li><a href="html/recruite.html" class="prdserv"><span>‹žÝH‹ÆŠ”Ž®‰ïŽÐbƒ\ƒtƒgƒEƒFƒAŠJ”­E‹@ŠBÝŒvE“d‹CÝŒvEDTPƒfƒUƒCƒ“EƒGƒ“ƒWƒjƒA”hŒ­b»•i‚ÆƒT[ƒrƒX</span></a></li>
-<li><a href="html/iso.html" class="office"><span>‹žÝH‹ÆŠ”Ž®‰ïŽÐb–{ŽÐiç—tj“Œ‹žEŽl“úŽsE—éŽ­bŽ–‹ÆŠÐ‰î</span></a></li>
-<li><a href="html/jigyosyo.html" class="iso"><span>‹žÝH‹ÆŠ”Ž®‰ïŽÐbISO‚ÌŽæ‚è‘g‚Ý</span></a></li>
-<li><a href="html/prdt_serv.html" class="recruit"><span>‹žÝH‹ÆŠ”Ž®‰ïŽÐbƒGƒ“ƒWƒjƒAE‹ZpŽÒElÞ”hŒ­bÌ—pî•ñ</span></a></li>
-<li><a href="index.html" class="contact"><span>‹žÝH‹ÆŠ”Ž®‰ïŽÐb‚¨–â‚¢‡‚í‚¹</span></a></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td colspan="2"><img src="image/line_bar.jpg" alt="" width="810" height="35"></td>
-</tr>
-</table>
-</div>
-<div id="contents">
-<table width="810" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td valign="top">
-<div id="imgarea">
-<script type="text/JavaScript" src="active.js"></script></div>
-</td>
-</tr>
-</table>
-<table width="810" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td><img src="image/line_3contents.gif" alt="" width="270" height="5"></td>
-<td><img src="image/line_3contents_right.gif" alt="" width="270" height="5"></td>
-<td><img src="image/line_3contents_right.gif" alt="" width="270" height="5"></td>
-</tr>
-</table>
-<table width="810" border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td class="pdserv"><img src="image/mida_01.gif" alt="»•i•ƒT[ƒrƒX" width="125" height="46"><br>
-<table border="0" cellpadding="3" cellspacing="0">
-<tr>
-<td>ƒRƒ“ƒsƒ…[ƒ^[Eƒ\ƒtƒgƒEƒFƒAŠJ”­Aƒ\ƒtƒgƒEƒFƒAŒŸØA‹@ŠBÝŒvA“d‹CÝŒvAƒfƒUƒCƒ“A‹ZpŽÒ”hŒ­Ž–‹Æ‚Æ‚¢‚¤‚T‚Â‚Ì•”–å‚Å‚Ý‚È‚³‚Ü‚É‚²’ñˆÄE‚²’ñ‹Ÿ‚¢‚½‚µ‚Ä‚¨‚è‚Ü‚·B</td>
-</tr>
-</table>
-<a href="html/prdt_serv.html"><img src="image/bt_syosai.gif" alt="»•iEƒT[ƒrƒX‚É‚Â‚¢‚ÄÚ‚µ‚­‚Í‚±‚¿‚ç" width="86" height="24" border="0"></a></td>
-<td class="recruit"><img src="image/mida_02.gif" alt="Ì—pî•ñ" width="100" height="46"><br>
-<table border="0" cellpadding="3" cellspacing="0">
-<tr>
-<td>‹žÝH‹Æ‚Å‚ÍAƒ\ƒtƒgƒEƒFƒAŠJ”­A<br>
-‹@ŠBÝŒvA“d‹CE“dŽq‰ñ˜HÝŒvA<br>
-ƒvƒ‰ƒXƒeƒBƒbƒN—eŠíÝŒvADTP‹ZpŽÒ<br>
-‚È‚Ç‚Ì•åW‚ð‚µ‚Ä‚¨‚è‚Ü‚·B</td>
-</tr>
-</table>
-<a href="html/recruite.html"><img src="image/bt_syosai.gif" alt="Ì—p‚É‚Â‚¢‚ÄÚ‚µ‚­‚Í‚±‚¿‚ç" width="86" height="24" border="0"></a></td>
-<td  class="entry"><img src="image/mida_03.gif" alt="ƒGƒ“ƒgƒŠ[" width="100" height="46"><br>
-<table border="0" cellpadding="3" cellspacing="0">
-<tr>
-<td>uí‚ÉV‚µ‚¢‚à‚Ì‚ð‹‚ßA•Ï‰»‚ð<br>
-‹°‚ê‚¸A•Ï‰»‚ðŠy‚µ‚Þv ‚Æ‚¢‚¤<br>
-Šé‹ÆƒJƒ‹ƒ`ƒƒ[‚ðŽ‚Â‹žÝH‹Æ<br>
-‚Åˆê‚É“­‚«‚Ü‚¹‚ñ‚©H</td>
-</tr>
-</table>
-<a href="html/recruite_kojin.html"><img src="image/bt_syosai.gif" alt="ƒGƒ“ƒgƒŠ[‚É‚Â‚¢‚ÄÚ‚µ‚­‚Í‚±‚¿‚ç" width="86" height="24" border="0"></a></td>
-</tr>
-</table>
-<div id="main">
-<table width="510" border="0" cellpadding="12" cellspacing="2" bgcolor="#210063">
-<tr>
-<td bgcolor="#F4F3F9" class="f_violet">‚±‚Ì“x‚ÌŒF–{’nk‚É‚æ‚è”íÐ‚³‚ê‚Ü‚µ‚½•ûX‚ÉAS‚æ‚è‚¨Œ©•‘‚¢\‚µã‚°‚Ü‚·B<br>
-‚Ü‚½A”íÐ’n‚Ìˆê“ú‚à‘‚¢•œ‹»‚ðS‚æ‚è‚¨‹F‚è‚¢‚½‚µ‚Ü‚·B</td>
-</tr>
-</table>
-<br>
-<table width="510" border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td class="under10">‹žÝH‹ÆŠ”Ž®‰ïŽÐ‚Íƒ\ƒtƒgƒEƒFƒAŠJ”­•”–åA‹@ŠBÝŒv•”–åA“d‹CÝŒv•”–åAƒfƒUƒCƒ“•”–åi»•iÝŒvEDTP‹Æ–±jA‹y‚Ñ‹ZpŽÒ”hŒ­•”–å‚©‚ç\¬‚³‚ê‚Ä‚¢‚Ü‚·Bƒ\ƒtƒgƒEƒFƒAŠJ”­•”–å‚É‚¨‚¢‚Ä‚ÍWindowsƒAƒvƒŠƒP[ƒVƒ‡ƒ“ALinuxAŠeŽí‘gž‚Ýƒ\ƒtƒgƒEƒFƒA‚ÌŠJ”­‚É–L•x‚ÈŽÀÑ‚ðŽ‚¿A‹@ŠBÝŒv•”–å‚É‚¨‚¢‚Ä‚ÍCreoiPro/EjAiCAD SXAiCAD MX“™‚Ì3DCAD‚ðŠˆ—p‚µ‚½ÝŒv¥ŠJ”­‚ÉŽ©M‚ª‚ ‚è‚Ü‚·B‹žÝH‹ÆŠ”Ž®‰ïŽÐ‚Í‚±‚ê‚ç‚Ì‹Zp‚ð\“ñ•ª‚ÉŠˆ—p‚µAƒAƒEƒgƒ\[ƒVƒ“ƒOŽ–‹ÆA‹ZpŽÒ”hŒ­Ž–‹Æ‚Ì—¼•ª–ì‚É‚¨‚¢‚ÄA‚¨‹q—l‚æ‚è‚‚¢M—Š‚ð“¾‚Ä‚¢‚Ü‚·B</td>
-</tr>
-</table>
-<img src="image/bn_whatnew.jpg" alt="What's New " width="510" height="45">
-<div class="column2">
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E4%25BA%25AC%25E8%25A8%25AD%25E5%25B7%25A5%25E6%25A5%25AD%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE-893386934127550%2F&tabs=timeline&width=510&height=360&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="510" height="360" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-</div>
-</div>
-<div id="left">
-<table width="245" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td><img src="image/lc_topaboutus.jpg" alt="‰ïŽÐˆÄ“à" width="245" height="31"></td>
-</tr>
-</table>
-<table width="245" border="0" cellspacing="0" cellpadding="7">
-<tr>
-<td><h2><strong>‹žÝH‹ÆŠ”Ž®‰ïŽÐ</strong></h2>
-<h3>§275-0024@ç—tŒ§KŽu–ìŽsˆ©•l1-2-6<br>
-‚s‚d‚kD047-453-7711@ ‚e‚`‚wD047-453-0670</h3>
-y‰c‹Æ•i–Úz<br>
-<h2>ƒRƒ“ƒsƒ…[ƒ^[Eƒ\ƒtƒgƒEƒFƒAŠJ”­A<br>
-ƒ\ƒtƒgƒEƒFƒAŒŸØA‹@ŠBÝŒvA“d‹CÝŒvA<br>
-ƒfƒUƒCƒ“A‹ZpŽÒ”hŒ­Ž–‹Æ</h2></td>
-</tr>
-</table>
-<h3><img src="image/lc_topgroup.jpg" alt="yƒOƒ‹[ƒv‰ïŽÐz" width="245" height="24"></h3>
-<h2><a href="http://www.sankyo-kikai.co.jp/" target="sankyo"><img src="image/bt_sankyo.jpg" alt="ŽO‹ž‹@ŠBH‹ÆŠ”Ž®‰ïŽÐ" width="245" height="45" border="0"></a></h2>
-<h2><a href="http://erimos.co.jp/" target="erimos"><img src="image/bt_erimose.jpg" alt="Š”Ž®‰ïŽÐƒGƒŠƒ‚ƒX" width="245" height="45" border="0"></a></h2>
-<h2><img src="image/lc_isokatudo.jpg" alt="ŠÂ‹«‚Ö‚ÌŽæ‚è‘g‚Ý@ISO14001”FØŽæ“¾" width="245" height="38"></h2>
-<div class="isokatudo">
-<table width="95%" border="0" align="center" cellpadding="7" cellspacing="0">
-<tr>
-<td class="under10kasen"><strong>ƒƒNƒŠ[ƒ“Šˆ“®EŠÂ‹«„Ž‹Šˆ“®„</strong>
-<blockquote>
-<p>•½¬‚Q‚X”N“x‚Ì‚SŒŽ`‚VŒŽ‚ÌŠˆ“®‚Æ‚µ‚ÄAKŽu–ìŽs“¹˜H‰ÛA‹y‚ÑKŽu–ìŒxŽ@‚Ì•ûX‚Æ˜AŒg‚µAƒNƒŠ[ƒ“Šˆ“®‹y‚ÑŠÂ‹«„Ž‹“™‚Ì’nˆæŠÂ‹«‚Ì—Ç‰»‚ÉŠÖ‚·‚éŠˆ“®‚ðð”N“x‚æ‚èŒp‘±‚µ‚ÄŽÀŽ{B</p>
-</blockquote></td>
-</tr>
+<body style="padding-top:  60px;">
+    <menu class="menubar">
+        <menuitem>
+        <button class="menu-trigger"> </button>
+        </menuitem>
 
-<tr>
-</table>
-</div>
-<p>&nbsp;</p>
-</div>
-</div>
-<div id="footer">
-<table width="810" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td colspan="2" class="f01"><img src="image/p_footer.gif" alt="" width="13" height="11"><a href="index.html">‚g‚n‚l‚d</a>@<img src="image/p_footer.gif" alt="" width="13" height="11"><a href="html/prdt_serv.html">»•i&amp;ƒT[ƒrƒX</a>@<img src="image/p_footer.gif" alt="" width="13" height="11"><a href="html/jigyosyo.html">Ž–‹ÆŠÐ‰î</a>@<img src="image/p_footer.gif" alt="" width="13" height="11"><a href="html/iso.html">‚h‚r‚n‚ÌŽæ‚è‘g‚Ý</a>@<img src="image/p_footer.gif" alt="" width="13" height="11"><a href="html/recruite.html">Ì—pî•ñ</a>@<img src="image/p_footer.gif" alt="" width="13" height="11"><a href="html/company.html">‰ïŽÐˆÄ“à</a>@<img src="image/p_footer.gif" alt="" width="13" height="11"><a href="html/sitemap.html">ƒTƒCƒgƒ}ƒbƒv</a>@<img src="image/p_footer.gif" alt="" width="13" height="11"><a href="https://keisetsu.co.jp/postmail2/postmail.html">‚¨–â‚¢‡‚í‚¹</a></td>
-</tr>
-<tr>
-<td class="f02"><a href="html/privacy.html">ŒÂlî•ñ•ÛŒì‚É‚Â‚¢‚Ä</a></td>
-<td align="right" class="f02">Copyright (C) 2007 Keisetsu.co.,ltd All Rights Reserved.</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
+        <menuitem class="logo" title="Your Logo Goes Here">
+        <a href="index.html" style="color:white">äº¬è¨­å·¥æ¥­æ ªå¼ä¼šç¤¾</a>
+        </menuitem>
+    </menu>
+
+
+    <div class="menu-head">
+        <span class="layer">
+            <div>
+                <!-- <div class="row for-pic"> -->
+                <!-- <div class="profile-pic"> -->
+                <img src="image/rogo.gif" alt="äº¬è¨­å·¥æ¥­æ ªå¼ä¼šç¤¾" />
+                <!-- </div> -->
+                <!-- </div> -->
+            </div>
+            <!--//col-->
+        </span>
+    </div>
+    <!--//menu-head-->
+
+    <nav class="menu-container">
+
+        <ul class="menu-items">
+            <li> <a href="index.html" align="left">
+                    HOME </a></li>
+
+            <li> <a href="html/prdt_serv.html" align="left">
+                    è£½å“ï¼†ã‚µãƒ¼ãƒ“ã‚¹ </a></li>
+            <li class="has-sub">
+                <span class="dropdown-heading" align="left">
+
+                    äº‹æ¥­æ‰€ç´¹ä»‹ </span>
+                <ul align="left">
+                    <li> <a href="html/jigyosyo.html" style="padding-left:75px">äº‹æ¥­æ‰€ç´¹ä»‹ </a> </li>
+                    <li> <a href="html/jigyosyo.html" style="padding-left:75px">æœ¬ç¤¾ï¼ã‚·ã‚¹ãƒ†ãƒ ãƒ»ã‚½ãƒ•ãƒˆé–‹ç™ºäº‹æ¥­éƒ¨ </a> </li>
+                    <li> <a href="html/jigyosyo_akanehama.html" style="padding-left:75px">èŒœæµœäº‹æ¥­æ‰€ </a> </li>
+                    <li> <a href="html/jigyosyo_tokyo.html" style="padding-left:75px">æ±äº¬äº‹æ¥­æ‰€ </a> </li>
+                    <li> <a href="html/jigyosyo_yokkaichi.html" style="padding-left:75px">å››æ—¥å¸‚äº‹æ¥­æ‰€ </a> </li>
+                </ul>
+            </li>
+            <li class="has-sub">
+                <span class="dropdown-heading" align="left">
+
+                    ISOã®å–ã‚Šçµ„ã¿ </span>
+                <ul align="left">
+                    <li> <a href="html/iso.html" style="padding-left:75px">ISOã®å–ã‚Šçµ„ã¿ </a> </li>
+                    <li> <a href="html/iso.html" style="padding-left:75px">ç’°å¢ƒã¸ã®å–ã‚Šçµ„ã¿ </a> </li>
+                    <li> <a href="html/iso_hoshin.html" style="padding-left:75px">ç’°å¢ƒæ–¹é‡ãƒ»å“è³ªæ–¹é‡ </a> </li>
+                </ul>
+            </li>
+
+            <li class="has-sub">
+                <span class="dropdown-heading" align="left">
+
+                    æŽ¡ç”¨æƒ…å ± </span>
+                <ul align="left">
+                    <li> <a href="html/recruite.html" style="padding-left:75px">æŽ¡ç”¨æƒ…å ± </a> </li>
+                    <li> <a href="html/recruite.html" style="padding-left:75px">æ–°å’æŽ¡ç”¨æƒ…å ± </a> </li>
+                    <li> <a href="html/#obo1" style="padding-left:75px">å¿œå‹Ÿæ–¹æ³•ãƒ»é¸è€ƒã®æµã‚Œï¼ˆæ–°å’ï¼‰ </a> </li>
+                    <li> <a href="html/recruite_career.html" style="padding-left:75px">ã‚­ãƒ£ãƒªã‚¢æŽ¡ç”¨æƒ…å ± </a> </li>
+                    <li> <a href="html/recruite_career.html#obo2" style="padding-left:75px">å¿œå‹Ÿæ–¹æ³•ãƒ»é¸è€ƒã®æµã‚Œï¼ˆã‚­ãƒ£ãƒªã‚¢ï¼‰ </a> </li>
+                    <li> <a href="html/recruite_kojin.html" style="padding-left:75px">ã‚¨ãƒ³ãƒˆãƒªãƒ¼ãƒ•ã‚©ãƒ¼ãƒ  </a> </li>
+                    <li> <a href="html/recruite_interview.html" style="padding-left:75px">ç¤¾å“¡ã‚¤ãƒ³ã‚¿ãƒ“ãƒ¥ãƒ¼ </a> </li>
+                </ul>
+            </li>
+
+            <li><a href="../ssl/home/postmail2/postmail.html" align="left">
+                    ãŠå•ã„åˆã‚ã› </a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div id="page-content-wrapper" style="padding: top 60px;">
+            <div class="page-content inset" data-spy="scroll" data-target="#spy">
+                <div class="row">
+                    <div class="col-sm-4" style="padding-right:0%;padding-bottom:0%;padding-left:0%">
+                        <img src="image/line_3contents.gif" alt="" width="100%" height="5">
+                        <div class="pdserv"><img src="image/mida_01.gif" alt="è£½å“ï¼†ã‚µãƒ¼ãƒ“ã‚¹" width="125" height="46"><br>ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼ãƒ»ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢é–‹ç™ºã€ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢æ¤œè¨¼ã€æ©Ÿæ¢°è¨­è¨ˆã€é›»æ°—è¨­è¨ˆã€ãƒ‡ã‚¶ã‚¤ãƒ³ã€æŠ€è¡“è€…æ´¾é£äº‹æ¥­ã¨ã„ã†ï¼•ã¤ã®éƒ¨é–€ã§ã¿ãªã•ã¾ã«ã”ææ¡ˆãƒ»ã”æä¾›ã„ãŸã—ã¦ãŠã‚Šã¾ã™ã€‚
+                            <ul class="nav nav-pills flex-column">
+                                <li class="nav-item">
+                                    <a href="html/prdt_serv.html"><img src="image/bt_syosai.gif" alt="è£½å“ãƒ»ã‚µãƒ¼ãƒ“ã‚¹ã«ã¤ã„ã¦è©³ã—ãã¯ã“ã¡ã‚‰"
+                                            width="86" height="24" border="0"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4" style="padding-right:0%;padding-left:0%">
+                        <img src="image/line_3contents_right.gif" alt="" width="100%" height="5">
+                        <div class="recruit"><img src="image/mida_02.gif" alt="æŽ¡ç”¨æƒ…å ±" width="100" height="46"><br>äº¬è¨­å·¥æ¥­ã§ã¯ã€ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢é–‹ç™ºã€
+                            æ©Ÿæ¢°è¨­è¨ˆã€é›»æ°—ãƒ»é›»å­å›žè·¯è¨­è¨ˆã€
+                            ãƒ—ãƒ©ã‚¹ãƒ†ã‚£ãƒƒã‚¯å®¹å™¨è¨­è¨ˆã€DTPæŠ€è¡“è€… ãªã©ã®å‹Ÿé›†ã‚’ã—ã¦ãŠã‚Šã¾ã™ã€‚
+                            <ul class="nav nav-pills flex-column">
+                                <li class="nav-item">
+                                    <a href="html/recruite.html"><img src="image/bt_syosai.gif" alt="æŽ¡ç”¨ã«ã¤ã„ã¦è©³ã—ãã¯ã“ã¡ã‚‰"
+                                            width="86" height="24" border="0"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4" style="padding-right:0%;padding-left:0%">
+                        <img src="image/line_3contents_right.gif" alt="" width="100%" height="5">
+                        <div class="entry"><img src="image/mida_03.gif" alt="ã‚¨ãƒ³ãƒˆãƒªãƒ¼" width="100" height="46"><br>ã€Œå¸¸ã«æ–°ã—ã„ã‚‚ã®ã‚’æ±‚ã‚ã€å¤‰åŒ–ã‚’
+                            æã‚Œãšã€å¤‰åŒ–ã‚’æ¥½ã—ã‚€ã€
+                            ã¨ã„ã† ä¼æ¥­ã‚«ãƒ«ãƒãƒ£ãƒ¼ã‚’æŒã¤äº¬è¨­å·¥æ¥­ ã§ä¸€ç·’ã«åƒãã¾ã›ã‚“ã‹ï¼Ÿ
+                            <ul class="nav nav-pills flex-column">
+                                <li class="nav-item">
+                                    <a href="html/recruite_kojin.html"><img src="image/bt_syosai.gif" alt="ã‚¨ãƒ³ãƒˆãƒªãƒ¼ã«ã¤ã„ã¦è©³ã—ãã¯ã“ã¡ã‚‰"
+                                            width="86" height="24" border="0"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 d-none d-sm-block">
+                <div id="left">
+                    <img src="image/lc_topaboutus.jpg" alt="ä¼šç¤¾æ¡ˆå†…" width="100%">
+                    <div style="text-align: left;">
+                        <strong id="under10kasen_id">äº¬è¨­å·¥æ¥­æ ªå¼ä¼šç¤¾</strong>
+                        <h3 id="under10kasen_id">ã€’275-0024ã€€åƒè‘‰çœŒç¿’å¿—é‡Žå¸‚èŒœæµœ1-2-6<br> ï¼´ï¼¥ï¼¬ï¼Ž047-453-7711ã€€ ï¼¦ï¼¡ï¼¸ï¼Ž047-453-0670</h3>
+                        ã€å–¶æ¥­å“ç›®ã€‘<br>
+                        <h2 id="under10kasen_id">ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼ãƒ»ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢é–‹ç™ºã€ ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢æ¤œè¨¼ã€æ©Ÿæ¢°è¨­è¨ˆã€é›»æ°—è¨­è¨ˆã€ ãƒ‡ã‚¶ã‚¤ãƒ³ã€æŠ€è¡“è€…æ´¾é£äº‹æ¥­
+                        </h2>
+                    </div>
+                    <div class="under10kasen">
+                        <img src="image/lc_topgroup.jpg" alt="ã€ã‚°ãƒ«ãƒ¼ãƒ—ä¼šç¤¾ã€‘" width="100%">
+                        <h2><a href="http://www.sankyo-kikai.co.jp/" target="sankyo"><img src="image/bt_sankyo.jpg" alt="ä¸‰äº¬æ©Ÿæ¢°å·¥æ¥­æ ªå¼ä¼šç¤¾"
+                                    width="100%" border="0"></a></h2>
+                        <h2><a href="http://erimos.co.jp/" target="erimos"><img src="image/bt_erimose.jpg" alt="æ ªå¼ä¼šç¤¾ã‚¨ãƒªãƒ¢ã‚¹"
+                                    width="100%" border="0"></a></h2>
+                        <h2><img src="image/lc_isokatudo.jpg" alt="ç’°å¢ƒã¸ã®å–ã‚Šçµ„ã¿ã€€ISO14001èªè¨¼å–å¾—" width="100%"></h2>
+                        <strong>ï¼œã‚¯ãƒªãƒ¼ãƒ³æ´»å‹•ãƒ»ç’°å¢ƒå·¡è¦–æ´»å‹•ï¼ž</strong>
+                        <blockquote>
+                            <p>å¹³æˆï¼’ï¼™å¹´åº¦ã®ï¼”æœˆï½žï¼—æœˆã®æ´»å‹•ã¨ã—ã¦ã€ç¿’å¿—é‡Žå¸‚é“è·¯èª²ã€åŠã³ç¿’å¿—é‡Žè­¦å¯Ÿã®æ–¹ã€…ã¨é€£æºã—ã€ã‚¯ãƒªãƒ¼ãƒ³æ´»å‹•åŠã³ç’°å¢ƒå·¡è¦–ç­‰ã®åœ°åŸŸç’°å¢ƒã®è‰¯åŒ–ã«é–¢ã™ã‚‹æ´»å‹•ã‚’æ˜¨å¹´åº¦ã‚ˆã‚Šç¶™ç¶šã—ã¦å®Ÿæ–½ã€‚</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div id="left">
+                    <table border="2" cellpadding="12" cellspacing="2" bgcolor="#210063">
+                        <tr>
+                            <td bgcolor="#F4F3F9" class="f_violet">ã“ã®åº¦ã®ç†Šæœ¬åœ°éœ‡ã«ã‚ˆã‚Šè¢«ç½ã•ã‚Œã¾ã—ãŸæ–¹ã€…ã«ã€å¿ƒã‚ˆã‚ŠãŠè¦‹èˆžã„ç”³ã—ä¸Šã’ã¾ã™ã€‚
+                                ã¾ãŸã€è¢«ç½åœ°ã®ä¸€æ—¥ã‚‚æ—©ã„å¾©èˆˆã‚’å¿ƒã‚ˆã‚ŠãŠç¥ˆã‚Šã„ãŸã—ã¾ã™ã€‚
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="under10">äº¬è¨­å·¥æ¥­æ ªå¼ä¼šç¤¾ã¯ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢é–‹ç™ºéƒ¨é–€ã€æ©Ÿæ¢°è¨­è¨ˆéƒ¨é–€ã€é›»æ°—è¨­è¨ˆéƒ¨é–€ã€ãƒ‡ã‚¶ã‚¤ãƒ³éƒ¨é–€ï¼ˆè£½å“è¨­è¨ˆãƒ»DTPæ¥­å‹™ï¼‰ã€åŠã³æŠ€è¡“è€…æ´¾é£éƒ¨é–€ã‹ã‚‰æ§‹æˆã•ã‚Œã¦ã„ã¾ã™ã€‚ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢é–‹ç™ºéƒ¨é–€ã«ãŠã„ã¦ã¯Windowsã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã€Linuxã€å„ç¨®çµ„è¾¼ã¿ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã®é–‹ç™ºã«è±Šå¯Œãªå®Ÿç¸¾ã‚’æŒã¡ã€æ©Ÿæ¢°è¨­è¨ˆéƒ¨é–€ã«ãŠã„ã¦ã¯Creoï¼ˆPro/Eï¼‰ã€iCAD
+                                SXã€iCAD
+                                MXç­‰ã®3DCADã‚’æ´»ç”¨ã—ãŸè¨­è¨ˆï½¥é–‹ç™ºã«è‡ªä¿¡ãŒã‚ã‚Šã¾ã™ã€‚äº¬è¨­å·¥æ¥­æ ªå¼ä¼šç¤¾ã¯ã“ã‚Œã‚‰ã®æŠ€è¡“ã‚’åäºŒåˆ†ã«æ´»ç”¨ã—ã€ã‚¢ã‚¦ãƒˆã‚½ãƒ¼ã‚·ãƒ³ã‚°äº‹æ¥­ã€æŠ€è¡“è€…æ´¾é£äº‹æ¥­ã®ä¸¡åˆ†é‡Žã«ãŠã„ã¦ã€ãŠå®¢æ§˜ã‚ˆã‚Šé«˜ã„ä¿¡é ¼ã‚’å¾—ã¦ã„ã¾ã™ã€‚</td>
+                        </tr>
+                    </table>
+                    <img src="image/bn_whatnew.jpg" alt="What's New " width="100%">
+                    <div class="column2">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E4%25BA%25AC%25E8%25A8%25AD%25E5%25B7%25A5%25E6%25A5%25AD%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE-893386934127550%2F&tabs=timeline&width=510&height=360&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+                            width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowTransparency="true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="color:black">
+                <tr>
+                    <td colspan="2" class="f01"><img src="image/p_footer.gif" alt=""><a href="index.html">ï¼¨ï¼¯ï¼­ï¼¥</a>ã€€<img
+                            src="image/p_footer.gif" alt=""><a href="html/prdt_serv.html">è£½å“&amp;ã‚µãƒ¼ãƒ“ã‚¹</a>ã€€<img src="image/p_footer.gif"
+                            alt=""><a href="html/jigyosyo.html">äº‹æ¥­æ‰€ç´¹ä»‹</a>ã€€<img src="image/p_footer.gif" alt="" width="13"
+                            height="11"><a href="html/iso.html">ï¼©ï¼³ï¼¯ã®å–ã‚Šçµ„ã¿</a>ã€€<img src="image/p_footer.gif" alt=""><a
+                            href="html/recruite.html">æŽ¡ç”¨æƒ…å ±</a>ã€€<img src="image/p_footer.gif" alt=""><a href="html/company.html">ä¼šç¤¾æ¡ˆå†…</a>ã€€<img
+                            src="image/p_footer.gif" alt=""><a href="html/sitemap.html">ã‚µã‚¤ãƒˆãƒžãƒƒãƒ—</a>ã€€<img src="image/p_footer.gif"
+                            alt=""><a href="../ssl/home/postmail2/postmail.html">ãŠå•ã„åˆã‚ã›</a></td>
+                </tr>
+                <tr>
+                    <td class="f02"><a href="html/privacy.html">å€‹äººæƒ…å ±ä¿è­·</a></td>
+                    <td align="right" class="f02">Copyright (C) 2007 Keisetsu.co.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.jside.menu.js"></script>
+    <!-- <script src="js/demo-only.js"></script> -->
+    <script>
+        $(document).ready(function () {
+
+            $(".menu-container").jSideMenu({
+                jSidePosition: "position-left", //possible options position-left or position-right
+
+                jSideSticky: true, // menubar will be fixed on top, false to set static
+
+                jSideSkin: "default-skin", // to apply custom skin, just put its name in this string
+            });
+        });
+    </script>
 </body>
+
 </html>

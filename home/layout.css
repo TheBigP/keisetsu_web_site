@@ -1,4 +1,4 @@
-/*‘S‘Ì‚ğˆÍ‚Şê‡‚Ìƒ{ƒbƒNƒX*/
+/*ï¿½Sï¿½Ì‚ï¿½Í‚Şê‡ï¿½Ìƒ{ï¿½bï¿½Nï¿½X*/
 #frame{
 	width:810px;
 	padding: 0px;
@@ -13,18 +13,18 @@
 	background-color: #FFFFFF;
 }      
 
-/*ƒwƒbƒ_ƒ{ƒbƒNƒX*/
+/*ï¿½wï¿½bï¿½_ï¿½{ï¿½bï¿½Nï¿½X*/
 #header {
-	width: 810px;
+	width: 100%;
 	text-align: left;
 }
 
-/*ƒRƒ“ƒeƒ“ƒc•”•ªŠO‘¤‚Ìƒ{ƒbƒNƒX*/
+/*ï¿½Rï¿½ï¿½ï¿½eï¿½ï¿½ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Ìƒ{ï¿½bï¿½Nï¿½X*/
 #contents{
 	width:810px;
 	align:center;
 	bottom: auto;
-	background-image: url(image/lm_bg.gif);
+	background-image: url(http://www.keisetsu.co.jp/image/lm_bg.gif);
 	background-repeat: repeat-y;
 	background-position: left;
 	text-align: left;
@@ -32,7 +32,7 @@
 	padding: 0px;
 }
 
-/*ƒƒCƒ“‚Ì•”•ª‚Ìƒ{ƒbƒNƒX*/
+/*ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½Ìƒ{ï¿½bï¿½Nï¿½X*/
 #main{
 	width:510px;
 	background-color: #FFFFFF;
@@ -46,17 +46,17 @@
 	margin-bottom: 20px;
 }
 
-/*¶‘¤‚Ìƒ{ƒbƒNƒX*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒ{ï¿½bï¿½Nï¿½X*/
 #left{
-	width:254px;
+	/* width:254px; */
 	padding-left: 13px;
 	line-height: 140%;
 	padding-top: 25px;
 }
 
-/*ƒwƒbƒ_ƒ{ƒbƒNƒXboth‰ñ‚è‚İ‰ğœ*/
+/*ï¿½wï¿½bï¿½_ï¿½{ï¿½bï¿½Nï¿½Xbothï¿½ï¿½èï¿½İ‰ï¿½*/
 #footer {
-	width:810px;
+	/* width:810px; */
 	clear: both;
 	font-size: 11px;
 	color: #666666;
