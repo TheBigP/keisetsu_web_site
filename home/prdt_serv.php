@@ -14,12 +14,12 @@
     <title>ソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの京設工業株式会社－製品・サービス/システムエンジニア/技術者/人材派遣/転職/プラスチック容器</title>
     <!-- InstanceEndEditable -->
     <link rel="index" href="http://www.keisetsu.co.jp/">
-    <link href="../layout.css" rel="stylesheet" type="text/css">
-    <link href="../keisetsu.css" rel="stylesheet" type="text/css">
-    <link href="../menu.css" rel="stylesheet" type="text/css">
-    <link href="../tatemenu.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../material-design/css/material-design-iconic-font.css" />
-    <link rel="stylesheet" href="../css/jside-menu.css" />
+    <link href="./layout.css" rel="stylesheet" type="text/css">
+    <link href="./keisetsu.css" rel="stylesheet" type="text/css">
+    <link href="./menu.css" rel="stylesheet" type="text/css">
+    <link href="./tatemenu.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./material-design/css/material-design-iconic-font.css" />
+    <link rel="stylesheet" href="./css/jside-menu.css" />
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
@@ -36,7 +36,7 @@
                     <table border="0" cellpadding="0" cellspacing="0">
                         <thead>
                             <tr>
-                                <td class="under10"><img src="../image/bmida_sc_kaihatsu.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%"></td>
+                                <td class="under10"><img src="./image/bmida_sc_kaihatsu.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%"></td>
                             </tr>
                         </thead>
                         <tbody>
@@ -49,10 +49,10 @@
                                     <span class="bluegreen">●</span> ソフトウェアの検証</td>
                             </tr>
                             <tr>
-                                <td class="under10"><img src="../image/bmida_sc_design.jpg" alt="デザイン部門" width="100%"></td>
+                                <td class="under10"><img src="./image/bmida_sc_design.jpg" alt="デザイン部門" width="100%"></td>
                             </tr>
                             <tr>
-                                <td class="under10"> <img src="../image/gz_section2.jpg" alt="デザイン部門" width="140" height="140" align="right">デザイン部門は、プラスチック製品・容器の設計と、パッケージデザイン・校正を行う２部門に分かれ、日々業務を行っています。
+                                <td class="under10"> <img src="./image/gz_section2.jpg" alt="デザイン部門" width="140" height="140" align="right">デザイン部門は、プラスチック製品・容器の設計と、パッケージデザイン・校正を行う２部門に分かれ、日々業務を行っています。
                                     取り扱う品目は、化粧品、日用品、食品等、どれも生活に密着したもので、皆様が店頭で見かけたり、実際に使用している身近なものです。毎日の暮らしに欠かせないものを提供させて頂くという立場から、製品・容器の設計では、安全性はもちろんのこと、機能性、利便性を追及しながらも、手に取る楽しさを、また、パッケージデザイン・校正業務では、必要な情報を欠くことなく表現するとともに、判りやすさ、読みやすさ等のこだわりも持ち合わせたいと考えています。
                                     <br>
                                     <br>
@@ -62,7 +62,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="under10"><img src="../image/bmida_sc_kikai.jpg" alt="機械設計部門" width="100%"></td>
+                                <td class="under10"><img src="./image/bmida_sc_kikai.jpg" alt="機械設計部門" width="100%"></td>
                             </tr>
                             <tr>
                                 <td class="under10">
@@ -77,16 +77,16 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="under10"><img src="../image/bmida_sc_denki.jpg" alt="電気設計部門" width="100%"></td>
+                                <td class="under10"><img src="./image/bmida_sc_denki.jpg" alt="電気設計部門" width="100%"></td>
                             </tr>
                             <tr>
-                                <td class="under10"> <img src="../image/gz_section4.jpg" alt="電気設計部門" width="140" height="140" align="right">電気設計部門は、上水道設備制御設計・制御回路設計を主な業務とし、私たちが毎日使う水を作り出す設備の設計・製図を行っています。環境を配慮し、豊富な経験を活かし、情報をスピーディーに提供することで、お客様に満足していただけるパートナーであり続けるよう、日々努力しています。<br>
+                                <td class="under10"> <img src="./image/gz_section4.jpg" alt="電気設計部門" width="140" height="140" align="right">電気設計部門は、上水道設備制御設計・制御回路設計を主な業務とし、私たちが毎日使う水を作り出す設備の設計・製図を行っています。環境を配慮し、豊富な経験を活かし、情報をスピーディーに提供することで、お客様に満足していただけるパートナーであり続けるよう、日々努力しています。<br>
                                     <br>
                                     <span class="bluegreen">●</span> シーケンス制御の回路設計<br>
                                     <span class="bluegreen">●</span> 制御盤・操作盤の設計 </td>
                             </tr>
                             <tr>
-                                <td class="under10"><img src="../image/bmida_sc_haken.jpg" alt="�Z�p�Ҕh������" width="100%"></td>
+                                <td class="under10"><img src="./image/bmida_sc_haken.jpg" alt="�Z�p�Ҕh������" width="100%"></td>
                             </tr>
                             <tr>
                                 <td class="under10">

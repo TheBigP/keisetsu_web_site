@@ -13,12 +13,12 @@
     <title>ソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの京設工業株式会社－お問い合わせ－/システムエンジニア/技術者/人材派遣/転職/プラスチック容器</title>
 
     <link rel="index" href="http://www.keisetsu.co.jp/">
-    <link href="../layout.css" rel="stylesheet" type="text/css">
-    <link href="../keisetsu.css" rel="stylesheet" type="text/css">
-    <link href="../menu.css" rel="stylesheet" type="text/css">
-    <link href="../tatemenu.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../../../home/material-design/css/material-design-iconic-font.css" />
-    <link rel="stylesheet" href="../../../home/css/jside-menu.css" />
+    <link href="./layout.css" rel="stylesheet" type="text/css">
+    <link href="./keisetsu.css" rel="stylesheet" type="text/css">
+    <link href="./menu.css" rel="stylesheet" type="text/css">
+    <link href="./tatemenu.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./material-design/css/material-design-iconic-font.css" />
+    <link rel="stylesheet" href="./css/jside-menu.css" />
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
@@ -60,13 +60,13 @@ function MM_validateForm() { //v4.0
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <td class="under10"><img src="../image/bn_contact.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%"></td>
+                                <td class="under10"><img src="./image/bn_contact.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%"></td>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td class="top10">京設工業株式会社へのご質問お問い合わせは、下記のフォームより必要事項をご入力後、送信ください。後日、こちらからご連絡いたします。<font color="#FF3300">記入項目はすべて必須です。</font><br>
-                                    お問い合わせの際、収集させていただく個人情報の取り扱いについては<a href="http://www.keisetsu.co.jp/html/privacy.html" target="_blank"><u>こちら</u></a>をご確認下さい。</td>
+                                    お問い合わせの際、収集させていただく個人情報の取り扱いについては<a href="http://www.keisetsu.co.jp/html/privacy.php" target="_blank"><u>こちら</u></a>をご確認下さい。</td>
                             </tr>
                         </tbody>
                     </table>
@@ -79,7 +79,7 @@ function MM_validateForm() { //v4.0
                                 </colgroup>
                                 <tbody>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" class="note"><img src="../image/p_3.gif" alt="" width="15" height="17">お問合せ内容</td>
+                                        <td bgcolor="#FFFFFF" class="note"><img src="./image/p_3.gif" alt="" width="15" height="17">お問合せ内容</td>
                                         <td bgcolor="#F8F4F9" class="note">
                                             <select name="_お問合せ内容" id="お問合せ内容">
                                                 <option>---お選びください---</option>
@@ -90,7 +90,7 @@ function MM_validateForm() { //v4.0
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" class="hyo"><img src="../image/p_3.gif" alt="" width="15" height="17">氏　　名</td>
+                                        <td bgcolor="#FFFFFF" class="hyo"><img src="./image/p_3.gif" alt="" width="15" height="17">氏　　名</td>
                                         <td bgcolor="#F8F4F9" class="hyo">姓
                                             <input name="_氏名/姓" type="text" id="氏名/姓" size="20">
                                             名
@@ -98,7 +98,7 @@ function MM_validateForm() { //v4.0
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" class="note"><img src="../image/p_3.gif" alt="" width="15" height="17">フリガナ</td>
+                                        <td bgcolor="#FFFFFF" class="note"><img src="./image/p_3.gif" alt="" width="15" height="17">フリガナ</td>
                                         <td bgcolor="#F8F4F9" class="note">姓
                                             <input name="_フリガナ/姓" type="text" id="フリガナ/姓" size="20">
                                             名
@@ -107,13 +107,13 @@ function MM_validateForm() { //v4.0
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" class="hyo"><img src="../image/p_3.gif" alt="" width="15" height="17">会社名・学校名</td>
+                                        <td bgcolor="#FFFFFF" class="hyo"><img src="./image/p_3.gif" alt="" width="15" height="17">会社名・学校名</td>
                                         <td bgcolor="#F8F4F9" class="hyo">
                                             <input name="_会社名・学校名" type="text" id="会社名・学校名" size="40">
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="5" bgcolor="#FFFFFF" class="note"><img src="../image/p_3.gif" alt="" width="15" height="17">所在地</td>
+                                        <td rowspan="5" bgcolor="#FFFFFF" class="note"><img src="./image/p_3.gif" alt="" width="15" height="17">所在地</td>
                                         <td bgcolor="#F8F4F9" class="note">〒
                                             <input name="_郵便番号上3桁" type="text" id="郵便番号上3桁" onblur="MM_validateForm('郵便番号上3桁','','NisNum');return document.MM_returnValue" size="3" maxlength="3">
                                             -
@@ -191,28 +191,28 @@ function MM_validateForm() { //v4.0
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" class="hyo"><img src="../image/p_3.gif" alt="" width="15" height="17">電話番号</td>
+                                        <td bgcolor="#FFFFFF" class="hyo"><img src="./image/p_3.gif" alt="" width="15" height="17">電話番号</td>
                                         <td bgcolor="#F8F4F9" class="hyo">
                                             <input name="_電話番号" type="text" id="電話番号">
                                             <font color="#FF3300">例：03-3333-3333 （半角数字）</font>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" class="note"><img src="../image/p_3.gif" alt="" width="15" height="17">メールアドレス</td>
+                                        <td bgcolor="#FFFFFF" class="note"><img src="./image/p_3.gif" alt="" width="15" height="17">メールアドレス</td>
                                         <td bgcolor="#F8F4F9" class="note">
                                             <input name="_email" type="text" id="email">
                                             <font color="#FF3300">（半角数字）</font>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" class="hyo"><img src="../image/p_3.gif" alt="" width="15" height="17">お問合せ詳細</td>
+                                        <td bgcolor="#FFFFFF" class="hyo"><img src="./image/p_3.gif" alt="" width="15" height="17">お問合せ詳細</td>
                                         <td bgcolor="#F8F4F9" class="hyo">
                                             <textarea name="_お問合せ詳細" cols="40" rows="5" id="textarea3">出来るだけ詳しくご記入ください。</textarea>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <img src="../image/line_note.gif" alt="" width="100%" height="1"><br>
+                            <img src="./image/line_note.gif" alt="" width="100%" height="1"><br>
                             <br>
                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tbody>
@@ -230,7 +230,7 @@ function MM_validateForm() { //v4.0
                     <table width="100%" border="0" cellpadding="10" cellspacing="0" class="f11">
                         <tbody>
                             <tr>
-                                <td width="90"><img src="../image/rapidssl_ssl_certificate.gif" alt="" width="90" height="50"></td>
+                                <td width="90"><img src="./image/rapidssl_ssl_certificate.gif" alt="" width="90" height="50"></td>
                                 <td width="380">当サイトでは、皆さまの個人情報を保護するために、個人情報入力ページにおいてSSL暗号化通信を採用しています。</td>
                             </tr>
                         </tbody>

@@ -14,12 +14,12 @@
     <title>ソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの京設工業株式会社－エントリーフォーム/システムエンジニア/技術者/人材派遣/転職/プラスチック容器</title>
     <!-- InstanceEndEditable -->
     <link rel="index" href="http://www.keisetsu.co.jp/">
-    <link href="../layout.css" rel="stylesheet" type="text/css">
-    <link href="../keisetsu.css" rel="stylesheet" type="text/css">
-    <link href="../menu.css" rel="stylesheet" type="text/css">
-    <link href="../tatemenu.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../material-design/css/material-design-iconic-font.css" />
-    <link rel="stylesheet" href="../css/jside-menu.css" />
+    <link href="./layout.css" rel="stylesheet" type="text/css">
+    <link href="./keisetsu.css" rel="stylesheet" type="text/css">
+    <link href="./menu.css" rel="stylesheet" type="text/css">
+    <link href="./tatemenu.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./material-design/css/material-design-iconic-font.css" />
+    <link rel="stylesheet" href="./css/jside-menu.css" />
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!-- InstanceBeginEditable name="head" -->
@@ -35,7 +35,7 @@
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <td class="under10"><img src="../image/bn_rec_kojin.jpg" alt="個人情報の取り扱いについて" width="240" height="45"></td>
+                                <td class="under10"><img src="./image/bn_rec_kojin.jpg" alt="個人情報の取り扱いについて" width="240" height="45"></td>
                             </tr>
                         </thead>
                         <tbody>
@@ -73,7 +73,7 @@
                     </div>
                     <div align="center" class="under10" style="margin-bottom:1rem">
                         <form name="form1" method="post" action="">
-                            <input type="button" name="Submit32" value="同意する" onclick="location.href='https://keisetsu.co.jp/postmail/postmail.html'">
+                            <input type="button" name="Submit32" value="同意する" onclick="location.href='https://keisetsu.co.jp/postmail/postmail.php'">
                             　　
                             <input type="reset" name="Submit222" value="同意しない" onclick="javascript:history.go(-1)">
                         </form>

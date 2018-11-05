@@ -12,7 +12,7 @@
 <div class="menu-head">
     <span class="layer">
         <div>
-            <img src="../image/rogo.gif" alt="京設工業株式会社" />
+            <img src="./image/rogo.gif" alt="京設工業株式会社" />
         </div>
         <!--//col-->
     </span>
@@ -70,7 +70,7 @@
     </ul>
 </nav>
 <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-<script src="../js/jquery.jside.menu.js"></script>
+<script src="./js/jquery.jside.menu.js"></script>
 <script>
     $(document).ready(function() {
 

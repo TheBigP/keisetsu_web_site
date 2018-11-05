@@ -23,10 +23,10 @@
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <td class="under10"><img src="../image/bmida_kankyo.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%"></td>
+                                <td class="under10"><img src="./image/bmida_kankyo.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%"></td>
                             </tr>
                             <tr>
-                                <td><img src="../image/futoji_kihonrinen.gif" alt="基本理念"></td>
+                                <td><img src="./image/futoji_kihonrinen.gif" alt="基本理念"></td>
                             </tr>
                         </thead>
                         <tbody>
@@ -39,7 +39,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <p><img src="../image/futoji_kodoshishin.gif" alt="行動指針"></p>
+                                    <p><img src="./image/futoji_kodoshishin.gif" alt="行動指針"></p>
                                 </td>
                             </tr>
                             <tr>
@@ -80,7 +80,7 @@
                         </tbody>
                     </table>
                     <div>
-                        <img width="100%" src="../image/bmida_hinshitsu.jpg" alt="品質方針">
+                        <img width="100%" src="./image/bmida_hinshitsu.jpg" alt="品質方針">
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tbody>
                                 <tr>

@@ -13,10 +13,10 @@
     <title>ソフトウェア開発・機械設計・電気設計・エンジニア派遣・DTPデザインの京設工業株式会社−新卒採用情報/システムエンジニア/技術者/人材派遣/転職/プラスチック容器</title>
     <!-- InstanceEndEditable -->
     <link rel="index" href="http://www.keisetsu.co.jp/">
-    <link href="../layout.css" rel="stylesheet" type="text/css">
-    <link href="../keisetsu.css" rel="stylesheet" type="text/css">
-    <link href="../menu.css" rel="stylesheet" type="text/css">
-    <link href="../tatemenu.css" rel="stylesheet" type="text/css">
+    <link href="./layout.css" rel="stylesheet" type="text/css">
+    <link href="./keisetsu.css" rel="stylesheet" type="text/css">
+    <link href="./menu.css" rel="stylesheet" type="text/css">
+    <link href="./tatemenu.css" rel="stylesheet" type="text/css">
     <!-- InstanceBeginEditable name="head" -->
     <!-- InstanceEndEditable -->
 </head>
@@ -28,15 +28,15 @@
                 <h1>ソフトウェア開発・機械設計・電気設計・DTPデザイン・エンジニア派遣の京設工業株式会社</h1>
                 <table width="810" border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                        <td colspan="2"><img src="../image/line_purp.gif" alt="" width="810" height="7"></td>
+                        <td colspan="2"><img src="./image/line_purp.gif" alt="" width="810" height="7"></td>
                     </tr>
                     <tr>
-                        <td width="270" rowspan="2"><a href="../index.html"><img src="../image/rogo.gif" alt="京設工業株式会社" width="270" height="79" border="0"></a></td>
+                        <td width="270" rowspan="2"><a href="./index.php"><img src="./image/rogo.gif" alt="京設工業株式会社" width="270" height="79" border="0"></a></td>
                         <td width="540" align="right">
                             <table border="0" cellspacing="0" cellpadding="0">
                                 <tr>
-                                    <td><a href="company.html"><img src="../image/m_company.gif" alt="会社案内" width="72" height="25" border="0"></a></td>
-                                    <td><a href="sitemap.html"><img src="../image/m_sitemap.gif" alt="サイトマップ" width="90" height="25" border="0"></a></td>
+                                    <td><a href="company.php"><img src="./image/m_company.gif" alt="会社案内" width="72" height="25" border="0"></a></td>
+                                    <td><a href="sitemap.php"><img src="./image/m_sitemap.gif" alt="サイトマップ" width="90" height="25" border="0"></a></td>
                                 </tr>
                             </table>
                         </td>
@@ -44,17 +44,17 @@
                     <tr>
                         <td valign="bottom">
                             <ul id="menu">
-                                <li><a href="https://keisetsu.co.jp/postmail2/postmail.html" class="home"><span>京設工業株式会社｜ホーム</span></a></li>
+                                <li><a href="https://keisetsu.co.jp/postmail2/postmail.php" class="home"><span>京設工業株式会社｜ホーム</span></a></li>
                                 <li><a href="recruite.php" class="prdserv"><span>京設工業株式会社｜ソフトウェア開発・機械設計・電気設計・DTPデザイン・エンジニア派遣｜製品とサービス</span></a></li>
                                 <li><a href="iso.php" class="office"><span>京設工業株式会社｜本社（千葉）東京・四日市・鈴鹿｜事業所紹介</span></a></li>
                                 <li><a href="jigyosyo.php" class="iso"><span>京設工業株式会社｜ISOの取り組み</span></a></li>
                                 <li><a href="prdt_serv.php" class="recruit"><span>京設工業株式会社｜エンジニア・技術者・人材派遣｜採用情報</span></a></li>
-                                <li><a href="../index.html" class="contact"><span>京設工業株式会社｜お問い合わせ</span></a></li>
+                                <li><a href="./index.php" class="contact"><span>京設工業株式会社｜お問い合わせ</span></a></li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2"><img src="../image/line_bar.jpg" alt="" width="810" height="35"></td>
+                        <td colspan="2"><img src="./image/line_bar.jpg" alt="" width="810" height="35"></td>
                     </tr>
                 </table>
             </div>
@@ -62,7 +62,7 @@
                 <!-- InstanceBeginEditable name="EditRegion3" -->
                 <table width="810" border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                        <td><img src="../image/im_saiyo.jpg" alt="採用情報" width="810" height="100"></td>
+                        <td><img src="./image/im_saiyo.jpg" alt="採用情報" width="810" height="100"></td>
                     </tr>
                 </table>
                 <!-- InstanceEndEditable -->
@@ -70,13 +70,13 @@
                 <div id="right">
                     <table width="510" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td class="under10"><img src="../image/bmida_shinsotsu.jpg" alt="新卒採用情報" width="510" height="50"></td>
+                            <td class="under10"><img src="./image/bmida_shinsotsu.jpg" alt="新卒採用情報" width="510" height="50"></td>
                         </tr>
                         <tr>
-                            <td><img src="../image/bn_rec_shinsotsubosyuyoko.jpg" alt="募集要項" width="510" height="45"></td>
+                            <td><img src="./image/bn_rec_shinsotsubosyuyoko.jpg" alt="募集要項" width="510" height="45"></td>
                         </tr>
                         <tr>
-                            <td><img src="../image/futoji_saiyonaiyo.gif" alt="採用内容" width="300" height="36"></td>
+                            <td><img src="./image/futoji_saiyonaiyo.gif" alt="採用内容" width="300" height="36"></td>
                         </tr>
                     </table>
                     <table width="510" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
@@ -84,73 +84,73 @@
                         <col width="110">
                         <col width="310">
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">募集職種</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">募集職種</th>
                             <td colspan="2" bgcolor="#FFFFFF">ソフトウェア開発、機械設計、電気･電子回路設計、プラスティック容器設計、DTP技術者</td>
                         </tr>
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">募集対象</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">募集対象</th>
                             <td colspan="2" bgcolor="#FFFFFF">原則として2007年度（2008年3月）に卒業予定の方</td>
                         </tr>
                         <tr>
-                            <th rowspan="2" bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">募集学科</th>
+                            <th rowspan="2" bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">募集学科</th>
                             <td bgcolor="#FFFFFF">
-                                <img src="../image/p_1.gif" alt="" width="10" height="6">ソフトウェア開発<br>
-                                <img src="../image/p_1.gif" alt="" width="10" height="6">DTP技術者
+                                <img src="./image/p_1.gif" alt="" width="10" height="6">ソフトウェア開発<br>
+                                <img src="./image/p_1.gif" alt="" width="10" height="6">DTP技術者
                             </td>
                             <td bgcolor="#FFFFFF">全学科</td>
                         </tr>
                         <tr>
-                            <td bgcolor="#FFFFFF"><img src="../image/p_1.gif" alt="" width="10" height="6">設計</td>
+                            <td bgcolor="#FFFFFF"><img src="./image/p_1.gif" alt="" width="10" height="6">設計</td>
                             <td bgcolor="#FFFFFF">機械系学科、電気・電子系学科、物理系学科</td>
                         </tr>
                     </table>
                     <table width="510" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td><img src="../image/futoji_saiyojoken.gif" alt="採用条件" width="300" height="36"></td>
+                            <td><img src="./image/futoji_saiyojoken.gif" alt="採用条件" width="300" height="36"></td>
                         </tr>
                     </table>
                     <table width="510" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                         <col width="90">
                         <col width="420">
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">初任給</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">初任給</th>
                             <td bgcolor="#FFFFFF">大卒198,700円／専門卒189,000円<br>
                                 短大卒189,000円／高校卒179,700円</td>
                         </tr>
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">諸手当</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">諸手当</th>
                             <td bgcolor="#FFFFFF">通勤手当・生計手当・出勤奨励手当・残業手当など</td>
                         </tr>
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">昇　給</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">昇　給</th>
                             <td bgcolor="#FFFFFF">年1回</td>
                         </tr>
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">賞　与</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">賞　与</th>
                             <td bgcolor="#FFFFFF">年2回</td>
                         </tr>
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">主な勤務地</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">主な勤務地</th>
                             <td bgcolor="#FFFFFF">本社及び各事業所</td>
                         </tr>
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">勤務時間</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">勤務時間</th>
                             <td bgcolor="#FFFFFF">8：30〜17：15（実働8時間）</td>
                         </tr>
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">休　日</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">休　日</th>
                             <td bgcolor="#FFFFFF">日、祝祭日ほか（完全週休2日制）</td>
                         </tr>
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">年間休日数</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">年間休日数</th>
                             <td bgcolor="#FFFFFF">121日（平成18年実績）</td>
                         </tr>
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">休　暇</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">休　暇</th>
                             <td bgcolor="#FFFFFF">年次有給休暇、特別休暇</td>
                         </tr>
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">福利厚生</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">福利厚生</th>
                             <td bgcolor="#FFFFFF">雇用保険、労災保険、健康保険、厚生年金保険、財産形成貯蓄制度</td>
                         </tr>
                     </table>
@@ -160,21 +160,21 @@
                             <td align="center" class="under10"><a href="recruite_kojin.php" class="shinsotsubt"></a></td>
                         </tr>
                         <tr>
-                            <td align="right" class="under10"><a href="recruite_career.php"><img src="../image/pagetop.gif" alt="このページの先頭へ" width="60" height="27" border="0"></a></td>
+                            <td align="right" class="under10"><a href="recruite_career.php"><img src="./image/pagetop.gif" alt="このページの先頭へ" width="60" height="27" border="0"></a></td>
                         </tr>
                     </table>
                     <br>
 
                     <table width="510" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td><a name="obo1"><img src="../image/minibn_oubonagare.gif" alt="応募方法と選考の流れ" width="250" height="50"></a></td>
+                            <td><a name="obo1"><img src="./image/minibn_oubonagare.gif" alt="応募方法と選考の流れ" width="250" height="50"></a></td>
                         </tr>
                     </table>
                     <table width="510" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                         <col width="90">
                         <col width="420">
                         <tr>
-                            <th bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">応募方法</th>
+                            <th bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">応募方法</th>
                             <td bgcolor="#FFFFFF">応募フォームよりエントリーしてください。　<a href="recruite_kojin.php">
                                     <font color="#6600CC">→応募フォームへ</font>
                                 </a><br>
@@ -185,60 +185,60 @@
                         <col width="90">
                         <col width="420">
                         <tr>
-                            <td class="top10"><img src="../image/flw_syoruisenko.jpg" alt="書類選考" width="90" height="60"></td>
+                            <td class="top10"><img src="./image/flw_syoruisenko.jpg" alt="書類選考" width="90" height="60"></td>
                             <td class="top10">お送りいただいた応募データをもとに書類選考をいたします。<br>
                                 ※ 選考後の面接日程等については追ってご連絡いたします。</td>
                         </tr>
                     </table>
                     <table width="100" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td align="center"><img src="../image/yajirusi.gif" alt="" width="42" height="13"></td>
+                            <td align="center"><img src="./image/yajirusi.gif" alt="" width="42" height="13"></td>
                         </tr>
                     </table>
                     <table width="510" border="0" cellpadding="5" cellspacing="0">
                         <col width="90">
                         <col width="420">
                         <tr>
-                            <td><img src="../image/flw_mensetsu.jpg" alt="面接・試験" width="90" height="60"></td>
+                            <td><img src="./image/flw_mensetsu.jpg" alt="面接・試験" width="90" height="60"></td>
                             <td>1回〜2回の面接と筆記試験を予定しております。<br>
                                 ※ 面接日時についてはご相談下さい。</td>
                         </tr>
                     </table>
                     <table width="100" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td align="center"><img src="../image/yajirusi.gif" alt="" width="42" height="13"></td>
+                            <td align="center"><img src="./image/yajirusi.gif" alt="" width="42" height="13"></td>
                         </tr>
                     </table>
                     <table width="510" border="0" cellpadding="5" cellspacing="0">
                         <col width="90">
                         <col width="420">
                         <tr>
-                            <td><img src="../image/flw_naitei.jpg" alt="内定" width="90" height="60"></td>
+                            <td><img src="./image/flw_naitei.jpg" alt="内定" width="90" height="60"></td>
                             <td>応募から内定までは2週間前後を予定しています。</td>
                         </tr>
                     </table>
                     <table width="510" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td><img src="../image/minibn_renrakusaki.gif" alt="連絡先" width="103" height="50"></td>
+                            <td><img src="./image/minibn_renrakusaki.gif" alt="連絡先" width="103" height="50"></td>
                         </tr>
                     </table>
                     <table width="510" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                         <col width="90">
                         <col width="420">
                         <tr>
-                            <td bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">所在地</td>
+                            <td bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地</td>
                             <td bgcolor="#FFFFFF">〒&nbsp;275-0024　千葉県習志野市茜浜1-2-6</td>
                         </tr>
                         <tr>
-                            <td bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">担　 当</td>
+                            <td bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">担　 当</td>
                             <td bgcolor="#FFFFFF">採用担当</td>
                         </tr>
                         <tr>
-                            <td bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">電話番号</td>
+                            <td bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">電話番号</td>
                             <td bgcolor="#FFFFFF">047-453-7711</td>
                         </tr>
                         <tr>
-                            <td bgcolor="#F8F4F9"><img src="../image/p_2.gif" alt="" width="9" height="10">備　考</td>
+                            <td bgcolor="#F8F4F9"><img src="./image/p_2.gif" alt="" width="9" height="10">備　考</td>
                             <td bgcolor="#FFFFFF">
                                 ［交通アクセス］JR新習志野駅、南船橋駅から共に徒歩13分
                             </td>
@@ -246,7 +246,7 @@
                     </table>
                     <table width="510" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td align="right"> <a href="recruite.php"><img src="../image/pagetop.gif" alt="このページの先頭へ" width="60" height="27" border="0"></a></td>
+                            <td align="right"> <a href="recruite.php"><img src="./image/pagetop.gif" alt="このページの先頭へ" width="60" height="27" border="0"></a></td>
                         </tr>
                     </table>
                 </div>
@@ -262,9 +262,9 @@
                         <li><a href="recruite_interview.php" class="recuit_intv">社員インタビュー</a></li>
                     </ul>
                     <!-- InstanceEndEditable -->
-                    <table width="265" border="0" cellpadding="0" cellspacing="0" background="../image/lc_bg_naka.jpg">
+                    <table width="265" border="0" cellpadding="0" cellspacing="0" background="./image/lc_bg_naka.jpg">
                         <tr>
-                            <td><img src="../image/lc_aboutus.jpg" alt="会社案内" width="265" height="59"></td>
+                            <td><img src="./image/lc_aboutus.jpg" alt="会社案内" width="265" height="59"></td>
                         </tr>
                         <tr>
                             <td valign="top" class="lc_mado">
@@ -280,17 +280,17 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="../image/lc_group.jpg" alt="グループ会社" width="265" height="30"></td>
+                                <img src="./image/lc_group.jpg" alt="グループ会社" width="265" height="30"></td>
                         </tr>
 
                         <tr>
-                            <td><a href="http://www.sankyo-kikai.co.jp/" target="sankyo"><img src="../image/lc_bt_sankyo.jpg" alt="三京機械工業株式会社" width="265" height="48" border="0"></a></td>
+                            <td><a href="http://www.sankyo-kikai.co.jp/" target="sankyo"><img src="./image/lc_bt_sankyo.jpg" alt="三京機械工業株式会社" width="265" height="48" border="0"></a></td>
                         </tr>
                         <tr>
-                            <td><a href="http://erimos.co.jp/" target="erimos"><img src="../image/lc_bt_erimose.jpg" alt="株式会社エリモス" width="265" height="48" border="0"></a></td>
+                            <td><a href="http://erimos.co.jp/" target="erimos"><img src="./image/lc_bt_erimose.jpg" alt="株式会社エリモス" width="265" height="48" border="0"></a></td>
                         </tr>
                         <tr>
-                            <td><img src="../image/lc_bg_shita.jpg" alt="" width="265" height="14"></td>
+                            <td><img src="./image/lc_bg_shita.jpg" alt="" width="265" height="14"></td>
                         </tr>
                     </table>
                 </div>
@@ -298,10 +298,10 @@
             <div id="footer">
                 <table width="810" border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                        <td colspan="2" class="f01"><img src="../image/p_footer.gif" alt="" width="13" height="11"><a href="../index.html">ＨＯＭＥ</a>　<img src="../image/p_footer.gif" alt="" width="13" height="11"><a href="prdt_serv.php">製品&amp;サービス</a>　<img src="../image/p_footer.gif" alt="" width="13" height="11"><a href="jigyosyo.php">事業所紹介</a>　<img src="../image/p_footer.gif" alt="" width="13" height="11"><a href="iso.php">ＩＳＯの取り組み</a>　<img src="../image/p_footer.gif" alt="" width="13" height="11"><a href="recruite.php">採用情報</a>　<img src="../image/p_footer.gif" alt="" width="13" height="11"><a href="company.html">会社案内</a>　<img src="../image/p_footer.gif" alt="" width="13" height="11"><a href="sitemap.html">サイトマップ</a>　<img src="../image/p_footer.gif" alt="" width="13" height="11"><a href="https://keisetsu.co.jp/postmail2/postmail.html">お問い合わせ</a></td>
+                        <td colspan="2" class="f01"><img src="./image/p_footer.gif" alt="" width="13" height="11"><a href="./index.php">ＨＯＭＥ</a>　<img src="./image/p_footer.gif" alt="" width="13" height="11"><a href="prdt_serv.php">製品&amp;サービス</a>　<img src="./image/p_footer.gif" alt="" width="13" height="11"><a href="jigyosyo.php">事業所紹介</a>　<img src="./image/p_footer.gif" alt="" width="13" height="11"><a href="iso.php">ＩＳＯの取り組み</a>　<img src="./image/p_footer.gif" alt="" width="13" height="11"><a href="recruite.php">採用情報</a>　<img src="./image/p_footer.gif" alt="" width="13" height="11"><a href="company.php">会社案内</a>　<img src="./image/p_footer.gif" alt="" width="13" height="11"><a href="sitemap.php">サイトマップ</a>　<img src="./image/p_footer.gif" alt="" width="13" height="11"><a href="https://keisetsu.co.jp/postmail2/postmail.php">お問い合わせ</a></td>
                     </tr>
                     <tr>
-                        <td class="f02"><a href="privacy.html">個人情報保護について</a></td>
+                        <td class="f02"><a href="privacy.php">個人情報保護について</a></td>
                         <td align="right" class="f02">Copyright (C) 2007 Keisetsu.co.,ltd All Rights Reserved.</td>
                     </tr>
                 </table>
