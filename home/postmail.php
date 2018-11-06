@@ -2,15 +2,6 @@
 <html lang="ja">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="Content-Script-Type" content="text/javascript">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta name="robots" content="NOINDEX,NOFOLLOW,NOARCHIVE">
-    <meta name="googlebot" content="NOINDEX,NOFOLLOW,NOARCHIVE">
-    <meta name="Description" content="京設工業株式会社はソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの５つの部門からお客様の多様なニーズに応え続けています。">
-    <meta name="keyword" content="京設工業,ソフトウェア,開発,検証,電気,電子,機械,設計,システム,エンジニア,技術者,採用,人材派遣,転職,求人,プラスチック容器,デザイン,DTP">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの京設工業株式会社－お問い合わせ－/システムエンジニア/技術者/人材派遣/転職/プラスチック容器</title>
     <?php include 'ref.php';?>
 
     <script type="text/JavaScript">
@@ -62,7 +53,7 @@ function MM_validateForm() { //v4.0
                         </tbody>
                     </table>
                     <div>
-                        <form action="postmail.cgi" method="post">
+                        <form action="mail.php" method="post">
                             <table width="100%" border="0" cellpadding="5" cellspacing="0">
                                 <colgroup>
                                     <col width="140">

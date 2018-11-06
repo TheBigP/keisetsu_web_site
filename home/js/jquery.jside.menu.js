@@ -31,10 +31,10 @@
       arrow = document.createElement("i");
       dimBackground = $(".dim-overlay");
       // Set the height of side menu according to the available height of device
-      $(target).css({
-        'height': $devHeight - $headHeight,
+      // $(target).css({
+      //   'height': $devHeight - $headHeight,
 
-      });
+      // });
 
       if (setting.jSideSticky == true) {
         $(".menubar").addClass("sticky");
@@ -64,7 +64,7 @@
             tmp = tmp + $(this).outerHeight();
             key.push($(this).outerHeight());
           });
-
+          console.log("key+++    " + key);
         });
         //遍历该数组可以获取所有值
         //  for (var i = 0 ; i < key.length; i++) {
@@ -81,6 +81,7 @@
         // console.log("dropdown+++   " + dropdown);
         var todrop = $(".has-sub").find("span:hover + ul");
         var nodrop = $(".has-sub ul");
+        console.log("tmp++++    " + tmp);
         $(todrop).animate({ "height": tmp }, 100);
         $(this).find("i").toggleClass("arrowdown");
         // console.log("$(todrop).height() ++++    " + $(todrop).height());
@@ -100,7 +101,8 @@
       });
 
       //close menu if user click outside of it
-      $('html').click(function (e) {
+      $('div').click(function (e) {
+        // alert("dianjile");
         if ($(e.target).closest('.menu-trigger').length) {
           console.log("++++++" + $(e.target).closest('.menu-trigger').length);
           // alert("+++    " + $(e.target).closest('.menu-trigger').length);
