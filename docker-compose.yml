@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+    web:
+        image: nginx:latest
+        ports:
+            - "8080:80"
+        volumes:
+            - ./home:/home
+            - ./site.conf:/etc/nginx/conf.d/default.conf
+        networks:
+            - home-network
+    php:
+        image: php:fpm
+        volumes:
+            - ./home:/home
+        networks:
+            - home-network
+
+networks:
+    home-network:
+        driver: bridge
