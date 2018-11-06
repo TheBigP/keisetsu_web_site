@@ -53,7 +53,7 @@
                     </div>
                     <div align="center" class="under10" style="margin-bottom:1rem">
                         <form name="form1" method="post" action="">
-                            <input type="button" name="Submit32" value="同意する" onclick="location.href='https://keisetsu.co.jp/postmail/postmail.php'">
+                            <input type="button" name="Submit32" value="同意する" onclick="location.href='postmail.php'">
                             　　
                             <input type="reset" name="Submit222" value="同意しない" onclick="javascript:history.go(-1)">
                         </form>
