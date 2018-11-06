@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>京設工業株式会社</title>
-    <link rel="stylesheet" href="./material-design/css/material-design-iconic-font.css" />
-    <link rel="stylesheet" href="./css/jside-menu.css" />
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
+    <?php include 'ref.php';?>
 </head>
 
 <body style="padding-top:  60px;">
