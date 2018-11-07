@@ -1,6 +1,7 @@
-<!doctype html>
+<?php header('Content-type: text/html; charset=utf-8'); ?>
+<!DOCTYPE html>
 <html lang="ja">
-<!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -9,16 +10,16 @@
     <meta content="index,follow" name="robots">
     <meta name="Description" content="京設工業株式会社はソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの５つの部門からお客様の多様なニーズに応え続けています。">
     <meta name="keyword" content="京設工業,ソフトウェア,開発,検証,電気,電子,機械,設計,システム,エンジニア,技術者,採用,人材派遣,転職,求人,プラスチック容器,デザイン,DTP">
-    <!-- InstanceBeginEditable name="doctitle" -->
+
     <title>ソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの京設工業株式会社−会社概要・沿革/システムエンジニア/技術者/人材派遣/転職/プラスチック容器</title>
-    <!-- InstanceEndEditable -->
+
     <link rel="index" href="http://www.keisetsu.co.jp/">
     <link href="./layout.css" rel="stylesheet" type="text/css">
     <link href="./keisetsu.css" rel="stylesheet" type="text/css">
     <link href="./menu.css" rel="stylesheet" type="text/css">
     <link href="./tatemenu.css" rel="stylesheet" type="text/css">
-    <!-- InstanceBeginEditable name="head" -->
-    <!-- InstanceEndEditable -->
+
+
 </head>
 
 <body>
@@ -59,14 +60,14 @@
                 </table>
             </div>
             <div id="contents">
-                <!-- InstanceBeginEditable name="EditRegion3" -->
+
                 <table width="810" border="0" cellspacing="0" cellpadding="0">
                     <tr>
                         <td><img src="./image/im_company.jpg" alt="会社案内" width="810" height="100"></td>
                     </tr>
                 </table>
-                <!-- InstanceEndEditable -->
-                <!-- InstanceBeginEditable name="EditRegion1" -->
+
+
                 <div id="right">
                     <table width="510" border="0" cellspacing="0" cellpadding="0">
                         <tr>
@@ -256,14 +257,14 @@
                         </tr>
                     </table>
                 </div>
-                <!-- InstanceEndEditable -->
+
                 <div id="leftmenu">
-                    <!-- InstanceBeginEditable name="EditRegion2" -->
+
                     <ul id="tatemenu">
                         <li><a href="company.php" class="company_aisatsu">ごあいさつ</a></li>
                         <li><a href="company_gaiyo.php" class="company_gaiyo">会社概要・沿革</a></li>
                     </ul>
-                    <!-- InstanceEndEditable -->
+
                     <table width="265" border="0" cellpadding="0" cellspacing="0" background="./image/lc_bg_naka.jpg">
                         <tr>
                             <td><img src="./image/lc_aboutus.jpg" alt="会社案内" width="265" height="59"></td>
@@ -311,6 +312,6 @@
         </div>
     </div>
 </body>
-<!-- InstanceEnd -->
+
 
 </html>

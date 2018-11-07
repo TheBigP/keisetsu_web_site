@@ -1,6 +1,7 @@
-<!doctype html>
+<?php header('Content-type: text/html; charset=utf-8'); ?>
+<!DOCTYPE html>
 <html lang="ja">
-<!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -51,14 +52,14 @@
                 </table>
             </div>
             <div id="contents">
-                <!-- InstanceBeginEditable name="EditRegion3" -->
+
                 <table width="810" border="0" cellspacing="0" cellpadding="0">
                     <tr>
                         <td><img src="./image/im_policy.jpg" alt="サイトポリシー" width="810" height="100"></td>
                     </tr>
                 </table>
-                <!-- InstanceEndEditable -->
-                <!-- InstanceBeginEditable name="EditRegion1" -->
+
+
                 <div id="right">
                     <table width="510" border="0" cellspacing="0" cellpadding="0">
                         <tr>
@@ -69,10 +70,10 @@
                         </tr>
                     </table>
                 </div>
-                <!-- InstanceEndEditable -->
+
                 <div id="leftmenu">
-                    <!-- InstanceBeginEditable name="EditRegion2" -->
-                    <!-- InstanceEndEditable -->
+
+
                     <table width="265" border="0" cellpadding="0" cellspacing="0" background="./image/lc_bg_naka.jpg">
                         <tr>
                             <td><img src="./image/lc_aboutus.jpg" alt="会社案内" width="265" height="59"></td>
@@ -119,6 +120,6 @@
         </div>
     </div>
 </body>
-<!-- InstanceEnd -->
+
 
 </html>

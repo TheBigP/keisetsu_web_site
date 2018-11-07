@@ -1,6 +1,7 @@
-<!doctype html>
+<?php header('Content-type: text/html; charset=utf-8'); ?>
+<!DOCTYPE html>
 <html lang="ja">
-<!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+
 
 <head>
     <?php include 'ref.php';?>
@@ -328,6 +329,6 @@
         <?php include 'footer.php';?>
     </div>
 </body>
-<!-- InstanceEnd -->
+
 
 </html>

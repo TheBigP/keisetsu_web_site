@@ -1,6 +1,7 @@
-<!doctype html>
+<?php header('Content-type: text/html; charset=utf-8'); ?>
+<!DOCTYPE html>
 <html lang="ja">
-<!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -51,14 +52,14 @@
                 </table>
             </div>
             <div id="contents">
-                <!-- InstanceBeginEditable name="EditRegion3" -->
+
                 <table width="810" border="0" cellspacing="0" cellpadding="0">
                     <tr>
                         <td><img src="./image/im_saiyo.jpg" alt="採用情報" width="810" height="100"></td>
                     </tr>
                 </table>
-                <!-- InstanceEndEditable -->
-                <!-- InstanceBeginEditable name="EditRegion1" -->
+
+
                 <div id="right">
                     <table width="510" border="0" cellspacing="10" cellpadding="0">
                         <tr>
@@ -103,9 +104,9 @@
                         </tr>
                     </table>
                 </div>
-                <!-- InstanceEndEditable -->
+
                 <div id="leftmenu">
-                    <!-- InstanceBeginEditable name="EditRegion2" -->
+
                     <ul id="tatemenu">
                         <li><a href="recruite.php" class="recuit_shinsotsu">新卒採用情報</a></li>
                         <li><a href="recruite.php#obo1" class="recuit_obo1">応募方法・選考の流れ（新卒）</a></li>
@@ -114,7 +115,7 @@
                         <li><a href="recruite_kojin.php" class="recuit_entry">エントリーフォーム</a></li>
                         <li><a href="recruite_interview.php" class="recuit_intv">社員インタビュー</a></li>
                     </ul>
-                    <!-- InstanceEndEditable -->
+
                     <table width="265" border="0" cellpadding="0" cellspacing="0" background="./image/lc_bg_naka.jpg">
                         <tr>
                             <td><img src="./image/lc_aboutus.jpg" alt="会社案内" width="265" height="59"></td>
@@ -162,6 +163,6 @@
         </div>
     </div>
 </body>
-<!-- InstanceEnd -->
+
 
 </html>
