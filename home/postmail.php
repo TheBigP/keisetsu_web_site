@@ -5,7 +5,7 @@
     <?php include 'ref.php';?>
 
     <script type="text/JavaScript">
-        <!--
+
 function MM_findObj(n, d) { //v4.01
   var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
     d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
@@ -29,7 +29,7 @@ function MM_validateForm() { //v4.0
   } if (errors) alert('The following error(s) occurred:\n'+errors);
   document.MM_returnValue = (errors == '');
 }
-//-->
+
 </script>
 </head>
 
@@ -54,7 +54,7 @@ function MM_validateForm() { //v4.0
                     </table>
                     <div>
                         <form action="mail.php" method="post">
-                            <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-hover">
                                 <colgroup>
                                     <col width="140">
                                     <col width="370">
@@ -75,6 +75,7 @@ function MM_validateForm() { //v4.0
                                         <td bgcolor="#FFFFFF" class="hyo"><img src="./image/p_3.gif" alt="" width="15" height="17">氏　　名</td>
                                         <td bgcolor="#F8F4F9" class="hyo">姓
                                             <input name="_氏名/姓" type="text" id="氏名/姓" size="20">
+                                            <br>
                                             名
                                             <input name="_氏名/名" type="text" id="氏名/名" size="20">
                                         </td>
@@ -83,6 +84,7 @@ function MM_validateForm() { //v4.0
                                         <td bgcolor="#FFFFFF" class="note"><img src="./image/p_3.gif" alt="" width="15" height="17">フリガナ</td>
                                         <td bgcolor="#F8F4F9" class="note">姓
                                             <input name="_フリガナ/姓" type="text" id="フリガナ/姓" size="20">
+                                            <br>
                                             名
                                             <input name="_フリガナ/名" type="text" id="フリガナ/名" size="20">
                                             <font color="#FF3300">（全角カタカナ）</font>
