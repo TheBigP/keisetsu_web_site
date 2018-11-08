@@ -21,14 +21,14 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
+                                <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                                     <colgroup>
                                         <col width="70">
                                         <col width="440">
                                     </colgroup>
                                     <tbody>
                                         <tr>
-                                            <th bgcolor="#FFFFFF" style="font-size:15px"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地</th>
+                                            <th bgcolor="#FFFFFF" style="font-size:15px" width="20%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地</th>
                                             <td bgcolor="#FFFFFF" style="font-size:15px">
                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tbody>

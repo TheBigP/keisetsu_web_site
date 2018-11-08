@@ -21,7 +21,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>応募の際は、下記規約を必ずご覧いただき、内容に同意する場合は［同意する］ボタンを押して次にお進みください。 同意しない場合は［同意しない］ボタンを押してください。<br>
+                                <td style="font-size:15px">応募の際は、下記規約を必ずご覧いただき、内容に同意する場合は［同意する］ボタンを押して次にお進みください。 同意しない場合は［同意しない］ボタンを押してください。<br>
                                     尚、同意がいただけない場合は、応募に進むことができませんので、ご了承下さい。</td>
                             </tr>
                         </tbody>
@@ -31,7 +31,7 @@
                             <tbody>
                                 <tr>
                                     <td>
-                                        <ol style="margin-left:1.5rem">
+                                        <ol style="margin-left:2.5rem;font-size:15px">
                                             <li>個人情報とは<br>
                                                 個人情報とは、個人に関する情報であって当該情報に含まれる氏名、生年月日その他の記述、または個人別に付けられた番号、記号その他の符号、画像もしくは音声によって当該個人を識別できるもの（当該情報だけでは識別できないが、他の情報と容易に照合することができ、それによって当該個人を識別できるものを含む）をいいます。</li>
                                             <li> 個人情報の利用目的<br>
@@ -54,9 +54,9 @@
                     </div>
                     <div align="center" class="under10" style="margin-bottom:1rem">
                         <form name="form1" method="post" action="">
-                            <input type="button" name="Submit32" value="同意する" onclick="location.href='postmail.php'">
-                            　　
-                            <input type="reset" name="Submit222" value="同意しない" onclick="javascript:history.go(-1)">
+                            <input style="font-size:15px" type="button" name="Submit32" value="同意する" onclick="location.href='postmail.php'">
+
+                            <input style="font-size:15px" type="reset" name="Submit222" value="同意しない" onclick="javascript:history.go(-1)">
                         </form>
                     </div>
                 </div>

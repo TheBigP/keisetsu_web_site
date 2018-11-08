@@ -3,10 +3,6 @@
 <html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>京設工業株式会社</title>
     <?php include 'ref.php';?>
 </head>
 
@@ -18,7 +14,7 @@
                 <div class="row">
                     <div class="col-sm-4" style="padding-right:0%;padding-bottom:0%;padding-left:0%">
                         <img src="./image/line_3contents.gif" alt="" width="100%" height="5">
-                        <div class="pdserv"><img src="./image/mida_01.gif" alt="製品＆サービス" width="125" height="46"><br>コンピューター・ソフトウェア開発、ソフトウェア検証、機械設計、電気設計、デザイン、技術者派遣事業という５つの部門でみなさまにご提案・ご提供いたしております。
+                        <div class="pdserv" style="font-size:15px"><img src="./image/mida_01.gif" alt="製品＆サービス" width="125" height="46"><br>コンピューター・ソフトウェア開発、ソフトウェア検証、機械設計、電気設計、デザイン、技術者派遣事業という５つの部門でみなさまにご提案・ご提供いたしております。
                             <ul class="nav nav-pills flex-column">
                                 <li class="nav-item">
                                     <a href="prdt_serv.php"><img src="./image/bt_syosai.gif" alt="製品・サービスについて詳しくはこちら" width="86" height="24" border="0"></a>
@@ -28,7 +24,7 @@
                     </div>
                     <div class="col-sm-4" style="padding-right:0%;padding-left:0%">
                         <img src="./image/line_3contents_right.gif" alt="" width="100%" height="5">
-                        <div class="recruit"><img src="./image/mida_02.gif" alt="採用情報" width="100" height="46"><br>京設工業では、ソフトウェア開発、
+                        <div class="recruit" style="font-size:15px"><img src="./image/mida_02.gif" alt="採用情報" width="100" height="46"><br>京設工業では、ソフトウェア開発、
                             機械設計、電気・電子回路設計、
                             プラスティック容器設計、DTP技術者 などの募集をしております。
                             <ul class="nav nav-pills flex-column">
@@ -40,7 +36,7 @@
                     </div>
                     <div class="col-sm-4" style="padding-right:0%;padding-left:0%">
                         <img src="./image/line_3contents_right.gif" alt="" width="100%" height="5">
-                        <div class="entry"><img src="./image/mida_03.gif" alt="エントリー" width="100" height="46"><br>「常に新しいものを求め、変化を
+                        <div class="entry" style="font-size:15px"><img src="./image/mida_03.gif" alt="エントリー" width="100" height="46"><br>「常に新しいものを求め、変化を
                             恐れず、変化を楽しむ」
                             という 企業カルチャーを持つ京設工業 で一緒に働きませんか？
                             <ul class="nav nav-pills flex-column">
@@ -58,7 +54,7 @@
                 <div id="left">
                     <table border="2" cellpadding="12" cellspacing="2" bgcolor="#210063">
                         <tr>
-                            <td bgcolor="#F4F3F9" class="f_violet">この度の熊本地震により被災されました方々に、心よりお見舞い申し上げます。
+                            <td bgcolor="#F4F3F9" style="font-size:15px" class="f_violet">この度の熊本地震により被災されました方々に、心よりお見舞い申し上げます。
                                 また、被災地の一日も早い復興を心よりお祈りいたします。
                             </td>
                         </tr>
@@ -66,7 +62,7 @@
                     <br>
                     <table border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td class="under10">京設工業株式会社はソフトウェア開発部門、機械設計部門、電気設計部門、デザイン部門（製品設計・DTP業務）、及び技術者派遣部門から構成されています。ソフトウェア開発部門においてはWindowsアプリケーション、Linux、各種組込みソフトウェアの開発に豊富な実績を持ち、機械設計部門においてはCreo（Pro/E）、iCAD
+                            <td class="under10" style="font-size:15px">京設工業株式会社はソフトウェア開発部門、機械設計部門、電気設計部門、デザイン部門（製品設計・DTP業務）、及び技術者派遣部門から構成されています。ソフトウェア開発部門においてはWindowsアプリケーション、Linux、各種組込みソフトウェアの開発に豊富な実績を持ち、機械設計部門においてはCreo（Pro/E）、iCAD
                                 SX、iCAD
                                 MX等の3DCADを活用した設計･開発に自信があります。京設工業株式会社はこれらの技術を十二分に活用し、アウトソーシング事業、技術者派遣事業の両分野において、お客様より高い信頼を得ています。</td>
                         </tr>

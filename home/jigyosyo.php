@@ -13,7 +13,7 @@
         <div class="row" style="font-size: 1.2rem;">
             <div class="col-sm-12">
                 <div id="left">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <table class="table table-bordered" border="0" cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
                                 <td class="under10"><img src="./image/bmida_honsya.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%"></td>
@@ -21,11 +21,11 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
+                                <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                                     <tbody>
                                         <tr>
-                                            <th bgcolor="#FFFFFF" style="font-size:12px"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地</th>
-                                            <td bgcolor="#FFFFFF" style="font-size:12px">
+                                            <th bgcolor="#FFFFFF" style="font-size:15px;" width="20%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地</th>
+                                            <td bgcolor="#FFFFFF" style="font-size:15px;">
                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tbody>
                                                         <tr>
@@ -37,12 +37,12 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th bgcolor="#FFFFFF" style="font-size:15px"><img src="./image/p_2.gif" alt="">TEL</th>
-                                            <td bgcolor="#FFFFFF" style="font-size:15px">047－453－7711（代）</td>
+                                            <th bgcolor="#FFFFFF" style="font-size:15px;"><img src="./image/p_2.gif" alt="">TEL</th>
+                                            <td bgcolor="#FFFFFF" style="font-size:15px;">047－453－7711（代）</td>
                                         </tr>
                                         <tr>
-                                            <th bgcolor="#FFFFFF" style="font-size:15px"><img src="./image/p_2.gif" alt="">FAX</th>
-                                            <td bgcolor="#FFFFFF" style="font-size:15px">047－453－0670</td>
+                                            <th bgcolor="#FFFFFF" style="font-size:15px;"><img src="./image/p_2.gif" alt="">FAX</th>
+                                            <td bgcolor="#FFFFFF" style="font-size:15px;">047－453－0670</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -52,11 +52,11 @@
                             </tr>
                             <tr>
                                 <div>
-                                    <table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
+                                    <table class="table table-bordered" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                                     <tbody>
                                         <tr>
-                                            <th bgcolor="#FFFFFF" style="font-size:15px"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地</th>
-                                            <td bgcolor="#FFFFFF" style="font-size:15px" class="under10">
+                                            <th bgcolor="#FFFFFF" style="font-size:15px" width="20%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地</th>
+                                            <td bgcolor="#FFFFFF" style="font-size:15px">
                                                 <p>千葉県習志野市茜浜1－2－6　（本社内）</p>
                                             </td>
                                         </tr>

@@ -4,13 +4,6 @@
 
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Script-Type" content="text/javascript">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta content="index,follow" name="robots">
-    <meta name="Description" content="京設工業株式会社はソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの５つの部門からお客様の多様なニーズに応え続けています。">
-    <meta name="keyword" content="京設工業,ソフトウェア,開発,検証,電気,電子,機械,設計,システム,エンジニア,技術者,採用,人材派遣,転職,求人,プラスチック容器,デザイン,DTP">
-    <title>ソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの京設工業株式会社−サイトポリシー/システムエンジニア/技術者/人材派遣/転職/プラスチック容器</title>
     <?php include 'ref.php';?>
 </head>
 
