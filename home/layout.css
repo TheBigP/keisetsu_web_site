@@ -1,79 +1,81 @@
 /*�S�̂�͂ޏꍇ�̃{�b�N�X*/
-#frame{
-	width:810px;
-	padding: 0px;
-	margin: 0px;
-	align: center;
-	border-right-width: 1px;
-	border-left-width: 1px;
-	border-right-style: solid;
-	border-left-style: solid;
-	border-right-color: #CCCCCC;
-	border-left-color: #CCCCCC;
-	background-color: #FFFFFF;
-}      
+#frame {
+    width: 810px;
+    padding: 0px;
+    margin: 0px;
+    align: center;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #CCCCCC;
+    border-left-color: #CCCCCC;
+    background-color: #FFFFFF;
+}
 
 /*�w�b�_�{�b�N�X*/
 #header {
-	width: 100%;
-	text-align: left;
+    width: 100%;
+    text-align: left;
 }
 
 /*�R���e���c�����O���̃{�b�N�X*/
-#contents{
-	width:810px;
-	align:center;
-	bottom: auto;
-	background-image: url(http://www.keisetsu.co.jp/image/lm_bg.gif);
-	background-repeat: repeat-y;
-	background-position: left;
-	text-align: left;
-	margin: 0px;
-	padding: 0px;
+#contents {
+    width: 810px;
+    align: center;
+    bottom: auto;
+    background-image: url(http://www.keisetsu.co.jp/image/lm_bg.gif);
+    background-repeat: repeat-y;
+    background-position: left;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*���C���̕����̃{�b�N�X*/
-#main{
-	width:510px;
-	background-color: #FFFFFF;
-	padding-right: 12px;
-	padding-left: 15px;
-	float: right;
-	border-left-width: 3px;
-	border-left-style: solid;
-	border-left-color: #B9B9CC;
-	margin-top: 25px;
-	margin-bottom: 20px;
+#main {
+    width: 510px;
+    background-color: #FFFFFF;
+    padding-right: 12px;
+    padding-left: 15px;
+    float: right;
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-left-color: #B9B9CC;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 /*�����̃{�b�N�X*/
-#left{
-	/* width:254px; */
-	padding-left: 13px;
-	line-height: 140%;
-	padding-top: 25px;
+#left {
+    /* width:254px; */
+    padding-left: 13px;
+    line-height: 140%;
+    padding-top: 25px;
 }
 
 /*�w�b�_�{�b�N�Xboth��荞�݉�*/
 #footer {
-	/* width:810px; */
-	clear: both;
-	font-size: 11px;
-	color: #666666;
-	text-align: left;
+    /* width:810px; */
+    clear: both;
+    font-size: 11px;
+    color: #666666;
+    text-align: left;
 }
+
 #right {
-	width:510px;
-	background-color: #FFFFFF;
-	padding-right: 14px;
-	float: right;
-	padding-top: 15px;
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #CCCCCC;
-	padding-left: 15px;
-	padding-bottom: 20px;
+    width: 510px;
+    background-color: #FFFFFF;
+    padding-right: 14px;
+    float: right;
+    padding-top: 15px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #CCCCCC;
+    padding-left: 15px;
+    padding-bottom: 20px;
 }
+
 #leftmenu {
-	width:267px;
+    width: 267px;
 }
