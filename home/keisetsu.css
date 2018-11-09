@@ -131,7 +131,7 @@ background:url(http://www.keisetsu.co.jp/image/p_01.gif) no-repeat left top;
 td.text {
 	background-color: #FFFFFF;
 	text-align: left;
-	font-size: 12px;
+	font-size: 15px;
 	line-height: 140%;
 	color: #888888;
 	padding-left: 12px;
@@ -372,4 +372,5 @@ html {font-size: 62.5%!important; /* 10÷16=62.5% */}
 @media only screen and (min-width: 641px){
     html {
         font-size: 125%!important; /* 20÷16=125% */
-    }
+	}
+}
