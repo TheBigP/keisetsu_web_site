@@ -115,7 +115,7 @@
                             </tr>
                             <tr>
                                 <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17"
-                                                           style="margin-bottom: 12px;">会社名・学校名
+                                                           style="margin-bottom: 12px;">学校名
                                 </td>
                                 <td bgcolor="#F8F4F9">
                                     <input class="form-control" name="_会社名・学校名" type="text" id="会社名・学校名">
@@ -125,14 +125,11 @@
                                 <td rowspan="5" bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15"
                                                                        height="17" style="margin-bottom: 12px;">所在地
                                 </td>
-                                <td bgcolor="#F8F4F9">〒
+                                <td bgcolor="#F8F4F9">
+                                    〒
                                     <input class="form-control" name="_郵便番号上3桁" type="text" id="郵便番号上3桁"
-                                           onblur="MM_validateForm('郵便番号上3桁','','NisNum');return document.MM_returnValue"
-                                           size="7" maxlength="6" placeholder="（半角数字）">
-                                    -
-                                    <input class="form-control" name="_郵便番号下4桁" type="text" id="郵便番号下4桁"
-                                           onblur="MM_validateForm('郵便番号下4桁','','NisNum');return document.MM_returnValue"
-                                           size="8" maxlength="8" placeholder="（半角数字）">
+                                           onblur="MM_validateForm('_郵便番号上3桁','','NisNum');return document.MM_returnValue"
+                                           size="6" maxlength="6" placeholder="例：xxx-xxxx（半角数字）">
                                 </td>
                             </tr>
                             <tr>
