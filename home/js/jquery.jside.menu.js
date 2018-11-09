@@ -64,7 +64,6 @@
             tmp = tmp + $(this).outerHeight();
             key.push($(this).outerHeight());
           });
-          console.log("key+++    " + key);
         });
         //遍历该数组可以获取所有值
         //  for (var i = 0 ; i < key.length; i++) {
@@ -75,21 +74,14 @@
         // var h=0;
         // var n = $(".has-sub").find("span:hover + ul li").length;
         // var h = $(".has-sub").find("span:hover + ul li").outerHeight();
-        // console.log("n+++   " + n);
-        // console.log("h+++   " + h);
         // var dropdown = h*n;
-        // console.log("dropdown+++   " + dropdown);
         var todrop = $(".has-sub").find("span:hover + ul");
         var nodrop = $(".has-sub ul");
-        console.log("tmp++++    " + tmp);
         $(todrop).animate({ "height": tmp }, 100);
         $(this).find("i").toggleClass("arrowdown");
-        // console.log("$(todrop).height() ++++    " + $(todrop).height());
-        if ($(todrop).height() == tmp || $(todrop).height() == (tmp + 1)) {
+        if (parseInt($(todrop).height()) == parseInt(tmp) || parseInt($(todrop).height()) == (parseInt(tmp) + 1)) {
           $(todrop).animate({ "height": 0 }, 100);
         }
-        // console.log("$(nodrop).height(dropdown) +++   " + $(nodrop).height(dropdown))
-        // console.log("$(nodrop).height() +++   " + $(nodrop).height())
         if ($(nodrop).height(tmp)) {
           $(nodrop).not(todrop).height(0); $(".dropdown-heading").not(this).find("i").removeClass("arrowdown");
         }
@@ -102,17 +94,12 @@
 
       //close menu if user click outside of it
       $('div').click(function (e) {
-        // alert("dianjile");
         if ($(e.target).closest('.menu-trigger').length) {
-          console.log("++++++" + $(e.target).closest('.menu-trigger').length);
-          // alert("+++    " + $(e.target).closest('.menu-trigger').length);
           return;
         }
         if ($(e.target).closest(jSide).length) {
-          console.log("------" + $(e.target).closest(jSide).length);
           return;
         }
-        // alert("+++    " + $(e.target).closest('.menu-trigger').length);
         $(jSide).removeClass("open");
         if (!$(jSide).hasClass("open")) {
           $(dimBackground).hide();

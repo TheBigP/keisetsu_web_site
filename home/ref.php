@@ -14,13 +14,13 @@
 <link href="./keisetsu.css" rel="stylesheet" type="text/css">
 <link href="./menu.css" rel="stylesheet" type="text/css">
 <link href="./tatemenu.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="./material-design/css/material-design-iconic-font.css"/>
 <link rel="stylesheet" href="./css/jside-menu.css"/>
 <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="./js/jquery.jside.menu.js"></script>
 <script>
     $(document).ready(function () {
@@ -42,3 +42,8 @@
         window.history.forward(1);
     });
 </script>
+<style>
+    .container {
+        max-width: 620px;
+    }
+</style>
