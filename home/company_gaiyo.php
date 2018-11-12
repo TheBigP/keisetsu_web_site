@@ -346,29 +346,7 @@
                 </table>
             </div>
         </div>
-        <div id="footer">
-            <table width="810" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td colspan="2" class="f01"><img src="./image/p_footer.gif" alt="" width="13" height="11"><a
-                                href="./index.php">ＨＯＭＥ</a>　<img src="./image/p_footer.gif" alt="" width="13"
-                                                                 height="11"><a
-                                href="prdt_serv.php">製品&amp;サービス</a>　<img src="./image/p_footer.gif" alt="" width="13"
-                                                                          height="11"><a
-                                href="jigyosyo.php">事業所紹介</a>　<img src="./image/p_footer.gif" alt="" width="13"
-                                                                   height="11"><a href="iso.php">ＩＳＯの取り組み</a>　<img
-                                src="./image/p_footer.gif" alt="" width="13" height="11"><a href="recruite.php">採用情報</a>　<img
-                                src="./image/p_footer.gif" alt="" width="13" height="11"><a href="company.php">会社案内</a>　<img
-                                src="./image/p_footer.gif" alt="" width="13" height="11"><a
-                                href="sitemap.php">サイトマップ</a>　<img src="./image/p_footer.gif" alt="" width="13"
-                                                                   height="11"><a
-                                href="https://keisetsu.co.jp/postmail2/postmail.php">お問い合わせ</a></td>
-                </tr>
-                <tr>
-                    <td class="f02"><a href="privacy.php">個人情報保護について</a></td>
-                    <td align="right" class="f02">Copyright (C) 2007 Keisetsu.co.,ltd All Rights Reserved.</td>
-                </tr>
-            </table>
-        </div>
+        <?php include 'footer.php'; ?>
     </div>
 </div>
 </body>

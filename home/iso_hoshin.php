@@ -1,14 +1,14 @@
-<?php header('Content-type: text/html; charset=utf-8'); ?>
+<?php header('Content-type: text/html; charset=utf-8');?>
 <!DOCTYPE html>
 <html lang="ja">
 
 
 <head>
-    <?php include 'ref.php'; ?>
+    <?php include 'ref.php';?>
 </head>
 
 <body style="padding-top:  60px;">
-<?php include 'header.php'; ?>
+<?php include 'header.php';?>
 <div class="container">
     <div class="row" style="font-size: 1.2rem;">
         <div class="col-sm-12">
@@ -61,7 +61,7 @@
                             </ol>
                         </td>
                     </tr>
-                    <?php include 'time.php'; ?>
+                    <?php include 'time.php';?>
                     </tbody>
                 </table>
                 <div>
@@ -77,14 +77,14 @@
                                 </ol>
                             </td>
                         </tr>
-                        <?php include 'time.php'; ?>
+                        <?php include 'time.php';?>
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
-    <?php include 'footer.php'; ?>
+    <?php include 'footer.php';?>
 </div>
 </body>
 

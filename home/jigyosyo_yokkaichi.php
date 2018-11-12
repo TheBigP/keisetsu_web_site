@@ -29,7 +29,7 @@
                             </colgroup>
                             <tbody>
                             <tr>
-                                <th bgcolor="#FFFFFF" style="font-size:15px" width="20%"><img src="./image/p_2.gif"
+                                <th bgcolor="#FFFFFF" style="font-size:15px" width="30%"><img src="./image/p_2.gif"
                                                                                               alt="" width="9"
                                                                                               height="10">所在地
                                 </th>

@@ -25,7 +25,7 @@
                            width="100%">
                         <tbody>
                         <tr>
-                            <th bgcolor="#F8F4F9" style="font-size:15px" width="25%"><img src="./image/p_2.gif" alt=""
+                            <th bgcolor="#F8F4F9" style="font-size:15px" width="30%"><img src="./image/p_2.gif" alt=""
                                                                                           width="9" height="10">募集職種
                             </th>
                             <td colspan="2" bgcolor="#FFFFFF" style="font-size:15px">
@@ -72,7 +72,7 @@
                     </colgroup> -->
                     <tbody>
                     <tr>
-                        <th bgcolor="#F8F4F9" style="font-size:15px" width="25%"><img src="./image/p_2.gif" alt=""
+                        <th bgcolor="#F8F4F9" style="font-size:15px" width="30%"><img src="./image/p_2.gif" alt=""
                                                                                       width="9" height="10">初任給
                         </th>
                         <td bgcolor="#FFFFFF" style="font-size:15px">大卒院卒204,900／大卒200,700円<br>
@@ -151,7 +151,7 @@
                            bgcolor="#CCCCCC">
                         <tbody>
                         <tr>
-                            <th bgcolor="#F8F4F9" style="font-size:15px" width="25%"><img src="./image/p_2.gif" alt=""
+                            <th bgcolor="#F8F4F9" style="font-size:15px" width="30%"><img src="./image/p_2.gif" alt=""
                                                                                           width="9" height="10">応募方法
                             </th>
                             <td bgcolor="#FFFFFF" style="font-size:15px">応募フォームよりエントリーしてください。　<a
@@ -211,7 +211,7 @@
                            bgcolor="#CCCCCC">
                         <tbody>
                         <tr>
-                            <td bgcolor="#F8F4F9" style="font-size:15px" width="25%"><img src="./image/p_2.gif" alt=""
+                            <td bgcolor="#F8F4F9" style="font-size:15px" width="30%"><img src="./image/p_2.gif" alt=""
                                                                                           width="9" height="10">所在地
                             </td>
                             <td bgcolor="#FFFFFF" style="font-size:15px">〒&nbsp;275-0024　千葉県習志野市茜浜1-2-6</td>
