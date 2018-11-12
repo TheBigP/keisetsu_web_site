@@ -23,10 +23,6 @@
                     <tr>
                         <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1"
                                bgcolor="#CCCCCC">
-                            <colgroup>
-                                <col width="70">
-                                <col width="440">
-                            </colgroup>
                             <tbody>
                             <tr>
                                 <th bgcolor="#FFFFFF" style="font-size:15px" width="30%"><img src="./image/p_2.gif"

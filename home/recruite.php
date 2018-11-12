@@ -145,7 +145,7 @@
                                                             height="27" border="0"></a>
                 </div>
                 <div style="overflow:auto">
-                    <img src="./image/minibn_oubonagare.gif" alt="アプリケーションソフト開発エンジニア募集要項　※実務未経験者も歓迎">
+                    <a name="obo1"><img src="./image/minibn_oubonagare.gif" alt="アプリケーションソフト開発エンジニア募集要項　※実務未経験者も歓迎"></a>
                     <img src="./image/futoji_shigotonaiyo.gif" alt="仕事内容" width="300" height="36">
                     <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1"
                            bgcolor="#CCCCCC">

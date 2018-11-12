@@ -251,13 +251,13 @@
                     </tbody>
                 </table>
                 <div align="center" class="under10" style="margin-top:10px;margin-bottom:10px">
-                    <a href="postmail.php" class="entrybt"></a>
+                    <a href="recruite_kojin.php" class="entrybt"></a>
                 </div>
                 <div align="right" style="margin-top:1.5rem">
                     <a href="#top" class="back-to-top"><img src="./image/pagetop.gif" alt="このページの先頭へ" border="0"></a>
                 </div>
                 <div>
-                    <img src="./image/minibn_oubonagare.gif" alt="応募方法と選考の流れ">
+                    <a name="obo2"><img src="./image/minibn_oubonagare.gif" alt="応募方法と選考の流れ"></a>
                 </div>
                 <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1"
                        bgcolor="#CCCCCC">

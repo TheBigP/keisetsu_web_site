@@ -54,9 +54,9 @@
                 採用情報 </span>
             <ul align="left">
                 <li><a href="recruite.php" style="padding-left:75px">新卒採用情報 </a></li>
-                <li><a href="#obo1" style="padding-left:75px">応募方法・選考の流れ（新卒） </a></li>
+                <li><a href="recruite.php#obo1" style="padding-left:75px" class="recuit_obo1">応募方法・選考の流れ（新卒） </a></li>
                 <li><a href="recruite_career.php" style="padding-left:75px">キャリア採用情報 </a></li>
-                <li><a href="recruite_career.php" style="padding-left:75px">応募方法・選考の流れ（キャリア） </a></li>
+                <li><a href="recruite_career.php#obo2" style="padding-left:75px" class="recuit_obo2">応募方法・選考の流れ（キャリア） </a></li>
                 <li><a href="recruite_kojin.php" style="padding-left:75px">エントリーフォーム </a></li>
                 <li><a href="recruite_interview.php" style="padding-left:75px">社員インタビュー </a></li>
             </ul>
