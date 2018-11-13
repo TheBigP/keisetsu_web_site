@@ -1,10 +1,10 @@
 <menu class="menubar">
     <menuitem>
-        <button class="menu-trigger"></button>
+    <button class="menu-trigger"></button>
     </menuitem>
 
     <menuitem class="logo" title="Your Logo Goes Here">
-        <a href="index.php" style="color:white">京設工業株式会社</a>
+    <a href="index.php" style="color:white">京設工業株式会社</a>
     </menuitem>
 </menu>
 
@@ -12,7 +12,7 @@
 <div class="menu-head">
     <span class="layer">
         <div>
-            <img src="./image/rogo.gif" alt="京設工業株式会社"/>
+            <img src="./image/rogo.gif" alt="京設工業株式会社" />
         </div>
         <!--//col-->
     </span>

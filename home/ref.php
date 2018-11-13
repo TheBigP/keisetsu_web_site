@@ -16,14 +16,14 @@
 <link href="./tatemenu.css" rel="stylesheet" type="text/css">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="./material-design/css/material-design-iconic-font.css"/>
-<link rel="stylesheet" href="./css/jside-menu.css"/>
+<link rel="stylesheet" href="./material-design/css/material-design-iconic-font.css" />
+<link rel="stylesheet" href="./css/jside-menu.css" />
 <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
 <script src="./js/jquery.jside.menu.js"></script>
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
 
         $(".menu-container").jSideMenu({
             jSidePosition: "position-left", //possible options position-left or position-right
@@ -33,7 +33,7 @@
             jSideSkin: "default-skin", // to apply custom skin, just put its name in this string
         });
         if (window.history && window.history.pushState) {
-            $(window).on('popstate', function () {
+            $(window).on('popstate', function() {
                 window.history.pushState('forward', null, '#');
                 window.history.forward(1);
             });
