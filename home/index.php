@@ -15,7 +15,14 @@
                 <div class="col-sm-4" style="padding-right:0%;padding-bottom:0%;padding-left:0%">
                     <img src="./image/line_3contents.gif" alt="" width="100%" height="5">
                     <div class="pdserv" style="font-size:15px"><img src="./image/mida_01.gif" alt="製品＆サービス" width="125"
-                                                                    height="46"><br>コンピューター・ソフトウェア開発、ソフトウェア検証、機械設計、電気設計、デザイン、技術者派遣事業という５つの部門でみなさまにご提案・ご提供いたしております。
+                                                                    height="46">
+                        <table border="0" cellpadding="3" cellspacing="0">
+                            <tbody>
+                            <tr>
+                                <td>コンピューター・ソフトウェア開発、ソフトウェア検証、機械設計、電気設計、デザイン、技術者派遣事業という５つの部門でみなさまにご提案・ご提供いたしております。</td>
+                            </tr>
+                            </tbody>
+                        </table>
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item">
                                 <a href="prdt_serv.php"><img src="./image/bt_syosai.gif" alt="製品・サービスについて詳しくはこちら"
@@ -26,10 +33,19 @@
                 </div>
                 <div class="col-sm-4" style="padding-right:0%;padding-left:0%">
                     <img src="./image/line_3contents_right.gif" alt="" width="100%" height="5">
-                    <div class="recruit" style="font-size:15px"><img src="./image/mida_02.gif" alt="採用情報" width="100"
-                                                                     height="46"><br>京設工業では、ソフトウェア開発、
-                        機械設計、電気・電子回路設計、
-                        プラスティック容器設計、DTP技術者 などの募集をしております。
+                    <div class="recruit" style="font-size:15px;"><img src="./image/mida_02.gif" alt="採用情報" width="100"
+                                                                      height="46">
+                        <table border="0" cellpadding="3" cellspacing="0">
+                            <tbody>
+                            <tr>
+                                <td>京設工業では、ソフトウェア開発、<br>
+                                    機械設計、電気・電子回路設計、<br>
+                                    プラスティック容器設計、DTP技術者<br>
+                                    などの募集をしております。
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item">
                                 <a href="recruite.php"><img src="./image/bt_syosai.gif" alt="採用について詳しくはこちら" width="86"
@@ -41,9 +57,18 @@
                 <div class="col-sm-4" style="padding-right:0%;padding-left:0%">
                     <img src="./image/line_3contents_right.gif" alt="" width="100%" height="5">
                     <div class="entry" style="font-size:15px"><img src="./image/mida_03.gif" alt="エントリー" width="100"
-                                                                   height="46"><br>「常に新しいものを求め、変化を
-                        恐れず、変化を楽しむ」
-                        という 企業カルチャーを持つ京設工業 で一緒に働きませんか？
+                                                                   height="46">
+                        <table border="0" cellpadding="3" cellspacing="0">
+                            <tbody>
+                            <tr>
+                                <td>「常に新しいものを求め、変化を<br>
+                                    恐れず、変化を楽しむ」 という<br>
+                                    企業カルチャーを持つ京設工業<br>
+                                    で一緒に働きませんか？
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item">
                                 <a href="recruite_kojin.php"><img src="./image/bt_syosai.gif" alt="エントリーについて詳しくはこちら"
@@ -60,7 +85,7 @@
             <div id="left">
                 <table border="2" cellpadding="12" cellspacing="2" bgcolor="#210063">
                     <tr>
-                        <td bgcolor="#F4F3F9" style="font-size:15px" class="f_violet">
+                        <td bgcolor="#F4F3F9" style="font-size:15px;padding: 12px;" class="f_violet">
                             この度の熊本地震により被災されました方々に、心よりお見舞い申し上げます。
                             また、被災地の一日も早い復興を心よりお祈りいたします。
                         </td>
