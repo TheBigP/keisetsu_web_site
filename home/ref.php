@@ -14,36 +14,80 @@
 <link href="./keisetsu.css" rel="stylesheet" type="text/css">
 <link href="./menu.css" rel="stylesheet" type="text/css">
 <link href="./tatemenu.css" rel="stylesheet" type="text/css">
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
 <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="./material-design/css/material-design-iconic-font.css" />
 <link rel="stylesheet" href="./css/jside-menu.css" />
 <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
-<script src="./js/jquery.jside.menu.js"></script>
-<script>
-    $(document).ready(function() {
 
-        $(".menu-container").jSideMenu({
-            jSidePosition: "position-left", //possible options position-left or position-right
+<!-- 新增内容 -->
+<!-- Our Custom CSS -->
+<link rel="stylesheet" href="style3.css">
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
-            jSideSticky: true, // menubar will be fixed on top, false to set static
+<!-- Font Awesome JS -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+<!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-            jSideSkin: "default-skin", // to apply custom skin, just put its name in this string
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#sidebar").mCustomScrollbar({
+            theme: "minimal"
         });
-        if (window.history && window.history.pushState) {
-            $(window).on('popstate', function() {
-                window.history.pushState('forward', null, '#');
-                window.history.forward(1);
-            });
+
+        $('#dismiss, .container').on('click', function () {
+            $('#sidebar').removeClass('active');
+            $('.container').removeClass('active');
+        });
+
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').addClass('active');
+            $('.container').addClass('active');
+            $('.collapse.in').toggleClass('in');
+            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+    });
+    $(function(){
+        pushHistory();
+        var state;
+        window.addEventListener("hashchange", function(e) {
+            // alert("我监听到了浏览器的返回按钮事件啦" + e.oldURL + "    " + e.newURL);//根据自己的需求实现自己的功能
+            var num = e.newURL.indexOf('#');
+            var str = e.newURL.substring(num);
+            if(window.location.hash){
+                $('#sidebar').removeClass('active');
+                $('.container').removeClass('active');
+                return;
+            }
+            history.go(-1);
+        }, false);
+        function pushHistory() {
+            state = {
+                title: "title",
+                url: ""
+            };
+            window.history.pushState(state, "title", "#");
         }
-        window.history.pushState('forward', null, '#'); //在IE中必须得有这两行
-        window.history.forward(1);
     });
 </script>
 <style>
     .container {
-        max-width: 620px;
+        max-width: 540px;
     }
 </style>

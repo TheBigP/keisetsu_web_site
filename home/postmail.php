@@ -1,9 +1,9 @@
-<?php header('Content-type: text/html; charset=utf-8'); ?>
+<?php header('Content-type: text/html; charset=utf-8');?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-    <?php include 'ref.php'; ?>
+    <?php include 'ref.php';?>
 
     <script type="text/JavaScript">
 
@@ -53,7 +53,7 @@
 </head>
 
 <body style="padding-top:60px;font-size:15px">
-    <?php include 'header.php'; ?>
+    <?php include 'header.php';?>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -238,7 +238,7 @@
                 </div>
             </div>
         </div>
-        <?php include 'footer.php'; ?>
+        <?php include 'footer.php';?>
     </div>
 </body>
 

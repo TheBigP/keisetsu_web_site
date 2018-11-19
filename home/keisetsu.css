@@ -1,7 +1,7 @@
 body {
 	text-align: center;
 	margin: 0px;
-	padding-top:  60px;
+	padding-top:  30px;
 	background-color: white;
 	font-size: 12px;
 	line-height: 150%;
@@ -70,12 +70,12 @@ h3 {
 	font-size: 12px;
 }
 a:link {
-	color: #666666;
+	color: #EBE8F2;
 	text-decoration: none;
 }
 a:visited {
 	text-decoration: none;
-	color: #666666;
+	color: #EBE8F2;
 }
 a:hover {
 	text-decoration: underline;
@@ -325,6 +325,7 @@ td.under150 {
 }
 #left {
 	padding-left: 0%;
+	padding-top: 0;
 }
 .under10kasen {
 	padding-bottom: 10px;
@@ -381,4 +382,7 @@ html {font-size: 62.5%!important; /* 10÷16=62.5% */}
     html {
         font-size: 125%!important; /* 20÷16=125% */
 	}
+}
+.container {
+	padding-top: 30px;
 }
