@@ -26,7 +26,7 @@
                             システム・ソフト開発事業部では、主な業務として、デジタルサイネージで使用されるネットワークプレーヤーやデータプロジェクター、ビデオ会議システム等のファームウェア/制御用アプリケーションソフトウェア開発や検証、産業・流通系現場システムの開発、及び各種民生機器制御用ソフトウェアの開発等を行っています。蓄積された確かな技術と柔軟で豊かな創造性を活かし、多様なニーズに応え続けることにより、お客様から高い信頼を頂いています。<br>
                             <br>
                             <span class="bluegreen">●</span> 各種アプリケーション・ソフトウェアの開発 <br>
-                            <span class="bluegreen">●</span> システム・ソフトウェアの開発（Windows,Linux,UNIX,etc）<br>
+                            <span class="bluegreen">●</span> システム・ソフトウェアの開発  &nbsp&nbsp&nbsp（Windows,Linux,UNIX,etc）<br>
                             <span class="bluegreen">●</span> 各種制御用ソフトウェアの開発<br>
                             <span class="bluegreen">●</span> ソフトウェアの検証
                         </td>
@@ -42,7 +42,7 @@
                             <br>
                             <span class="bluegreen">●</span> プラスチック製品・容器の設計<br> 　　　<span style="font-size: 13px">化粧品・日用品・食品等の製品・容器</span>
                             <br>
-                            <span class="bluegreen">●</span> 印刷デザイン・ＤＴＰ業務（写植・版下・レタリング）<br> 　　　<span style="font-size: 13px">化粧品・日用品・食品等の製品・容器</span>
+                            <span class="bluegreen">●</span> 印刷デザイン・ＤＴＰ業務<br>&nbsp&nbsp&nbsp（写植・版下・レタリング）<br> 　　　<span style="font-size: 13px">化粧品・日用品・食品等の製品・容器</span>
                         </td>
                     </tr>
                     <tr>
@@ -53,8 +53,18 @@
                             <p>機械設計部門は、経験と確かな実績に培われたベテランと、フレッシュで熱意あふれた若手パワーが団結し、Creo（Pro/E）、iCAD SX、iCAD
                                 MX等を用いて3D-CAD設計の実践業務を行うとともに、積極的な教育体制を確立し、お客様より高い信頼を頂いています。3D-CAD設計は、多人数のチームで共同設計することにより開発パフォーマンスが上がり、また、試作段階までPC上で行うことができ、人と環境保全に配慮した省エネ・省資源の地球に優しい製品の開発設計を可能にしています。<br>
                                 <br>
-                                <span class="bluegreen">● </span>機械・電気機器の開発設計（２次元、３次元ＣＡＤ）<br>
-                                自動販売機、フード機器、コールドチェーン機器（ショーケース）<br> 　　　<span style="font-size: 13px">駆動制御機器（汎用インバータ、サーボシステム、モータ等）、自動化機器、等</span>
+                                <table>
+                                    <tr style="vertical-align: top;">
+                                        <td>
+                                            <span class="bluegreen">● </span>
+                                        </td>
+                                        <td>
+                                            機械・電気機器の開発設計（２次元、３次元ＣＡＤ）
+                                            自動販売機、フード機器、コールドチェーン機器（ショーケース）
+                                            駆動制御機器（汎用インバータ、サーボシステム、モータ等）、自動化機器、等
+                                        </td>
+                                    </tr>
+                                </table>
                             </p>
                         </td>
                     </tr>

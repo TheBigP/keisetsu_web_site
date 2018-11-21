@@ -3,11 +3,11 @@
 <html lang="ja">
 
 
-<head class="bs-docs-nav navbar navbar-static-top" id="top">
+<head class="bs-docs-nav navbar navbar-static-top">
     <?php include 'ref.php';?>
 </head>
 
-<body>
+<body id="top">
     <?php include 'header.php';?>
     <div class="container">
         <div class="row">
@@ -38,10 +38,21 @@
                                 <tr>
                                     <th rowspan="2" bgcolor="#F8F4F9" style="font-size:15px"><img src="./image/p_2.gif" alt="" width="9" height="10">募集学科
                                     </th>
-                                    <td bgcolor="#FFFFFF" v>
-                                        <p class="gyokan" style="font-size:15px"><img src="./image/p_1.gif" alt="" width="10" height="6">ソフトウェア開発</p>
-                                        <p class="gyokan" style="font-size:15px"><img src="./image/p_1.gif" alt="" width="10" height="6">DTP技術者</p>
-                                        <p class="gyokan" style="font-size:15px"><img src="./image/p_1.gif" alt="" width="10" height="6">プラスティック容器設計</p>
+                                    <td bgcolor="#FFFFFF" width="45%">
+                                        <div class="container" style="padding-top: 0">
+                                            <div class="row">
+                                                <div class=".col-xs-6 .col-md-4"><img src="./image/p_1.gif" alt="" width="10" height="6"></div>
+                                                <div class=".col-xs-12 .col-sm-6 .col-md-8"><p class="gyokan" style="font-size:15px">ソフトウェア開発</p></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class=".col-xs-6 .col-md-4"><img src="./image/p_1.gif" alt="" width="10" height="6"></div>
+                                                <div class=".col-xs-12 .col-sm-6 .col-md-8"><p class="gyokan" style="font-size:15px">DTP技術者</p></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class=".col-xs-4 .col-md-4"><img src="./image/p_1.gif" alt="" width="10" height="6"></div>
+                                                <div class=".col-xs-8 .col-sm-6 .col-md-8" style="width: 90%;"><p class="gyokan" style="font-size:15px">プラスティック容器設計</p></div>
+                                            </div>
+                                        </div>
                                     </td>
                                     <td bgcolor="#FFFFFF" style="font-size:15px;line-height:800%">全学科</td>
                                 </tr>

@@ -67,7 +67,7 @@
                         <tbody>
                             <tr>
                                 <td class="top10">京設工業株式会社へのご質問お問い合わせは、下記のフォームより必要事項をご入力後、送信ください。後日、こちらからご連絡いたします。<font color="#FF3300">記入項目はすべて必須です。</font><br>
-                                    お問い合わせの際、収集させていただく個人情報の取り扱いについては<a href="http://www.keisetsu.co.jp/html/privacy.html" target="_blank"><u>こちら</u></a>をご確認下さい。
+                                    お問い合わせの際、収集させていただく個人情報の取り扱いについては<a href="http://www.keisetsu.co.jp/html/privacy.html" target="_blank"><u style="color: #0f0f0f">こちら</u></a>をご確認下さい。
                                 </td>
                             </tr>
                         </tbody>
@@ -77,7 +77,7 @@
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered">
                                 <tbody>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" width="30%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="margin-bottom: 12px;">お問合せ内容
+                                        <td bgcolor="#FFFFFF" width="30%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>お問合せ内容</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             <select class="form-control" name="_お問合せ内容" id="お問合せ内容">
@@ -89,7 +89,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" width="35%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="margin-bottom: 12px;">氏　　名
+                                        <td bgcolor="#FFFFFF" width="35%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>氏　　名</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             <input class="form-control" name="_氏名/姓" type="text" id="氏名/姓" size="15" placeholder="姓">
@@ -97,7 +97,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="margin-bottom: 12px;">フリガナ
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>フリガナ</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             <input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ/姓" placeholder="姓（全角カタカナ）">
@@ -105,14 +105,14 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="margin-bottom: 12px;">学校名
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>学校名</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             <input class="form-control" name="_会社名・学校名" type="text" id="会社名・学校名">
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="5" bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="margin-bottom: 12px;">所在地
+                                        <td rowspan="5" bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>所在地</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             〒
@@ -189,21 +189,21 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="margin-bottom: 12px;">電話番号
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>電話番号</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号" type="text" id="電話番号">
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="margin-bottom: 12px;">メールアドレス
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>メールアドレス</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             <input class="form-control" placeholder="（半角数字）" name="_email" type="text" id="email">
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="margin-bottom: 12px;">お問合せ詳細
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>お問合せ詳細</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             <textarea class="form-control" placeholder="出来るだけ詳しくご記入ください。" name="_お問合せ詳細" cols="40" rows="5" id="textarea3"></textarea>
