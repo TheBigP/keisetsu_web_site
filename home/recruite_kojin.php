@@ -62,9 +62,9 @@
                     </div>
                     <div align="center" class="under10" style="margin-bottom:1rem">
                         <form name="form1" method="post" action="">
-                            <input style="font-size:15px" type="button" name="Submit32" value="同意する" onclick="location.href='postmail.php'">
+                            <input style="font-size:15px;width: 30%;text-align: center" type="button" name="Submit32" value="同意する" onclick="location.href='postmail_link.php'">
 
-                            <input style="font-size:15px" type="reset" name="Submit222" value="同意しない" onclick="javascript:history.go(-1)">
+                            <input style="font-size:15px;width: 30%;text-align: center" type="reset" name="Submit222" value="同意しない" onclick="javascript:history.go(-1)">
                         </form>
                     </div>
                 </div>

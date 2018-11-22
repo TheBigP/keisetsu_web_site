@@ -1,9 +1,9 @@
-<?php header('Content-type: text/html; charset=utf-8');?>
+<?php header('Content-type: text/html; charset=utf-8'); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-    <?php include 'ref.php';?>
+    <?php include 'ref.php'; ?>
 
     <script type="text/JavaScript">
 
@@ -53,7 +53,7 @@
 </head>
 
 <body style="padding-top:60px;font-size:15px">
-    <?php include 'header.php';?>
+    <?php include 'header.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -61,13 +61,15 @@
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <td class="under10"><img src="./image/bn_contact.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%"></td>
+                                <td class="under10"><img src="./image/bn_rec_entry.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%">
+                                </td>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="top10">京設工業株式会社へのご質問お問い合わせは、下記のフォームより必要事項をご入力後、送信ください。後日、こちらからご連絡いたします。<font color="#FF3300">記入項目はすべて必須です。</font><br>
-                                    お問い合わせの際、収集させていただく個人情報の取り扱いについては<a href="http://www.keisetsu.co.jp/html/privacy.html" target="_blank"><u style="color: #0f0f0f">こちら</u></a>をご確認下さい。
+                                <td>
+                                    同意いただきありがとうございます。こちらは採用希望のエントリーフォームです。下記のフォームに、必要事項をご入力後、送信ください。後日、こちらからご連絡いたします。ご応募いただいた個人情報は採用に関する事柄のみに使用し、その他には利用いたしません。<br>
+                                    <font color="#FF3300">紫の項目（<img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial">マーク）は必須です。</font>
                                 </td>
                             </tr>
                         </tbody>
@@ -77,14 +79,31 @@
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered">
                                 <tbody>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" width="30%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>お問合せ内容</span>
+                                        <td bgcolor="#FFFFFF" width="30%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>採用区分</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <select class="form-control" name="_お問合せ内容" id="お問合せ内容">
-                                                <option>---お選びください---</option>
-                                                <option value="企業情報について">企業情報について</option>
-                                                <option value="採用情報について">採用情報について</option>
-                                                <option value="その他">その他</option>
+                                            <input name="_応募区分" type="radio" value="新卒">
+                                            新卒　　
+                                            <input name="_応募区分" type="radio" value="キャリア">
+                                            キャリア
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="#FFFFFF" width="30%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>希望職種</span>
+                                        </td>
+                                        <td bgcolor="#F8F4F9">
+                                            <select class="form-control" name="_希望職種" id="希望職種">
+                                                <option selected="">希望の職種をお選びください。</option>
+                                                <option>-----新卒採用-----</option>
+                                                <option value="新卒-ソフトウェア開発">新卒-ソフトウェア開発</option>
+                                                <option value="新卒-機械設計">新卒-機械設計</option>
+                                                <option value="新卒-電気･電子回路設計">新卒-電気･電子回路設計</option>
+                                                <option value="新卒-プラスティック容器設計">新卒-プラスティック容器設計</option>
+                                                <option value="新卒-DTP技術者">新卒-DTP技術者</option>
+                                                <option>-----キャリア採用-----</option>
+                                                <option value="キャリア-ソフトウェア開発エンジニア">キャリア-ソフトウェア開発エンジニア</option>
+                                                <option value="キャリア-アプリケーションソフト開発エンジニア">キャリア-アプリケーションソフト開発エンジニア</option>
+                                                <option value="キャリア-機械設計エンジニア">キャリア-機械設計エンジニア</option>
                                             </select>
                                         </td>
                                     </tr>
@@ -105,10 +124,24 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>学校名</span>
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial">
+                                            <span>生年月日</span></td>
+                                        <td bgcolor="#F8F4F9" class="note"> 西暦
+                                            <input class="form-control" name="_生年月日/年" type="text" id="生年月日/年" size="8" placeholder="年">
+
+                                            <input class="form-control" name="_生年月日/月" type="text" id="生年月日/月" size="4" placeholder="月">
+
+                                            <input class="form-control" name="_生年月日/日" type="text" id="生年月日/日" size="4" placeholder="日">
+                                            <font color="#FF3300">（半角数字）</font>
                                         </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>性　　別</span></td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" name="_会社名・学校名" type="text" id="会社名・学校名">
+                                            <input name="_性別" type="radio" value="男性">
+                                            男性　　
+                                            <input name="_性別" type="radio" value="女性">
+                                            女性
                                         </td>
                                     </tr>
                                     <tr>
@@ -116,12 +149,12 @@
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             〒
-                                            <input class="form-control" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" onblur="MM_validateForm('_郵便番号上3桁','','NisNum');return document.MM_returnValue" size="6" maxlength="6" placeholder="例：xxx-xxxx（半角数字）">
+                                            <input class="form-control" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" onblur="MM_validateForm('郵便番号上3桁','','NisNum');return document.MM_returnValue" size="3" maxlength="3" placeholder="例：xxx-xxxx（半角数字）">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <select name="_所在地/都道府県" class="form-control" id="所在地/都道府県">
+                                            <select name="_住所/都道府県" class="form-control" id="住所/都道府県">
                                                 <option value="" selected="">都道府県</option>
                                                 <option value="北海道">北海道</option>
                                                 <option value="青森県">青森県</option>
@@ -175,24 +208,31 @@
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・市区町村" name="_所在地/市区町村" type="text" id="所在地/市区町村" size="15">
+                                            <input class="form-control" placeholder=" ・市区町村" name="_住所/市区町村" type="text" id="住所/市区町村" size="15">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・番地ほか" name="_所在地/番地ほか" type="text" id="所在地/番地ほか" size="15">
+                                            <input class="form-control" placeholder=" ・番地ほか" name="_住所/番地ほか" type="text" id="住所/番地ほか" size="15">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・建物名" name="所在地/アパートマンション名" type="text" id="所在地/アパートマンション名" size="15">
+                                            <input class="form-control" placeholder=" ・アパートマンション名" name="住所/アパートマンション名" type="text" id="住所/アパートマンション名" size="40">
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>電話番号</span>
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>電話番号【自宅】</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号" type="text" id="電話番号">
+                                            <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号【自宅】" type="text" id="電話番号【自宅】">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>電話番号【携帯】</span>
+                                        </td>
+                                        <td bgcolor="#F8F4F9">
+                                            <input class="form-control" placeholder="例：090-3333-3333 （半角数字）" name="_電話番号【携帯】" type="text" id="電話番号【携帯】">
                                         </td>
                                     </tr>
                                     <tr>
@@ -203,10 +243,54 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>お問合せ詳細</span>
+                                        <td rowspan="5" bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>最終学歴</span>
                                         </td>
+                                        <td bgcolor="#F8F4F9">在学中の方は、在学している学校名と卒業見込み年度をご入力下さい。</td>
+                                    </tr>
+                                    <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <textarea class="form-control" placeholder="出来るだけ詳しくご記入ください。" name="_お問合せ詳細" cols="40" rows="5" id="textarea3"></textarea>
+                                            <input class="form-control" placeholder="・学校名" name="_最終学歴/学校名" type="text" id="最終学歴/学校名">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="#F8F4F9">
+                                            <input class="form-control" placeholder="・学部名" name="_最終学歴/学部名" type="text" id="最終学歴/学部名">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="#F8F4F9">
+                                            <input class="form-control" placeholder="・学科名" name="_最終学歴/学科名" type="text" id="最終学歴/学科名">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="#F8F4F9" style="vertical-align: unset">・卒業年度　西暦
+                                            <input class="form-control" width="10%" placeholder="（半角数字）" style="display: inline;width: 30%;" name="_卒業年度" type="text" id="卒業年度" size="8">
+                                            年度
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table width="100%" style="margin-bottom: 5%;margin-top: 5%" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center"> ここまでは、必須項目です。記入漏れはございませんか？<br>
+                                            以下の項目は任意ですので、ご自由にご記入ください。
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td class="hyo" width="35%"><img src="./image/p_3green.gif" alt="" width="15" height="17" style="vertical-align: initial">資格・技能・職歴等</td>
+                                        <td bgcolor="#E0EBED">
+                                            <textarea class="form-control" name="資格・技能・職歴など" cols="40" rows="5" id="資格・技能・職歴など"></textarea>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="note"><img src="./image/p_3green.gif" alt="" width="15" height="17" style="vertical-align: initial">その他</td>
+                                        <td bgcolor="#E0EBED">
+                                            <textarea class="form-control" name="その他" cols="40" rows="5" id="textarea2">自己PR・ご質問・希望条件等ありましたらご記入ください。</textarea>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -217,7 +301,7 @@
                                 <tbody>
                                     <tr>
                                         <td align="center">
-                                            <input type="submit" name="Submit" style="width: 23%" value="送信">
+                                            <input type="submit" name="Submit" style="width: 23%" value="確認画面へ">
 
                                             <input type="reset" name="Submit2" style="width: 23%" value="リセット">
                                         </td>
@@ -231,14 +315,14 @@
                             <tr>
                                 <td width="90"><img src="./image/rapidssl_ssl_certificate.gif" alt="" width="90" height="50">
                                 </td>
-                                <td width="380">当サイトでは、皆さまの個人情報を保護するために、個人情報入力ページにおいてSSL暗号化通信を採用しています。</td>
+                                <td width="380"> 当サイトでは、皆さまの個人情報を保護するために、個人情報入力ページにおいてSSL暗号化通信を採用しています。</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
-        <?php include 'footer.php';?>
+        <?php include 'footer.php'; ?>
     </div>
 </body>
 

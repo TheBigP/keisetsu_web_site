@@ -42,15 +42,21 @@
                                         <div class="container" style="padding-top: 0">
                                             <div class="row">
                                                 <div class=".col-xs-6 .col-md-4"><img src="./image/p_1.gif" alt="" width="10" height="6"></div>
-                                                <div class=".col-xs-12 .col-sm-6 .col-md-8"><p class="gyokan" style="font-size:15px">ソフトウェア開発</p></div>
+                                                <div class=".col-xs-12 .col-sm-6 .col-md-8">
+                                                    <p class="gyokan" style="font-size:15px">ソフトウェア開発</p>
+                                                </div>
                                             </div>
                                             <div class="row">
                                                 <div class=".col-xs-6 .col-md-4"><img src="./image/p_1.gif" alt="" width="10" height="6"></div>
-                                                <div class=".col-xs-12 .col-sm-6 .col-md-8"><p class="gyokan" style="font-size:15px">DTP技術者</p></div>
+                                                <div class=".col-xs-12 .col-sm-6 .col-md-8">
+                                                    <p class="gyokan" style="font-size:15px">DTP技術者</p>
+                                                </div>
                                             </div>
                                             <div class="row">
                                                 <div class=".col-xs-4 .col-md-4"><img src="./image/p_1.gif" alt="" width="10" height="6"></div>
-                                                <div class=".col-xs-8 .col-sm-6 .col-md-8" style="width: 90%;"><p class="gyokan" style="font-size:15px">プラスティック容器設計</p></div>
+                                                <div class=".col-xs-8 .col-sm-6 .col-md-8" style="width: 90%;">
+                                                    <p class="gyokan" style="font-size:15px">プラスティック容器設計</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </td>

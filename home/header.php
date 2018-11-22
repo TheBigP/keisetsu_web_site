@@ -1,9 +1,9 @@
 <div class="wrapper">
     <!-- Sidebar  -->
-    <nav id="sidebar" >
+    <nav id="sidebar">
 
         <div class="sidebar-header" style="padding: 0">
-            <img width="100%" src="./image/rogo.gif" alt="京設工業株式会社"/>
+            <img width="100%" src="./image/rogo.gif" alt="京設工業株式会社" />
         </div>
 
         <ul class="list-unstyled" style="font-size: 14px;">
@@ -71,8 +71,7 @@
     <!-- Page Content  -->
     <nav class="navbar navbar-expand-lg menubar sticky default-skin" id="navbar-example2">
         <div class="container-fluid">
-            <button type="button" id="sidebarCollapse" class="btn btn-info">
-                <i class="fas fa-align-left"></i>
+            <button type="button" id="sidebarCollapse" class="menu-trigger left" style="line-height: 50">
                 <span></span>
             </button>
             <a href="index.php" style="color:white;font-size:25px;margin-left: auto;margin-right: auto">京設工業株式会社</a>
