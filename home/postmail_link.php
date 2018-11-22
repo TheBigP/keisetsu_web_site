@@ -58,10 +58,10 @@
         <div class="row">
             <div class="col-sm-12">
                 <div id="left">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="font-size: 14px">
                         <thead>
                             <tr>
-                                <td class="under10"><img src="./image/bn_rec_entry.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%">
+                                <td class="under10"><img src="./image/bn_rec_entry.jpg" id="header_pic" alt="コンピュータ・ソフトウエア開発部門" width="100%">
                                 </td>
                             </tr>
                         </thead>
@@ -76,7 +76,7 @@
                     </table>
                     <div>
                         <form action="mail.php" method="post">
-                            <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered">
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered" style="font-size: 14px">
                                 <tbody>
                                     <tr>
                                         <td bgcolor="#FFFFFF" width="30%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>採用区分</span>
@@ -279,7 +279,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered">
                                 <tbody>
                                     <tr>
                                         <td class="hyo" width="35%"><img src="./image/p_3green.gif" alt="" width="15" height="17" style="vertical-align: initial">資格・技能・職歴等</td>
@@ -303,7 +303,7 @@
                                         <td align="center">
                                             <input type="submit" name="Submit" style="width: 23%" value="確認画面へ">
 
-                                            <input type="reset" name="Submit2" style="width: 23%" value="リセット">
+                                            <input type="reset" name="Submit2" style="width: 23%" value="リセット" onclick="javascript: top.location.href = 'postmail_link.php'">
                                         </td>
                                     </tr>
                                 </tbody>

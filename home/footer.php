@@ -5,8 +5,10 @@
             </td>
         </tr>
         <tr>
-            <td><a href="privacy.php" style="color: #0f0f0f">個人情報保護</a></td>
-            <td align="right" class="f02">Copyright (C) 2007 Keisetsu.co.,ltd All Rights Reserved.</td>
+            <td align="center"><a href="privacy.php" style="color: #0f0f0f;">個人情報保護</a></td>
+        </tr>
+        <tr>
+            <td align="center" class="f02">Copyright (C) 2007 Keisetsu.co.,ltd All Rights Reserved.</td>
         </tr>
     </table>
 </div>
