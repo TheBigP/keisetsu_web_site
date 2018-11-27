@@ -75,7 +75,7 @@
                         </tbody>
                     </table>
                     <div>
-                        <form action="mail.php" method="post">
+                        <form action="email.php" method="post">
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered" style="font-size: 14px">
                                 <tbody>
                                     <tr>
@@ -111,27 +111,27 @@
                                         <td bgcolor="#FFFFFF" width="35%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>氏　　名</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" name="_氏名/姓" type="text" id="氏名/姓" size="15" placeholder="姓">
-                                            <input class="form-control" name="_氏名/名" type="text" id="氏名/名" size="15" placeholder="名">
+                                            姓<input class="form-control" name="_氏名/姓" type="text" id="氏名/姓" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            名<input class="form-control" name="_氏名/名" type="text" id="氏名/名" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>フリガナ</span>
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>フリガナ</span><br><font color="#FF3300">（全角カタカナ）</font>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ/姓" placeholder="姓（全角カタカナ）">
-                                            <input class="form-control" name="_フリガナ/名" type="text" id="フリガナ/名" placeholder="名（全角カタカナ）">
+                                            姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ/姓" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            名<input class="form-control" name="_フリガナ/名" type="text" id="フリガナ/名" style="display: inline-block;width: 90%;margin-left: 5px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial">
                                             <span>生年月日</span></td>
                                         <td bgcolor="#F8F4F9" class="note"> 西暦
-                                            <input class="form-control" name="_生年月日/年" type="text" id="生年月日/年" size="8" placeholder="年">
+                                            <input class="form-control" name="_生年月日/年" style="display: inline;width: 25%" type="text" id="生年月日/年" size="8" placeholder="年">
 
-                                            <input class="form-control" name="_生年月日/月" type="text" id="生年月日/月" size="4" placeholder="月">
+                                            <input class="form-control" name="_生年月日/月" style="display: inline;width: 25%" type="text" id="生年月日/月" size="4" placeholder="月">
 
-                                            <input class="form-control" name="_生年月日/日" type="text" id="生年月日/日" size="4" placeholder="日">
+                                            <input class="form-control" name="_生年月日/日" style="display: inline;width: 25%" type="text" id="生年月日/日" size="4" placeholder="日">
                                             <font color="#FF3300">（半角数字）</font>
                                         </td>
                                     </tr>
@@ -301,9 +301,9 @@
                                 <tbody>
                                     <tr>
                                         <td align="center">
-                                            <input type="submit" name="Submit" style="width: 23%" value="確認画面へ">
+                                            <input type="submit" name="Submit" style="width: 23%;margin-right: 10px" value="確認画面へ">
 
-                                            <input type="reset" name="Submit2" style="width: 23%" value="リセット" onclick="javascript: top.location.href = 'postmail_link.php'">
+                                            <input type="reset" name="Submit2" style="width: 23%;margin-left: 10px" value="リセット" onclick="javascript: top.location.href = 'postmail_link.php'">
                                         </td>
                                     </tr>
                                 </tbody>

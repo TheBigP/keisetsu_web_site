@@ -73,7 +73,7 @@
                         </tbody>
                     </table>
                     <div>
-                        <form action="mail.php" method="post">
+                        <form action="email.php" method="post">
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered" style="font-size: 14px">
                                 <tbody>
                                     <tr>
@@ -92,16 +92,16 @@
                                         <td bgcolor="#FFFFFF" width="35%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>氏　　名</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" name="_氏名/姓" type="text" id="氏名/姓" size="15" placeholder="姓">
-                                            <input class="form-control" name="_氏名/名" type="text" id="氏名/名" size="15" placeholder="名">
+                                            姓<input class="form-control" name="_氏名/姓" type="text" id="氏名/姓" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            名<input class="form-control" name="_氏名/名" type="text" id="氏名/名" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>フリガナ</span>
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>フリガナ</span><br><font color="#FF3300">（全角カタカナ）</font>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ/姓" placeholder="姓（全角カタカナ）">
-                                            <input class="form-control" name="_フリガナ/名" type="text" id="フリガナ/名" placeholder="名（全角カタカナ）">
+                                            姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ/姓" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            名<input class="form-control" name="_フリガナ/名" type="text" id="フリガナ/名" style="display: inline-block;width: 90%;margin-left: 5px">
                                         </td>
                                     </tr>
                                     <tr>
@@ -217,9 +217,9 @@
                                 <tbody>
                                     <tr>
                                         <td align="center">
-                                            <input type="submit" name="Submit" style="width: 23%" value="送信">
+                                            <input type="submit" name="Submit" style="width: 23%;margin-right: 10px" value="送信">
 
-                                            <input type="reset" name="Submit2" style="width: 23%" value="リセット" onclick="javascript: top.location.href = 'postmail.php'">
+                                            <input type="reset" name="Submit2" style="width: 23%;margin-left: 10px" value="リセット" onclick="javascript: top.location.href = 'postmail.php'">
                                         </td>
                                     </tr>
                                 </tbody>
