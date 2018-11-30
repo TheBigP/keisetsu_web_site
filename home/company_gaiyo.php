@@ -20,7 +20,7 @@
                         <table width="100% " class="table table-bordered" border="0" cellpadding="5" cellspacing="0">
                             <tbody>
                                 <tr>
-                                    <td align="center" bgcolor="#F8F4F9" class="note" width="30%">社　　　名</td>
+                                    <td align="center" bgcolor="#F8F4F9" class="note" width="30%">社　　　名</td align="center">
                                     <td colspan="2" class="note">京設工業株式会社</td>
                                 </tr>
                                 <tr>

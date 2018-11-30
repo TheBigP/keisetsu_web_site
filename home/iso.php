@@ -1,4 +1,7 @@
-<?php header('Content-type: text/html; charset=utf-8');?>
+<?php header('Content-type: text/html; charset=utf-8');
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -21,7 +24,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td style="font-size:15px">
+                                <td class="fontsize">
                                     <p><img src="./image/gz_iso1.jpg" alt="" width="140" height="140" align="right">当社は、事業活動すべてにおいて、継続的に環境への負荷を軽減し、環境保全に貢献するための活動を積極的に実施し、人々の健康で快適な環境を整備することに努めています。
                                     </p>
                                     <p><br>

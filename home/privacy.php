@@ -11,11 +11,11 @@
     <?php include 'header.php';?>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12" style="padding-left: 7%;padding-right: 5%">
                 <div id="left">
                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                         <tbody>
-                            <tr style="font-size: 15px">
+                            <tr class="fontsize">
                                 <td>
                                     <ol>
                                         <li>個人情報とは<br>

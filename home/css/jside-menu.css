@@ -20,7 +20,7 @@
     padding: 0;
 }
 body{
-  font-family: 'Helvetica Neue';
+  /*font-family: 'Helvetica Neue';*/
   font-weight: 300;
   font-smoothing: antialiased;
 -webkit-font-smoothing: antialiased;
@@ -28,7 +28,7 @@ body{
 
 }
 :root{
-    --skin-hover: rgba(0, 0, 0, 0.1); 
+    --skin-hover: rgba(0, 0, 0, 0.1);
     --skin-color:  rgba(255, 255, 255, 0.9);
 }
 .default-skin{

@@ -7,6 +7,13 @@ body {
 	line-height: 150%;
 	color: #666666;
 }
+.fontsize{
+	font-size:14px;
+}
+.acolor{
+	color: #212529;
+	font-size: 14px;
+}
 .row {
 	font-size: 1.2rem;
 }
@@ -19,10 +26,10 @@ td.note {
 	border-bottom-color: #CCCCCC;
 	border-collapse:collapse;
 	padding-left: 10px;
-	font-size:15px;
+	font-size:14px;
 }
 span.note {
-	font-size: 15px;
+	font-size: 14px;
 }
 
 td.note2 {
@@ -52,7 +59,7 @@ h1 {
 }
 td.hyo {
 	padding-left: 10px;
-	font-size:15px;
+	font-size: 14px;
 }
 
 h2 {
@@ -70,12 +77,12 @@ h3 {
 	font-size: 12px;
 }
 a:link {
-	color: #EBE8F2;
+	color: #white;
 	text-decoration: none;
 }
 a:visited {
 	text-decoration: none;
-	color: #EBE8F2;
+	color: #white;
 }
 a:hover {
 	text-decoration: underline;
@@ -139,7 +146,7 @@ background:url(http://www.keisetsu.co.jp/image/p_01.gif) no-repeat left top;
 td.text {
 	background-color: #FFFFFF;
 	text-align: left;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 140%;
 	color: #888888;
 	padding-left: 12px;
@@ -267,7 +274,7 @@ td.under150 {
 .kiyaku1 {
 	width: 100%;
 	border: 2px solid #6666FF;
-	margin-bottom: 15px;
+	margin-bottom: 14px;
 	/* margin-right: 10px;
 	margin-left: 10px; */
 	padding-top: 14px;
@@ -357,6 +364,8 @@ td.under7 {
 .f_violet {
 	color: #210063;
 	text-align: left;
+	padding: 12px;
+	line-height: 1.5;
 }
 .link {
 	color: #0033CC;

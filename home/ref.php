@@ -60,32 +60,41 @@
             $('a[aria-expanded=true]').attr('aria-expanded', 'false');
         });
     });
-    $(function() {
-        pushHistory();
-        var state;
-        window.addEventListener("hashchange", function(e) {
-            // alert("我监听到了浏览器的返回按钮事件啦" + e.oldURL + "    " + e.newURL);//根据自己的需求实现自己的功能
-            var num = e.newURL.indexOf('#');
-            var str = e.newURL.substring(num);
-            if (window.location.hash) {
-                $('#sidebar').removeClass('active');
-                $('.container').removeClass('active');
-                return;
-            }
-            history.go(-1);
-        }, false);
-
-        function pushHistory() {
-            state = {
-                title: "title",
-                url: ""
-            };
-            window.history.pushState(state, "title", "#");
-        }
+    $(document).ready(function(e) {
+        // var counter = 0;
+        // if (window.history && window.history.pushState) {
+        //     // $(window).on('popstate', function () {
+        //     //     // window.history.pushState('forward', null, '#');
+        //     //     // window.history.forward(1);
+        //     //
+        //     //     <!-- 此处为监听到浏览器后退按钮的后续事件  例：刷新前一个页面；或者刷新当前页面等-->
+        //     //     if (window.location.hash) {
+        //     //         $('#sidebar').removeClass('active');
+        //     //         $('.container').removeClass('active');
+        //     //         return;
+        //     //     }
+        //     //     window.history.go(-1);
+        //     //     window.location.href = window.location.reload();
+        //     // });
+        //     window.addEventListener('pageshow', function(event) {
+        //         //event.persisted属性为true时，表示当前文档是从往返缓存中获取
+        //         if(event.persisted) location.reload();
+        //     });
+        // }
+        // window.history.pushState('forward', null, '#'); //在IE中必须得有这两行
+        // window.history.forward(1);
+        window.addEventListener('pageshow', function(event) {
+            //event.persisted属性为true时，表示当前文档是从往返缓存中获取
+            if(event.persisted) location.reload();
+        });
     });
 </script>
 <style>
     .container {
         max-width: 540px;
+    }
+    input::-webkit-input-placeholder {
+        vertical-align: baseline;
+        font-size: 14px;
     }
 </style>

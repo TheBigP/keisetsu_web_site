@@ -1,4 +1,7 @@
-<?php header('Content-type: text/html; charset=utf-8');?>
+<?php header('Content-type: text/html; charset=utf-8');
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -52,7 +55,7 @@
     </script>
 </head>
 
-<body style="padding-top:60px;font-size:15px">
+<body style="padding-top:60px;">
     <?php include 'header.php';?>
     <div class="container">
         <div class="row">
@@ -61,12 +64,12 @@
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <td class="under10"><img src="./image/bn_contact.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%" style="font-size: 14px"></td>
+                                <td class="under10"><img src="./image/bn_contact.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%" class="fontsize"></td>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td style="font-size: 14px">京設工業株式会社へのご質問お問い合わせは、下記のフォームより必要事項をご入力後、送信ください。後日、こちらからご連絡いたします。<font color="#FF3300">記入項目はすべて必須です。</font><br>
+                                <td class="fontsize">京設工業株式会社へのご質問お問い合わせは、下記のフォームより必要事項をご入力後、送信ください。後日、こちらからご連絡いたします。<font color="#FF3300">記入項目はすべて必須です。</font><br>
                                     お問い合わせの際、収集させていただく個人情報の取り扱いについては<a href="http://www.keisetsu.co.jp/html/privacy.html" target="_blank"><u style="color: #0f0f0f">こちら</u></a>をご確認下さい。
                                 </td>
                             </tr>
@@ -74,7 +77,7 @@
                     </table>
                     <div>
                         <form action="email.php" method="post">
-                            <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered" style="font-size: 14px">
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered fontsize">
                                 <tbody>
                                     <tr>
                                         <td bgcolor="#FFFFFF" width="30%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>お問合せ内容</span>
@@ -105,7 +108,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>学校名</span>
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>会社名・学校名</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             <input class="form-control" name="_会社名・学校名" type="text" id="会社名・学校名">

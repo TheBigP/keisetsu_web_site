@@ -50,7 +50,7 @@
 #left {
     /* width:254px; */
     padding-left: 13px;
-    line-height: 1.5;
+    line-height: 200%;
     padding-top: 25px;
 }
 
@@ -78,4 +78,7 @@
 
 #leftmenu {
     width: 267px;
+}
+.lineheight{
+    font-size: 14px;
 }

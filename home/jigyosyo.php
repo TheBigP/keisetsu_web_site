@@ -1,4 +1,7 @@
-<?php header('Content-type: text/html; charset=utf-8');?>
+<?php header('Content-type: text/html; charset=utf-8');
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -25,9 +28,9 @@
                                 <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                                     <tbody>
                                         <tr>
-                                            <th bgcolor="#FFFFFF" style="font-size:15px;" width="25%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地
+                                            <th bgcolor="#FFFFFF" class="fontsize" width="25%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地
                                             </th>
-                                            <td bgcolor="#FFFFFF" style="font-size:15px;">
+                                            <td bgcolor="#FFFFFF" class="fontsize">
                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tbody>
                                                         <tr>
@@ -39,12 +42,12 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th bgcolor="#FFFFFF" style="font-size:15px;"><img src="./image/p_2.gif" alt="">TEL</th>
-                                            <td bgcolor="#FFFFFF" style="font-size:15px;">047－453－7711（代）</td>
+                                            <th bgcolor="#FFFFFF" class="fontsize"><img src="./image/p_2.gif" alt="">TEL</th>
+                                            <td bgcolor="#FFFFFF" class="fontsize">047－453－7711（代）</td>
                                         </tr>
                                         <tr>
-                                            <th bgcolor="#FFFFFF" style="font-size:15px;"><img src="./image/p_2.gif" alt="">FAX</th>
-                                            <td bgcolor="#FFFFFF" style="font-size:15px;">047－453－0670</td>
+                                            <th bgcolor="#FFFFFF" class="fontsize"><img src="./image/p_2.gif" alt="">FAX</th>
+                                            <td bgcolor="#FFFFFF" class="fontsize">047－453－0670</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -57,26 +60,26 @@
                                     <table class="table table-bordered" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                                         <tbody>
                                             <tr>
-                                                <th bgcolor="#FFFFFF" style="font-size:15px" width="25%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地
+                                                <th bgcolor="#FFFFFF" class="fontsize" width="25%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地
                                                 </th>
-                                                <td bgcolor="#FFFFFF" style="font-size:15px">
+                                                <td bgcolor="#FFFFFF" class="fontsize">
                                                     <p>千葉県習志野市茜浜1－2－6　（本社内）</p>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th bgcolor="#FFFFFF" style="font-size:15px"><img src="./image/p_2.gif" alt="" width="9" height="10">TEL
+                                                <th bgcolor="#FFFFFF" class="fontsize"><img src="./image/p_2.gif" alt="" width="9" height="10">TEL
                                                 </th>
-                                                <td bgcolor="#FFFFFF" style="font-size:15px">047－453－0675</td>
+                                                <td bgcolor="#FFFFFF" class="fontsize">047－453－0675</td>
                                             </tr>
                                             <tr>
-                                                <th bgcolor="#FFFFFF" style="font-size:15px"><img src="./image/p_2.gif" alt="" width="9" height="10">FAX
+                                                <th bgcolor="#FFFFFF" class="fontsize"><img src="./image/p_2.gif" alt="" width="9" height="10">FAX
                                                 </th>
-                                                <td bgcolor="#FFFFFF" style="font-size:15px">047－453－0670</td>
+                                                <td bgcolor="#FFFFFF" class="fontsize">047－453－0670</td>
                                             </tr>
                                             <tr>
-                                                <th bgcolor="#FFFFFF" style="font-size:15px"><img src="./image/p_2.gif" alt="" width="9" height="10">業務内容
+                                                <th bgcolor="#FFFFFF" class="fontsize"><img src="./image/p_2.gif" alt="" width="9" height="10">業務内容
                                                 </th>
-                                                <td bgcolor="#FFFFFF" style="font-size:15px" class="under10">
+                                                <td bgcolor="#FFFFFF" class="fontsize" class="under10">
                                                     <p>
                                                         ・Windows、UNIXを中心とする各種アプリケーションソフトウェア、システムソフトウェアの受託開発<br></p>
                                                     <p>・インターネット関連各種システムインテグレーション業務<br></p>

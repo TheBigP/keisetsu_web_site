@@ -1,4 +1,7 @@
-<?php header('Content-type: text/html; charset=utf-8');?>
+<?php header('Content-type: text/html; charset=utf-8');
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -21,7 +24,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td style="font-size:15px">応募の際は、下記規約を必ずご覧いただき、内容に同意する場合は［同意する］ボタンを押して次にお進みください。
+                                <td class="fontsize">応募の際は、下記規約を必ずご覧いただき、内容に同意する場合は［同意する］ボタンを押して次にお進みください。
                                     同意しない場合は［同意しない］ボタンを押してください。<br>
                                     尚、同意がいただけない場合は、応募に進むことができませんので、ご了承下さい。
                                 </td>
@@ -33,7 +36,7 @@
                             <tbody>
                                 <tr>
                                     <td>
-                                        <ol style="margin-left:2.5rem;font-size:15px">
+                                        <ol class="fontsize" style="margin-left:2.5rem;">
                                             <li>個人情報とは<br>
                                                 個人情報とは、個人に関する情報であって当該情報に含まれる氏名、生年月日その他の記述、または個人別に付けられた番号、記号その他の符号、画像もしくは音声によって当該個人を識別できるもの（当該情報だけでは識別できないが、他の情報と容易に照合することができ、それによって当該個人を識別できるものを含む）をいいます。
                                             </li>

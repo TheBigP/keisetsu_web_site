@@ -1,11 +1,6 @@
 <div class="wrapper">
     <!-- Sidebar  -->
     <nav id="sidebar">
-
-        <div class="sidebar-header" style="padding: 0">
-            <img width="100%" src="./image/rogo.gif" alt="京設工業株式会社" />
-        </div>
-
         <ul class="list-unstyled" style="font-size: 14px;">
             <li><a href="index.php" align="left">
                     HOME </a></li>
@@ -65,16 +60,34 @@
             <li><a href="postmail.php" align="left">
                     お問い合わせ</a></li>
             <li>
+            <li>
+                <a href="#companySubmenu" data-toggle="collapse" aria-expanded="false">会社案内</a>
+                <ul class="collapse list-unstyled" id="companySubmenu">
+                    <li>
+                        <a href="company.php">ごあいさつ </a>
+                    </li>
+                    <li>
+                        <a href="company_gaiyo.php">会社概要・沿革 </a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="sitemap.php" align="left">
+                    サイトマップ</a></li>
+            <li>
         </ul>
     </nav>
 
     <!-- Page Content  -->
     <nav class="navbar navbar-expand-lg menubar sticky default-skin" id="navbar-example2">
         <div class="container-fluid">
-            <button type="button" id="sidebarCollapse" class="menu-trigger left" style="line-height: 50">
+            <button type="button" id="sidebarCollapse" class="menu-trigger left" style="line-height: initial;">
                 <span></span>
             </button>
             <a href="index.php" style="color:white;font-size:25px;margin-left: auto;margin-right: auto">京設工業株式会社</a>
         </div>
     </nav>
+    <div class="sidebar-header" style="padding:20px 0 0 0;max-width: 540px;margin-left: auto;margin-right: auto;">
+        <img width="100%" src="./image/rogo.gif" alt="京設工業株式会社" />
+    </div>
+
 </div>
