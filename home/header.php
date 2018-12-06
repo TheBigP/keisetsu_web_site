@@ -80,14 +80,16 @@
     <!-- Page Content  -->
     <nav class="navbar navbar-expand-lg menubar sticky default-skin" id="navbar-example2">
         <div class="container-fluid">
-            <button type="button" id="sidebarCollapse" class="menu-trigger left" style="line-height: initial;">
-                <span></span>
-            </button>
-            <a href="index.php" style="color:white;font-size:25px;margin-left: auto;margin-right: auto">京設工業株式会社</a>
+            <button type="button" id="sidebarCollapse" class="menu-trigger right" style="line-height: initial;"></button>
+            <img src="./image/keisetsu_Logo_KEISETSU.png" alt="京設工業株式会社" style="position: absolute;" align="left" />
+            <div style="margin-right: auto;margin-left: auto;height: 48px">
+                <img src="./image/keisetsu_Logo_K.png" height="24px" style="margin-bottom: 12px">
+                <a href="index.php" style="color:white;font-size:25px;padding: 0;margin: 0 0 0 0 ;" class="navbar-brand">京設工業株式会社</a>
+            </div>
         </div>
     </nav>
-    <div class="sidebar-header" style="padding:20px 0 0 0;max-width: 540px;margin-left: auto;margin-right: auto;">
-        <img width="100%" src="./image/rogo.gif" alt="京設工業株式会社" />
+    <div class="sidebar-header" style="padding:18px 0 0 0;max-width: 540px;margin-left: auto;margin-right: auto;">
+        <img width="100%" src="./image/main_image.png" alt="京設工業株式会社" />
     </div>
 
 </div>

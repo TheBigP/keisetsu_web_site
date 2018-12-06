@@ -270,7 +270,7 @@ header("Pragma: no-cache");?>
                     <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="0">
                         <tbody>
                             <tr>
-                                <td  class="fontsize" style="padding: 5px;" width="35%"><img src="./image/flw2_mensetsu.jpg" alt="面接・試験" width="90" height="60">
+                                <td class="fontsize" style="padding: 5px;" width="35%"><img src="./image/flw2_mensetsu.jpg" alt="面接・試験" width="90" height="60">
                                 </td>
                                 <td class="fontsize" style="padding: 5px;">２回～３回の面接と適性検査を予定しております。<br>
                                     ※ 面接日時についてはご相談下さい。

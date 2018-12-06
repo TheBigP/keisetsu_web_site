@@ -100,7 +100,8 @@ header("Pragma: no-cache");?>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>フリガナ</span><br><font color="#FF3300">（全角カタカナ）</font>
+                                        <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>フリガナ</span><br>
+                                            <font color="#FF3300">（全角カタカナ）</font>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ/姓" style="display: inline-block;width: 90%;margin-left: 5px">

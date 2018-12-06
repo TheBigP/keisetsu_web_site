@@ -54,10 +54,16 @@
         });
 
         $('#sidebarCollapse').on('click', function() {
-            $('#sidebar').addClass('active');
-            $('.container').addClass('active');
-            $('.collapse.in').toggleClass('in');
-            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            var sidebar_menu = $("#sidebar");
+            if (sidebar_menu.hasClass("active")) {
+                $('#sidebar').removeClass('active');
+                $('.container').removeClass('active');
+            } else {
+                $('#sidebar').addClass('active');
+                $('.container').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            }
         });
     });
     $(document).ready(function(e) {
@@ -85,7 +91,7 @@
         // window.history.forward(1);
         window.addEventListener('pageshow', function(event) {
             //event.persisted属性为true时，表示当前文档是从往返缓存中获取
-            if(event.persisted) location.reload();
+            if (event.persisted) location.reload();
         });
     });
 </script>
@@ -93,6 +99,7 @@
     .container {
         max-width: 540px;
     }
+
     input::-webkit-input-placeholder {
         vertical-align: baseline;
         font-size: 14px;

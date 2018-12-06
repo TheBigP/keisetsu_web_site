@@ -159,54 +159,62 @@ td.text {
 	padding-right: 15px;
 	padding-bottom: 9px; */
 	padding-left: 10px;
-	background-image: url(image/con_2.jpg);
-	background-size:cover;
+	background-image: url(image/menu3.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
 	/* background-repeat: no-repeat; */
 	text-align: left;
-	/* border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #CCCCCC;
-	width: 244px;
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #CCCCCC;
-	line-height: 145%;
-	height: 148px; */
+	/*border-bottom-width: 1px;*/
+	/*border-bottom-style: solid;*/
+	/*border-bottom-color: #CCCCCC;*/
+	/*width: 244px;*/
+	/*border-left-width: 1px;*/
+	/*border-left-style: solid;*/
+	/*border-left-color: #CCCCCC;*/
+	/*line-height: 145%;*/
+	height: 273px;
 }
 .entry {
 	/* padding-top: 9px;
 	padding-right: 15px;
 	padding-bottom: 9px; */
 	padding-left: 10px;
-	background-image: url(image/con_3.jpg);
-	background-size:cover;
-	/* background-repeat: no-repeat; */
+	background-image: url(image/menu4.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
 	text-align: left;
-	/* border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #CCCCCC;
-	width: 244px;
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #CCCCCC;
-	line-height: 145%;
-	height: 148px; */
+	/*border-bottom-width: 1px;*/
+	/*border-bottom-style: solid;*/
+	/*border-bottom-color: #CCCCCC;*/
+	/*width: 244px;*/
+	/*border-left-width: 1px;*/
+	/*border-left-style: solid;*/
+	/*border-left-color: #CCCCCC;*/
+	/*line-height: 145%;*/
+	height: 273px;
 }
 .pdserv {
 	/* padding-top: 9px;
 	padding-right: 15px;
 	padding-bottom: 9px; */
 	padding-left: 2%;
-	background-image: url(image/con_1.jpg);
-	background-size:cover;
-	/* background-repeat: no-repeat; */
+	background-image: url(image/menu1.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
 	text-align: left;
 	/* border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #CCCCCC; */
-	/* width: 245px; */
-	/* line-height: 145%; */
-	/* height: 148px; */
+	 /*line-height: 145%;*/
+	 height: 273px;
+}
+.company {
+	padding-left: 2%;
+	background-image: url(image/menu2.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	text-align: left;
+	height: 273px;
 }
 td.under10 {
 	padding-bottom: 10px;
@@ -288,6 +296,8 @@ td.under150 {
 .gyokan {
 	padding-top: 2px;
 	padding-bottom: 2px;
+	margin: 0;
+	line-height: unset;
 }
 .column {
 	height: 366px;
@@ -393,5 +403,9 @@ html {font-size: 62.5%!important; /* 10÷16=62.5% */}
 	}
 }
 .container {
-	padding-top: 30px;
+	/*padding-top: 30px;*/
+}
+.line-div {
+	width: 90%;
+	vertical-align:middle;
 }

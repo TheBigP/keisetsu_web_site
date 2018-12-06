@@ -1,44 +1,44 @@
 <?php header('Content-type: text/html; charset=utf-8');
 header("Cache-Control: no-store, no-cache, must-revalidate");
 header("Cache-Control: post-check=0, pre-check=0", false);
-header("Pragma: no-cache");?>
+header("Pragma: no-cache"); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-    <?php include 'ref.php';?>
+    <?php include 'ref.php'; ?>
 </head>
 
 <body onhashchange="funcRef();">
-    <?php include 'header.php';?>
+    <?php include 'header.php'; ?>
     <div class="container">
         <div id="page-content-wrapper" style="padding: top 60px;">
             <div class="page-content inset" data-spy="scroll" data-target="#spy">
-                <div class="row">
-                    <div class="col-sm-4" style="padding-right:0%;padding-bottom:0%;padding-left:0%">
-                        <img src="./image/line_3contents.gif" alt="" width="100%" height="5">
-                        <div class="pdserv fontsize"><img src="./image/mida_01.gif" alt="製品＆サービス" width="125" height="46">
-                            <table border="0" cellpadding="3" cellspacing="0">
+                <div class="row" style="padding: 0 2%">
+                    <div class="col-6 col-md-4" style="padding-right:0%;padding-bottom:0%;padding-left:0%">
+                        <div class="pdserv fontsize">
+                            <table border="0" cellpadding="30" cellspacing="0" style="padding-top: 30px">
                                 <tbody>
                                     <tr>
-                                        <td>コンピューター・ソフトウェア開発、ソフトウェア検証、機械設計、電気設計、デザイン、技術者派遣事業という５つの部門でみなさまにご提案・ご提供いたしております。</td>
+                                        <td style="padding: 35% 5% 5% 5%">
+                                            コンピューター・ソフトウェア開発、ソフトウェア検証、機械設計、電気設計、デザイン、技術者派遣事業という５つの部門でみなさまにご提案・ご提供いたしております。
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <ul class="nav nav-pills flex-column">
+                            <ul class="nav nav-pills flex-column" style="padding: 0 0 5% 5%">
                                 <li class="nav-item">
                                     <a href="prdt_serv.php"><img src="./image/bt_syosai.gif" alt="製品・サービスについて詳しくはこちら" width="86" height="24" border="0"></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-4" style="padding-right:0%;padding-left:0%">
-                        <img src="./image/line_3contents_right.gif" alt="" width="100%" height="5">
-                        <div class="recruit fontsize"><img src="./image/mida_02.gif" alt="採用情報" width="100" height="46">
+                    <div class="col-6 col-md-4" style="padding-right:0%;padding-left:0%">
+                        <div class="recruit fontsize">
                             <table border="0" cellpadding="3" cellspacing="0">
                                 <tbody>
                                     <tr>
-                                        <td>京設工業では、ソフトウェア開発、<br>
+                                        <td style="padding: 35% 5% 5% 5%">京設工業では、ソフトウェア開発、<br>
                                             機械設計、電気・電子回路設計、<br>
                                             プラスティック容器設計、DTP技術者<br>
                                             などの募集をしております。
@@ -46,20 +46,21 @@ header("Pragma: no-cache");?>
                                     </tr>
                                 </tbody>
                             </table>
-                            <ul class="nav nav-pills flex-column">
+                            <ul class="nav nav-pills flex-column" style="padding: 0 0 5% 5%">
                                 <li class="nav-item">
                                     <a href="recruite.php"><img src="./image/bt_syosai.gif" alt="採用について詳しくはこちら" width="86" height="24" border="0"></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-4" style="padding-right:0%;padding-left:0%">
-                        <img src="./image/line_3contents_right.gif" alt="" width="100%" height="5">
-                        <div class="entry fontsize"><img src="./image/mida_03.gif" alt="エントリー" width="100" height="46">
+                </div>
+                <div class="row" style="padding: 0 2%">
+                    <div class="col-6 col-md-4" style="padding-right:0%;padding-left:0%">
+                        <div class="entry fontsize">
                             <table border="0" cellpadding="3" cellspacing="0">
                                 <tbody>
                                     <tr>
-                                        <td>「常に新しいものを求め、変化を<br>
+                                        <td style="padding: 35% 5% 5% 5%">「常に新しいものを求め、変化を<br>
                                             恐れず、変化を楽しむ」 という<br>
                                             企業カルチャーを持つ京設工業<br>
                                             で一緒に働きませんか？
@@ -67,7 +68,26 @@ header("Pragma: no-cache");?>
                                     </tr>
                                 </tbody>
                             </table>
-                            <ul class="nav nav-pills flex-column">
+                            <ul class="nav nav-pills flex-column" style="padding: 0 0 5% 5%">
+                                <li class="nav-item">
+                                    <a href="recruite_kojin.php"><img src="./image/bt_syosai.gif" alt="エントリーについて詳しくはこちら" width="86" height="24" border="0"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4" style="padding-right:0%;padding-left:0%">
+                        <div class="company fontsize">
+                            <table border="0" cellpadding="3" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 35% 5% 5% 5%">京設工業は昭和３７年に創業され、<br>
+                                            ５０有余年に渡り営業を続けております。<br>
+                                            主力業務は時代の流れの中で大きく変化してきておりますが。
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <ul class="nav nav-pills flex-column" style="padding: 0 0 5% 5%">
                                 <li class="nav-item">
                                     <a href="recruite_kojin.php"><img src="./image/bt_syosai.gif" alt="エントリーについて詳しくはこちら" width="86" height="24" border="0"></a>
                                 </li>
@@ -78,7 +98,7 @@ header("Pragma: no-cache");?>
             </div>
         </div>
         <div class="row" style="padding-top: 15px">
-            <div class="col-sm-12">
+            <div class="col-12 col-md-8">
                 <div id="left">
                     <table border="2" cellpadding="12" cellspacing="2" bgcolor="#210063">
                         <tr>
@@ -105,7 +125,7 @@ header("Pragma: no-cache");?>
                 </div>
             </div>
         </div>
-        <?php include 'footer.php';?>
+        <?php include 'footer.php'; ?>
     </div>
 </body>
 
