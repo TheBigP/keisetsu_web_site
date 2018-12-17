@@ -29,14 +29,14 @@
                                     <td colspan="2" align="center" bgcolor="#F8F4F9" class="hyo">所　在　地</td>
                                 </tr>
                                 <tr>
-                                    <td class="hyo"><img src="../image/p_2.gif" alt="">本　　　　社</td>
+                                    <td class="hyo"><img src="./image/p_2.gif" alt="">本　　　　社</td>
                                     <td class="hyo"> 〒２７５－００２４<br>
                                         千葉県習志野市茜浜１－２－６<br>
                                         TEL 047-453-7711（代）　FAX 047-453-0670
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="2" class="note"><img src="../image/p_2.gif" alt="">システム・ソフト<br>
+                                    <td rowspan="2" class="note"><img src="./image/p_2.gif" alt="">システム・ソフト<br>
                                         　開発事業部
                                     </td>
                                     <td class="note"> 〒２７５－００２４<br>
@@ -54,14 +54,14 @@
                                 </tr>
 
                                 <tr>
-                                    <td class="hyo"><img src="../image/p_2.gif" alt="">茜浜事業所</td>
+                                    <td class="hyo"><img src="./image/p_2.gif" alt="">茜浜事業所</td>
                                     <td class="hyo"> 〒２７５－００２４<br>
                                         千葉県習志野市茜浜１－２－６<br>
                                         TEL 047-451-8771（代）　FAX 047-451-8755
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="note"><img src="../image/p_2.gif" alt="">東京事業所</td>
+                                    <td class="note"><img src="./image/p_2.gif" alt="">東京事業所</td>
                                     <td class="note"> 〒１３６－００７１<br>
                                         東京都江東区亀戸６－５７－１４<br>
                                         ひまわり江東ビル４Ｆ<br>
@@ -69,7 +69,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="hyo"><img src="../image/p_2.gif" alt="">四日市事業所</td>
+                                    <td class="hyo"><img src="./image/p_2.gif" alt="">四日市事業所</td>
                                     <td class="hyo"> 〒５１０－００１３<br>
                                         三重県四日市市富士町６－３１<br>
                                         TEL 059-332-9333（代）　FAX 059-332-1367
