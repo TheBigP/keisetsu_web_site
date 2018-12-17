@@ -19,11 +19,11 @@ header("Pragma: no-cache");?>
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <td class="under10"><img src="./image/bmida_kankyo.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%">
+                                <td class="under10" style="padding-bottom: 0;"><img src="./image/bmida_kankyo.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%">
                                 </td>
                             </tr>
                             <tr>
-                                <td><img src="./image/futoji_kihonrinen.gif" alt="基本理念"></td>
+                                <td style="padding-bottom: 10px"><img src="./image/futoji_kihonrinen.gif" alt="基本理念"></td>
                             </tr>
                         </thead>
                         <tbody>
@@ -41,7 +41,7 @@ header("Pragma: no-cache");?>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="top10">
+                                <td class="top10" style="padding-top: 0">
                                     <ol style="padding-left:2.5rem;" class="fontsize">
                                         <li>企業活動を通じ、技術的、経済的、人為的に限りある資源・エネルギーを節約し、地球環境の保全に貢献いたします。</li>
                                         <li>

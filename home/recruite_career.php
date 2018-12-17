@@ -40,11 +40,15 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" width="35%"><img src="./image/p_2.gif" alt="" width="9" height="10">募集職種
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" style="font-size: 15px; padding: 5px;">ソフトウェア開発エンジニア　（※実務未経験者も歓迎）</td>
                             </tr>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize"><img src="./image/p_2.gif" alt="" width="9" height="10">業務内容
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">
                                     最先端機器の組込みファームウェアの開発をお任せいたします。大手メーカーの開発エンジニアとプロジェクトチームを組み、共同で開発を行います。<br>
                                     <img src="./image/p_gutaiteki.gif" alt="具体的には" width="70" height="26"><br>
@@ -65,12 +69,16 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;" width="35%"><img src="./image/p_2.gif" alt="" width="9" height="10">学歴
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">高校卒以上</td>
                             </tr>
 
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="" width="9" height="10">資格・スキル
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">
                                     実務未経験の方も大歓迎です。ていねいに指導しますので、コンピューターの基礎を勉強した経験（独学でも可）があれば、ソフトウェア開発経験の有無は問いません。
                                     <br>
@@ -87,6 +95,8 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="" width="9" height="10">求める人物像
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">下記のいずれかに当てはまる方は大歓迎です！<br>
                                     <img src="./image/p_4.gif" alt="" width="13" height="17">好奇心、探究心が強い方<br>
                                     <img src="./image/p_4.gif" alt="" width="13" height="17">新しいことに挑戦することが好きな方<br>
@@ -117,11 +127,15 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;" width="35%"><img src="./image/p_2.gif" alt="">募集職種
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">アプリケーションソフト開発エンジニア　（※実務未経験者も歓迎）</td>
                             </tr>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="">業務内容
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">
                                     最先端機器にバンドルされるアプリケーションソフト開発です。大手メーカーの開発エンジニアとプロジェクトチームを組み、共同で開発を行います。<br>
                                     <img src="./image/p_gutaiteki.gif" alt="具体的には"><br>
@@ -138,12 +152,15 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;" width="35%"><img src="./image/p_2.gif" alt="">学歴
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">高校卒以上</td>
                             </tr>
-
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="">資格・スキル
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">
                                     実務未経験の方も大歓迎です。ていねいに指導しますので、コンピューターの基礎を勉強した経験（独学でも可）があれば、ソフトウェア開発経験の有無は問いません。<br>
                                     <img src="./image/p_nozomashii.gif" alt="あれば望ましいスキル／経験等"><br>
@@ -156,6 +173,8 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="">求める人物像
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">下記のいずれかに当てはまる方は大歓迎です！<br>
                                     <img src="./image/p_4.gif" alt="" width="13" height="17">好奇心、探究心があり、粘り強く仕事ができる方<br>
                                     <img src="./image/p_4.gif" alt="" width="13" height="17">新しいことに挑戦することが好きな方<br>
@@ -187,16 +206,19 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;" width="35%"><img src="./image/p_2.gif" alt="">募集職種
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">機械設計エンジニア</td>
                             </tr>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="">業務内容
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">機械、電気機器の開発設計をお任せいたします。<br>
                                     <img src="./image/p_gutaiteki.gif" alt="具体的には"><br>
                                     自動化機器、自動販売機、フード機器、コールドチェーン機器（ショーケース）、駆動制御機器（汎用インバータ、サーボシステム、モータ等）、駆動制御機器（汎用インバータ、サーボシステム、モータ等）、民生機器の設計開発をお任せいたします。2次元、3次元CADを使って設計を行います。
                                 </td>
-
                             </tr>
                         </tbody>
                     </table>
@@ -208,12 +230,15 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;" width="35%"><img src="./image/p_2.gif" alt="">学歴
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">大学卒以上</td>
                             </tr>
-
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="">資格・スキル
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">機械系学科卒業者の方であれば、業務経験の有無は問いません。<br>
                                     <img src="./image/p_nozomashii.gif" alt="あれば望ましいスキル／経験等"><br>
                                     必須ではありませんが、以下の経験をお持ちの方は入社時に業務を習得するうえでは有利です。<br>
@@ -225,6 +250,8 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="">求める人物像
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">下記のいずれかに当てはまる方は大歓迎です！<br>
                                     <img src="./image/p_4.gif" alt="" width="13" height="17">モノづくりが好きな方、モノづくりに喜びを感じられる方<br>
                                     <img src="./image/p_4.gif" alt="" width="14" height="17">好奇心、探究心が強い方<br>
@@ -251,6 +278,8 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;" width="35%"><img src="./image/p_2.gif" alt="">応募方法
                                 </th>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">応募フォームよりエントリーしてください。<br>
                                     ※ 当社よりメールまたは電話にて詳細をご連絡させていただきます。
                                 </td>
@@ -296,22 +325,30 @@ header("Pragma: no-cache");?>
                             <tr>
                                 <td bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;" width="35%"><img src="./image/p_2.gif" alt="">所在地
                                 </td>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">〒&nbsp;275-0024　千葉県習志野市茜浜1-2-6</td>
                             </tr>
                             <tr>
                                 <td bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="">担
                                     当
                                 </td>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">採用担当</td>
                             </tr>
                             <tr>
                                 <td bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="">電話番号
                                 </td>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">047-453-7711</td>
                             </tr>
                             <tr>
                                 <td bgcolor="#F8F4F9" class="fontsize" style="padding: 5px;"><img src="./image/p_2.gif" alt="">備　考
                                 </td>
+                            </tr>
+                            <tr>
                                 <td bgcolor="#FFFFFF" class="fontsize" style="padding: 5px;">
                                     ［交通アクセス］JR新習志野駅、南船橋駅から共に徒歩13分
                                 </td>

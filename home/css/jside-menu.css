@@ -66,8 +66,10 @@ body{
    color: var(--skin-color);
    cursor: pointer;
    -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
-   
 
+}
+.is_hidden{
+    display: none;
 }
 .menu-trigger:hover{
   opacity: 0.8;
@@ -75,12 +77,19 @@ body{
 }
 
 .menu-trigger:before{
-   font-family: 'Material-Design-Iconic-Font';
-
-  content: '\f197';
-
+    /*content: '\f136';*/
    font-size: 22pt;
 
+}
+.menu-content:before{
+    font-family: 'Material-Design-Iconic-Font';
+
+    content: '\f197';
+}
+.menu-content-change:before{
+    font-family: 'Material-Design-Iconic-Font';
+
+    content: '\f136';
 }
 
 .menu-trigger.left{

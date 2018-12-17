@@ -21,8 +21,11 @@ header("Pragma: no-cache");?>
                             <td class="under10"><img src="./image/bmida_shinsotsu.jpg" alt="新卒採用情報" width="100%"></td>
                         </tr>
                         <tr>
-                            <td class="under10"><img src="./image/bn_rec_shinsotsubosyuyoko.jpg" alt="募集要項" width="100%">
+                            <td class="under10"><img src="./image/bn_rec_shinsotsubosyuyoko.jpg" alt="募集要項" width="100%" height="50px">
                             </td>
+                        </tr>
+                        <tr>
+                            <td><img src="./image/futoji_saiyonaiyo.gif" alt="採用内容" width="300" height="36"></td>
                         </tr>
                         <table border="0" class="table table-bordered" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC" width="100%">
                             <tbody>
@@ -62,9 +65,9 @@ header("Pragma: no-cache");?>
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class=".col-xs-4 .col-md-4"><img src="./image/p_1.gif" alt="" width="10" height="6"></div>
                                                 <div class=".col-xs-8 .col-sm-6 .col-md-8" line-div>
-                                                    <p class="gyokan fontsize">プラスティック容器設計</p>
+                                                    <img src="./image/p_1.gif" alt="" width="10" height="6">
+                                                    <span class="gyokan fontsize">プラスティック容器設計</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -168,7 +171,6 @@ header("Pragma: no-cache");?>
                     </div>
                     <div style="overflow:auto">
                         <a name="obo1"><img src="./image/minibn_oubonagare.gif" alt="アプリケーションソフト開発エンジニア募集要項　※実務未経験者も歓迎"></a>
-                        <img src="./image/futoji_shigotonaiyo.gif" alt="仕事内容" width="300" height="36">
                         <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                             <tbody>
                                 <tr>
@@ -188,8 +190,6 @@ header("Pragma: no-cache");?>
                             <tbody>
                                 <tr>
                                     <td class="top10 fontsize"><img src="./image/flw_syoruisenko.jpg" alt="書類選考" width="90" height="60"></td>
-                                </tr>
-                                <tr>
                                     <td class="top10 fontsize">お送りいただいた応募データをもとに書類選考をいたします。<br>
                                         ※ 選考後の面接日程等については追ってご連絡いたします。
                                     </td>

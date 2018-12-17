@@ -20,11 +20,15 @@
                         <table width="100% " class="table table-bordered" border="0" cellpadding="5" cellspacing="0">
                             <tbody>
                                 <tr>
-                                    <td align="center" bgcolor="#F8F4F9" class="note" width="30%">社　　　名</td align="center">
+                                    <td colspan="2" align="center" bgcolor="#F8F4F9" class="note" width="30%">社　　　名</td align="center">
+                                </tr>
+                                <tr>
                                     <td colspan="2" class="note">京設工業株式会社</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="6" align="center" bgcolor="#F8F4F9" class="hyo">所　在　地</td>
+                                    <td colspan="2" align="center" bgcolor="#F8F4F9" class="hyo">所　在　地</td>
+                                </tr>
+                                <tr>
                                     <td class="hyo"><img src="../image/p_2.gif" alt="">本　　　　社</td>
                                     <td class="hyo"> 〒２７５－００２４<br>
                                         千葉県習志野市茜浜１－２－６<br>
@@ -73,38 +77,52 @@
                                 </tr>
 
                                 <tr>
-                                    <td align="center" bgcolor="#F8F4F9" class="note">創　　　立</td>
-                                    <td colspan="3" class="note">昭和３７年５月２９日</td>
+                                    <td colspan="2" align="center" bgcolor="#F8F4F9" class="note">創　　　立</td>
                                 </tr>
                                 <tr>
-                                    <td align="center" bgcolor="#F8F4F9" class="hyo">資　本　金</td>
+                                    <td colspan="2" class="note">昭和３７年５月２９日</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="center" bgcolor="#F8F4F9" class="hyo">資　本　金</td>
+                                </tr>
+                                <tr>
                                     <td colspan="2" class="hyo">２,１５６万円</td>
                                 </tr>
                                 <tr>
-                                    <td align="center" bgcolor="#F8F4F9" class="note">代　表　者</td>
+                                    <td colspan="2" align="center" bgcolor="#F8F4F9" class="note">代　表　者</td>
+                                </tr>
+                                <tr>
                                     <td colspan="2" class="note">代表取締役　古 屋　哲 也</td>
                                 </tr>
                                 <tr>
-                                    <td align="center" bgcolor="#F8F4F9" class="hyo">従業員数</td>
+                                    <td colspan="2" align="center" bgcolor="#F8F4F9" class="hyo">従業員数</td>
+                                </tr>
+                                <tr>
                                     <td colspan="2" class="hyo">７８名<br>
                                         グループ全体１３０名
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="center" bgcolor="#F8F4F9" class="note">系列会社</td>
+                                    <td colspan="2" align="center" bgcolor="#F8F4F9" class="note">系列会社</td>
+                                </tr>
+                                <tr>
                                     <td colspan="2" class="note">三京機械工業株式会社<br>
                                         株式会社　エリモス
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="center" bgcolor="#F8F4F9" class="hyo">主要取引銀行</td>
+                                    <td colspan="2" align="center" bgcolor="#F8F4F9" class="hyo">主要取引銀行</td>
+                                </tr>
+                                <tr>
                                     <td colspan="2" class="hyo">三菱東京ＵＦＪ銀行 船橋駅前支店<br>
                                         千葉銀行 津田沼支店<br>
                                         商工組合中央金庫 千葉支店
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="center" bgcolor="#F8F4F9" class="note"> 主要得意先</td>
+                                    <td colspan="2" align="center" bgcolor="#F8F4F9" class="note"> 主要得意先</td>
+                                </tr>
+                                <tr>
                                     <td colspan="2" class="note"> 日本を代表する大手メーカー各社</td>
                                 </tr>
                             </tbody>
@@ -120,58 +138,86 @@
                         <tbody>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">昭和３７年　５月</td>
+                            </tr>
+                            <tr>
                                 <td class="note">京葉設計事務所を設立。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">昭和３８年　２月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo">京葉設計事務所の商号を改め有限会社京設工業所とする。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">昭和４３年　４月</td>
+                            </tr>
+                            <tr>
                                 <td class="note">東京営業所（現東京事業所）を設立。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">昭和４７年　６月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo">有限会社京設工業所を京設工業株式会社とする。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">昭和４８年　４月</td>
+                            </tr>
+                            <tr>
                                 <td class="note">京設工業株式会社本社ビルを新築。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">昭和５１年　７月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo">四日市営業所(現四日市事業所)を設立。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">昭和５８年　３月</td>
+                            </tr>
+                            <tr>
                                 <td class="note">茜浜事業所を設立。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">昭和５９年　４月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo">システム・ソフト開発事業部を本社内に設置。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">平成　３年　８月</td>
+                            </tr>
+                            <tr>
                                 <td class="note">ソフトウェア・リサーチ・センター(ＳＲＣ)ビル完成。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">平成　３年　９月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo">システム・ソフト開発事業部をＳＲＣビルに移転。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">平成　４年　１月</td>
+                            </tr>
+                            <tr>
                                 <td class="note">本社をＳＲＣビルに移転。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">平成　８年１１月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo">人材派遣事業部を本社内に設置。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">平成　９年　２月</td>
-                                <td class="note">四日市事業所にて人材派遣業を開始。</td>
+                            </tr>
+                            <tr>
+                                <td class="note">四日市事業所にて人材派遣業を開始。-</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">平成１４年１１月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo"> 本社・茜浜事業所・東京事業所 <br>
                                     ＩＳＯ９００１：２０００<br>
                                     ＩＳＯ１４００１：１９９６　同時認証取得
@@ -179,6 +225,8 @@
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">平成１６年　１月</td>
+                            </tr>
+                            <tr>
                                 <td class="note"> 四日市事業所 <br>
                                     ＩＳＯ９００１：２０００ <br>
                                     ＩＳＯ１４００１：１９９６　認証取得
@@ -186,34 +234,50 @@
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">平成１８年　１月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo">本社・四日市事業所にて有料職業紹介事業を開始。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">平成１８年　５月</td>
+                            </tr>
+                            <tr>
                                 <td class="note">ＩＳＯ１４００１：２００４　認証更新</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">平成１８年１１月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo">鈴鹿事務所を開設。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">平成２１年１１月</td>
+                            </tr>
+                            <tr>
                                 <td class="note">ＩＳＯ９００１：２００８　認証更新</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">平成２２年　９月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo">鈴鹿事務所を四日市事業所に吸収統合</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">平成２４年１０月</td>
+                            </tr>
+                            <tr>
                                 <td class="note">厚木事務所を開設。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="hyo">平成２８年　９月</td>
+                            </tr>
+                            <tr>
                                 <td class="hyo">厚木事務所を移転。</td>
                             </tr>
                             <tr>
                                 <td align="center" bgcolor="#F8F4F9" class="note">平成２８年　９月</td>
+                            </tr>
+                            <tr>
                                 <td class="note">システム・ソフト開発事業部　メディカルグループ<br>
                                     ＩＳＯ１３４８５：２００３　認証取得
                                 </td>

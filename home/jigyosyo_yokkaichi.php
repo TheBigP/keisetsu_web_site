@@ -33,8 +33,8 @@ header("Pragma: no-cache");?>
                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                     <tbody>
                                                         <tr>
-                                                            <td>千葉県習志野市茜浜1－2－6</td>
-                                                            <td align="right"><a href="http://maps.google.co.jp/maps?f=l&amp;hl=ja&amp;geocode=&amp;time=&amp;date=&amp;ttype=&amp;q=%E4%BA%AC%E8%A8%AD%E5%B7%A5%E6%A5%AD&amp;near=%E5%8D%83%E8%91%89%E7%9C%8C%E7%BF%92%E5%BF%97%E9%87%8E%E5%B8%82%E8%8C%9C%E6%B5%9C+1-2-6&amp;ie=UTF8&amp;z=19&amp;iwloc=A&amp;om=1" target="map"><img src="./image/bt_googlemap.gif" alt="京設工業 茜浜事業所 詳細地図はこちら" width="110" height="25" border="0"></a></td>
+                                                            <td>三重県四日市市富士町6－31</td>
+                                                            <td align="right"><a href="http://maps.google.com/maps?f=l&amp;hl=ja&amp;geocode=&amp;q=%E4%BA%AC%E8%A8%AD%E5%B7%A5%E6%A5%AD&amp;near=%E4%B8%89%E9%87%8D%E7%9C%8C%E5%9B%9B%E6%97%A5%E5%B8%82%E5%B8%82%E5%AF%8C%E5%A3%AB%E7%94%BA6%EF%BC%8D31&amp;ie=UTF8&amp;z=19&amp;iwloc=A&amp;om=1" target="map"><img src="./image/bt_googlemap.gif" alt="京設工業 四日市事業所 詳細地図はこちら" width="110" height="25" border="0"></a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>

@@ -11,11 +11,14 @@ header("Pragma: no-cache"); ?>
 
 <body onhashchange="funcRef();">
     <?php include 'header.php'; ?>
-    <div class="container">
+    <div class="sidebar-header" style="padding:18px 0 0 0;max-width: 540px;margin-left: auto;margin-right: auto;">
+        <img width="100%" src="./image/main_image.png" alt="京設工業株式会社" />
+    </div>
+    <div class="container" style="margin-top: 2px">
         <div id="page-content-wrapper" style="padding: top 60px;">
             <div class="page-content inset" data-spy="scroll" data-target="#spy">
                 <div class="row" style="padding: 0 2%">
-                    <div class="col-6 col-md-4" style="padding-right:0%;padding-bottom:0%;padding-left:0%">
+                    <div class="col-6 col-md-4" style="padding-right:0.5%;padding-bottom:0%;padding-left:0%">
                         <div class="pdserv fontsize">
                             <table border="0" cellpadding="30" cellspacing="0" style="padding-top: 30px">
                                 <tbody>
@@ -33,14 +36,14 @@ header("Pragma: no-cache"); ?>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4" style="padding-right:0%;padding-left:0%">
+                    <div class="col-6 col-md-4" style="padding-right:0%;padding-left:0.5%">
                         <div class="recruit fontsize">
                             <table border="0" cellpadding="3" cellspacing="0">
                                 <tbody>
                                     <tr>
-                                        <td style="padding: 35% 5% 5% 5%">京設工業では、ソフトウェア開発、<br>
-                                            機械設計、電気・電子回路設計、<br>
-                                            プラスティック容器設計、DTP技術者<br>
+                                        <td style="padding: 35% 5% 5% 5%">京設工業では、ソフトウェア開発、
+                                            機械設計、電気・電子回路設計、
+                                            プラスティック容器設計、DTP技術者
                                             などの募集をしております。
                                         </td>
                                     </tr>
@@ -55,14 +58,14 @@ header("Pragma: no-cache"); ?>
                     </div>
                 </div>
                 <div class="row" style="padding: 0 2%">
-                    <div class="col-6 col-md-4" style="padding-right:0%;padding-left:0%">
+                    <div class="col-6 col-md-4" style="padding:0.5% 0.5% 0% 0%;">
                         <div class="entry fontsize">
                             <table border="0" cellpadding="3" cellspacing="0">
                                 <tbody>
                                     <tr>
-                                        <td style="padding: 35% 5% 5% 5%">「常に新しいものを求め、変化を<br>
-                                            恐れず、変化を楽しむ」 という<br>
-                                            企業カルチャーを持つ京設工業<br>
+                                        <td style="padding: 35% 5% 5% 5%">「常に新しいものを求め、変化を
+                                            恐れず、変化を楽しむ」 という
+                                            企業カルチャーを持つ京設工業
                                             で一緒に働きませんか？
                                         </td>
                                     </tr>
@@ -75,13 +78,13 @@ header("Pragma: no-cache"); ?>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4" style="padding-right:0%;padding-left:0%">
+                    <div class="col-6 col-md-4" style="padding:0.5% 0% 0% 0.5%;">
                         <div class="company fontsize">
                             <table border="0" cellpadding="3" cellspacing="0">
                                 <tbody>
                                     <tr>
-                                        <td style="padding: 35% 5% 5% 5%">京設工業は昭和３７年に創業され、<br>
-                                            ５０有余年に渡り営業を続けております。<br>
+                                        <td style="padding: 35% 5% 5% 5%">京設工業は昭和３７年に創業され、
+                                            ５０有余年に渡り営業を続けております。
                                             主力業務は時代の流れの中で大きく変化してきておりますが。
                                         </td>
                                     </tr>
