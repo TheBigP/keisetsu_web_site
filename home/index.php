@@ -49,7 +49,7 @@ header("Pragma: no-cache"); ?>
                         </div>
                     </div>
                     <div class="col-6 col-md-4" style="padding-right:0%;padding-left:0.5%;">
-                        <div class="recruit fontsize">
+                        <div class="recruit fontsize" style="position: relative;">
                             <table border="0" cellpadding="3" cellspacing="0">
                                 <tbody>
                                     <tr>
@@ -75,7 +75,7 @@ header("Pragma: no-cache"); ?>
                                 </li>
                             </ul>
                             <!-- 向左的三角形 -->
-                            <div class="triangle_border_left color-2">
+                            <div class="triangle_border_left color-2" style="position: absolute;bottom: 0;right: 0;">
                                 <span></span>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ header("Pragma: no-cache"); ?>
                 </div>
                 <div class="row" style="padding: 0 2%">
                     <div class="col-6 col-md-4" style="padding:0.5% 0.5% 0% 0%;">
-                        <div class="entry fontsize">
+                        <div class="entry fontsize" style="position: relative;">
                             <table border="0" cellpadding="3" cellspacing="0">
                                 <tbody>
                                     <tr>
@@ -109,7 +109,7 @@ header("Pragma: no-cache"); ?>
                                 </li>
                             </ul>
                             <!-- 向左的三角形 -->
-                            <div class="triangle_border_left color-3">
+                            <div class="triangle_border_left color-3" style="position: absolute;bottom: 0;right: 0;">
                                 <span></span>
                             </div>
                         </div>

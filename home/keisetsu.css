@@ -192,7 +192,7 @@ td.text {
 	/*border-left-style: solid;*/
 	/*border-left-color: #CCCCCC;*/
 	/*line-height: 145%;*/
-	/*height: 273px;*/
+	height: 100%;
 	border: #00A300 solid;
 }
 .pdserv {
@@ -295,7 +295,6 @@ td.text {
 	border-color:transparent #0000FF transparent transparent;/*透明 黄 透明 透明 */
 }
 .color-2 span{
-	margin-top: 25%;
 	border-color:transparent #FF7A00 transparent transparent;/*透明 黄 透明 透明 */
 }
 .color-3 span{
