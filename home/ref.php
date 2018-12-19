@@ -7,6 +7,8 @@
 <meta name="Description" content="京設工業株式会社はソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの５つの部門からお客様の多様なニーズに応え続けています。">
 <meta name="keyword" content="京設工業,ソフトウェア,開発,検証,電気,電子,機械,設計,システム,エンジニア,技術者,採用,人材派遣,転職,求人,プラスチック容器,デザイン,DTP">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--放大界面问题-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>ソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの京設工業株式会社－ごあいさつ－/システムエンジニア/技術者/人材派遣/転職/プラスチック容器</title>
 
@@ -73,28 +75,6 @@
         });
     });
     $(document).ready(function(e) {
-        // var counter = 0;
-        // if (window.history && window.history.pushState) {
-        //     // $(window).on('popstate', function () {
-        //     //     // window.history.pushState('forward', null, '#');
-        //     //     // window.history.forward(1);
-        //     //
-        //     //     <!-- 此处为监听到浏览器后退按钮的后续事件  例：刷新前一个页面；或者刷新当前页面等-->
-        //     //     if (window.location.hash) {
-        //     //         $('#sidebar').removeClass('active');
-        //     //         $('.container').removeClass('active');
-        //     //         return;
-        //     //     }
-        //     //     window.history.go(-1);
-        //     //     window.location.href = window.location.reload();
-        //     // });
-        //     window.addEventListener('pageshow', function(event) {
-        //         //event.persisted属性为true时，表示当前文档是从往返缓存中获取
-        //         if(event.persisted) location.reload();
-        //     });
-        // }
-        // window.history.pushState('forward', null, '#'); //在IE中必须得有这两行
-        // window.history.forward(1);
         window.addEventListener('pageshow', function(event) {
             //event.persisted属性为true时，表示当前文档是从往返缓存中获取
             if (event.persisted) location.reload();

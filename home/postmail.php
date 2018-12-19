@@ -70,13 +70,13 @@ header("Pragma: no-cache");?>
                         <tbody>
                             <tr>
                                 <td class="fontsize">京設工業株式会社へのご質問お問い合わせは、下記のフォームより必要事項をご入力後、送信ください。後日、こちらからご連絡いたします。<font color="#FF3300">記入項目はすべて必須です。</font><br>
-                                    お問い合わせの際、収集させていただく個人情報の取り扱いについては<a href="http://www.keisetsu.co.jp/html/privacy.html" target="_blank"><u style="color: #0f0f0f">こちら</u></a>をご確認下さい。
+                                    お問い合わせの際、収集させていただく個人情報の取り扱いについては<a href="privacy.php" target="_blank"><u style="color: #0f0f0f">こちら</u></a>をご確認下さい。
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                     <div>
-                        <form action="email.php" method="post">
+                        <form action="https://keisetsu.co.jp/postmail2/postmail.cgi" method="post">
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered fontsize">
                                 <tbody>
                                     <tr>
@@ -120,7 +120,7 @@ header("Pragma: no-cache");?>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             〒
-                                            <input class="form-control" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" onblur="MM_validateForm('_郵便番号上3桁','','NisNum');return document.MM_returnValue" size="6" maxlength="6" placeholder="例：xxx-xxxx（半角数字）">
+                                            <input class="form-control" style="display: inline;width: 90%;" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" onblur="MM_validateForm('_郵便番号上3桁','','NisNum');return document.MM_returnValue" size="6" maxlength="6" placeholder="例：xxx-xxxx（半角数字）">
                                         </td>
                                     </tr>
                                     <tr>
@@ -215,15 +215,15 @@ header("Pragma: no-cache");?>
                                     </tr>
                                 </tbody>
                             </table>
-                            <img src="./image/line_note.gif" alt="" width="100%" height="1"><br>
+                            <img src="./image/line_note.gif" alt="" width="100%" height="1">
                             <br>
                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tbody>
                                     <tr>
                                         <td align="center">
-                                            <input type="submit" name="Submit" style="width: 23%;margin-right: 10px" value="送信">
+                                            <input type="submit" name="Submit" style="width: 23%;margin-right: 10px;height:25%" value="送信">
 
-                                            <input type="reset" name="Submit2" style="width: 23%;margin-left: 10px" value="リセット" onclick="javascript: top.location.href = 'postmail.php'">
+                                            <input type="reset" name="Submit2" style="width: 23%;margin-left: 10px;height:25%" value="リセット" onclick="javascript: top.location.href = 'postmail.php'">
                                         </td>
                                     </tr>
                                 </tbody>

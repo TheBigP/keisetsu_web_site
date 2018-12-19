@@ -216,7 +216,7 @@ td.text {
 	padding: 2%;
 	/*margin: 4% 0 0 4%;*/
 	border:#0000FF double;
-	width: 104px;
+	width: 112px;
 	height: 48px;
 	font-size: 12px;
 	background-color:#0000FF;
@@ -224,8 +224,8 @@ td.text {
 .menu-font1{
 	/*padding: 2%;*/
 	margin: 4% 0 0 4%;
-	width: 108px;
-	height: 52px;
+	width: 118px;
+	height: 54px;
 	border: #0000FF double;
 }
 .menu-font-2{
@@ -241,8 +241,8 @@ td.text {
 .menu-font2{
 	/*padding: 2%;*/
 	margin: 4% 0 0 4%;
-	width: 108px;
-	height: 52px;
+	width: 110px;
+	height: 54px;
 	border: #FF7A00 double;
 }
 .menu-font-3{
@@ -257,8 +257,8 @@ td.text {
 .menu-font3{
 	/*padding: 2%;*/
 	margin: 4% 0 0 4%;
-	width: 108px;
-	height: 52px;
+	width: 110px;
+	height: 54px;
 	border: #00A300 double;
 }
 .menu-font-4{
@@ -273,8 +273,8 @@ td.text {
 .menu-font4{
 	/*padding: 2%;*/
 	margin: 4% 0 0 4%;
-	width: 108px;
-	height: 52px;
+	width: 110px;
+	height: 54px;
 	border: #00FFBA double;
 }
 .font-div{
@@ -504,4 +504,13 @@ html {font-size: 62.5%!important; /* 10÷16=62.5% */}
 .line-div {
 	width: 90%;
 	vertical-align:middle;
+}
+.form-control::-webkit-input-placeholder{
+	/* placeholder颜色  */
+	color: #aab2bd;
+	/* placeholder字体大小  */
+	font-size: 10px;
+	/* placeholder位置  */
+	text-align: left;
+	padding: 0;
 }

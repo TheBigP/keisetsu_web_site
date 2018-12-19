@@ -54,7 +54,7 @@
 
 <body style="padding-top:60px;font-size:15px">
     <?php include 'header.php'; ?>
-    <div class="container">
+    <div class="container" style="margin-top:0px">
         <div class="row">
             <div class="col-sm-12">
                 <div id="left">
@@ -75,7 +75,7 @@
                         </tbody>
                     </table>
                     <div>
-                        <form action="email.php" method="post">
+                        <form action="https://keisetsu.co.jp/postmail2/postmail.cgi" method="post">
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered" style="font-size: 14px">
                                 <tbody>
                                     <tr>
@@ -128,7 +128,7 @@
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial">
                                             <span>生年月日</span></td>
                                         <td bgcolor="#F8F4F9" class="note"> 西暦
-                                            <input class="form-control" name="_生年月日/年" style="display: inline;width: 25%" type="text" id="生年月日/年" size="8" placeholder="年">
+                                            <input class="form-control" name="_生年月日/年" style="display: inline;width: 30%" type="text" id="生年月日/年" size="8" placeholder="年">
 
                                             <input class="form-control" name="_生年月日/月" style="display: inline;width: 25%" type="text" id="生年月日/月" size="4" placeholder="月">
 
@@ -150,7 +150,7 @@
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             〒
-                                            <input class="form-control" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" onblur="MM_validateForm('郵便番号上3桁','','NisNum');return document.MM_returnValue" size="3" maxlength="3" placeholder="例：xxx-xxxx（半角数字）">
+                                            <input class="form-control" style="display: inline;width: 90%;" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" onblur="MM_validateForm('郵便番号上3桁','','NisNum');return document.MM_returnValue" size="3" maxlength="3" placeholder="例：xxx-xxxx（半角数字）">
                                         </td>
                                     </tr>
                                     <tr>
@@ -265,7 +265,7 @@
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9" style="vertical-align: unset">・卒業年度　西暦
-                                            <input class="form-control" width="10%" placeholder="（半角数字）" style="display: inline;width: 30%;" name="_卒業年度" type="text" id="卒業年度" size="8">
+                                            <input class="form-control" width="20%" placeholder="（半角数字）" style="display: inline;width: 34%;" name="_卒業年度" type="text" id="卒業年度" size="8">
                                             年度
                                         </td>
                                     </tr>
@@ -296,15 +296,15 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <img src="./image/line_note.gif" alt="" width="100%" height="1"><br>
+                            <img src="./image/line_note.gif" alt="" width="100%" height="1">
                             <br>
                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tbody>
                                     <tr>
                                         <td align="center">
-                                            <input type="submit" name="Submit" style="width: 23%;margin-right: 10px" value="確認画面へ">
+                                            <input type="submit" name="Submit" style="width: 23%;margin-right: 10px;height:25%" value="確認画面へ">
 
-                                            <input type="reset" name="Submit2" style="width: 23%;margin-left: 10px" value="リセット" onclick="javascript: top.location.href = 'postmail_link.php'">
+                                            <input type="reset" name="Submit2" style="width: 23%;margin-left: 10px;height:25%" value="リセット" onclick="javascript: top.location.href = 'postmail_link.php'">
                                         </td>
                                     </tr>
                                 </tbody>
