@@ -52,7 +52,7 @@
     </script>
 </head>
 
-<body style="padding-top:60px;font-size:15px">
+<body style="padding-top:50px;">
     <?php include 'header.php'; ?>
     <div class="container" style="margin-top:0px">
         <div class="row">
