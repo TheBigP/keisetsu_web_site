@@ -18,11 +18,11 @@ header("Pragma: no-cache");?>
                 <div id="left">
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <td class="under10" style="border: 0"><img src="./image/bmida_honsya.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%">
+                            <td class="under10" style="border: 0;padding:0px"><img src="./image/bmida_honsya.jpg" alt="コンピュータ・ソフトウエア開発部門" width="100%">
                             </td>
                         </tr>
                     </table>
-                    <table class="table table-bordered" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <table class="table table-bordered" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:0px">
                         <tbody>
                             <tr>
                                 <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">

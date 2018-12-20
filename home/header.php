@@ -41,13 +41,13 @@
                         <a href="recruite.php">新卒採用情報 </a>
                     </li>
                     <li>
-                        <a href="recruite.php#obo1" class="recuit_obo1">応募方法・選考の流れ（新卒） </a>
+                        <a href="recruite.php#obo1" onclick="js_method()" class="recuit_obo1">応募方法・選考の流れ（新卒） </a>
                     </li>
                     <li>
                         <a href="recruite_career.php">キャリア採用情報 </a>
                     </li>
                     <li>
-                        <a href="recruite_career.php#obo2" class="recuit_obo2">応募方法・選考の流れ（キャリア） </a>
+                        <a href="recruite_career.php#obo2" onclick="js_method()" class="recuit_obo2">応募方法・選考の流れ（キャリア） </a>
                     </li>
                     <li>
                         <a href="recruite_kojin.php">エントリーフォーム </a>
@@ -90,3 +90,11 @@
     </nav>
 
 </div>
+<script>
+    function js_method() {
+        $('#sidebar').removeClass('active');
+        $('.container').removeClass('active');
+        $('#sidebarCollapse').addClass('menu-content');
+        $('#sidebarCollapse').removeClass('menu-content-change');
+    }
+</script>

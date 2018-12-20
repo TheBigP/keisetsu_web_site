@@ -35,6 +35,7 @@ header("Pragma: no-cache");?>
                                                     <tbody>
                                                         <tr>
                                                             <td>千葉県習志野市茜浜1－2－6</td>
+<!--                                                            https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=48.857832,2.295226&heading=-45&pitch=38&fov=80-->
                                                             <td align="right"><a href="http://maps.google.co.jp/maps?f=l&amp;hl=ja&amp;geocode=&amp;time=&amp;date=&amp;ttype=&amp;q=%E4%BA%AC%E8%A8%AD%E5%B7%A5%E6%A5%AD&amp;near=%E5%8D%83%E8%91%89%E7%9C%8C%E7%BF%92%E5%BF%97%E9%87%8E%E5%B8%82%E8%8C%9C%E6%B5%9C+1-2-6&amp;ie=UTF8&amp;z=19&amp;iwloc=A&amp;om=1" target="map"><img src="./image/bt_googlemap.gif" alt="京設工業 茜浜事業所 詳細地図はこちら" width="110" height="25" border="0"></a></td>
                                                         </tr>
                                                     </tbody>

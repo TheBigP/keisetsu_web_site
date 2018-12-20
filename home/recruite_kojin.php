@@ -19,7 +19,7 @@ header("Pragma: no-cache");?>
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <td class="under10"><img src="./image/bn_rec_kojin.jpg" alt="個人情報の取り扱いについて" width="240" height="45"></td>
+                                <td class="under10" style="padding:0px"><img src="./image/bn_rec_kojin.jpg" alt="個人情報の取り扱いについて" width="240" height="45"></td>
                             </tr>
                         </thead>
                         <tbody>
