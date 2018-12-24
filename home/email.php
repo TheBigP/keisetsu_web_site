@@ -105,7 +105,7 @@ function sendmailto($mailto, $mailsub, $mailbd)
 echo "
 <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"><head>
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">
-    <meta http-equiv=\"content-type\" content=\"text/html; charset=shift_jis\">
+    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">
     <title>フォームメール</title></head>
 <body bgcolor=\"#f0f0f0\" text=\"#000000\" link=\"#000ff\" vlink=\"#800080\">
     <div class=\"container\">
@@ -120,7 +120,7 @@ echo "
                         <br><br>
                         <hr width=\"400\">
                         <form>
-                            <input type=\"button\" value=\"トップに戻る\" onclick=\"window.open(&quot;http://192.168.1.118:8000/home/index.php&quot;,&quot;_top&quot;)\">
+                            <input type=\"button\" value=\"トップに戻る\" onclick=\"window.open(&quot;http://117.120.6.137:8081/keisetsu/home/index.php&quot;,&quot;_top&quot;)\">
                         </form>
                         <br><br>
                     </div>
