@@ -51,7 +51,19 @@ header("Pragma: no-cache");?>
             if (errors) alert('The following error(s) occurred:\n' + errors);
             document.MM_returnValue = (errors == '');
         }
-
+        function form_check(thisform) {
+            with (thisform) {
+                for(var i=0;i<thisform.length;i++){
+                    if(thisform[i].value==null||thisform[i].value==""){
+                        if(thisform[i].id !== "所在地/アパートマンション名"){
+                            alert(thisform[i].id+"は入力必須です");
+                            return false;
+                        }
+                    }
+                }
+                return true;
+            }
+        }
     </script>
 </head>
 
@@ -76,7 +88,7 @@ header("Pragma: no-cache");?>
                         </tbody>
                     </table>
                     <div>
-                        <form action="https://keisetsu.co.jp/postmail2/postmail.cgi" method="post">
+                        <form action="email.php" method="post" onsubmit="return form_check(this)">
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered fontsize">
                                 <tbody>
                                     <tr>
@@ -196,21 +208,21 @@ header("Pragma: no-cache");?>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>電話番号</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号" type="text" id="電話番号">
+                                            <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号" type="number" id="電話番号">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>メールアドレス</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="（半角数字）" name="_email" type="text" id="email">
+                                            <input class="form-control" placeholder="（半角数字）" name="_email" type="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>お問合せ詳細</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <textarea class="form-control" placeholder="出来るだけ詳しくご記入ください。" name="_お問合せ詳細" cols="40" rows="5" id="textarea3"></textarea>
+                                            <textarea class="form-control" placeholder="出来るだけ詳しくご記入ください。" name="_お問合せ詳細" cols="40" rows="5" id="お問合せ詳細"></textarea>
                                         </td>
                                     </tr>
                                 </tbody>
