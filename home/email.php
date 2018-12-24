@@ -104,25 +104,34 @@ function sendmailto($mailto, $mailsub, $mailbd)
 }
 echo "
 <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"><head>
-<meta http-equiv=\"content-type\" content=\"text/html; charset=shift_jis\">
-<title>フォームメール</title></head>
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">
+    <meta http-equiv=\"content-type\" content=\"text/html; charset=shift_jis\">
+    <title>フォームメール</title></head>
 <body bgcolor=\"#f0f0f0\" text=\"#000000\" link=\"#000ff\" vlink=\"#800080\">
-<div align=\"center\">
-<hr width=\"400\">
-<br><br>
-<b>ありがとうございます.<br>
-送信は正常に完了しました.</b>
-<br><br>
-<hr width=\"400\">
-<form>
-<input type=\"button\" value=\"トップに戻る\" onclick=\"window.open(&quot;http://192.168.1.118:8000/home/index.php&quot;,&quot;_top&quot;)\">
-</form>
-<br><br>
-</div>
-<br>
-<div align=\"center\" style=\"font-size:10px; font-family:Verdana,Helvetica,Arial;\">
-- <a href=\"http://www.kent-web.com/\" target=\"_top\">PostMail</a> -
-</div>
+    <div class=\"container\">
+        <div class=\"row\">
+            <div class=\"col-sm-12\">
+                <div id=\"left\">
+                    <div align=\"center\">
+                        <hr width=\"100%\">
+                        <br><br>
+                        <b>ありがとうございます.<br>
+                            送信は正常に完了しました.</b>
+                        <br><br>
+                        <hr width=\"400\">
+                        <form>
+                            <input type=\"button\" value=\"トップに戻る\" onclick=\"window.open(&quot;http://192.168.1.118:8000/home/index.php&quot;,&quot;_top&quot;)\">
+                        </form>
+                        <br><br>
+                    </div>
+                    <br>
+                    <div align=\"center\" style=\"font-size:10px; font-family:Verdana,Helvetica,Arial;\">
+                        - <a href=\"http://www.kent-web.com/\" target=\"_top\">PostMail</a> -
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body></html>";
 
 ?>
