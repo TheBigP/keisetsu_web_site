@@ -48,7 +48,19 @@
             if (errors) alert('The following error(s) occurred:\n' + errors);
             document.MM_returnValue = (errors == '');
         }
-
+        function form_check(thisform) {
+            with (thisform) {
+                for(var i=0;i<thisform.length;i++){
+                    if(thisform[i].value==null||thisform[i].value==""){
+                        if(thisform[i].id !== "住所/アパートマンション名" && thisform[i].id !== "資格・技能・職歴など"){
+                            alert(thisform[i].id+"は入力必須です");
+                            return false;
+                        }
+                    }
+                }
+                return true;
+            }
+        }
     </script>
 </head>
 
@@ -75,7 +87,7 @@
                         </tbody>
                     </table>
                     <div>
-                        <form action="https://keisetsu.co.jp/postmail2/postmail.cgi" method="post">
+                        <form action="email_link.php" method="post" onsubmit="return form_check(this)">
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered" style="font-size: 14px">
                                 <tbody>
                                     <tr>

@@ -15,8 +15,8 @@ $body="
 <body>
     <table align=\"left\" class=\"table table-bordered\" style=\"text-align: right\">
         <tr>
-            <td bgcolor=\"#EBECF5\">お問合せ内容</td>
-            <td align='left'>{$_POST["_お問合せ内容"]}</td>
+            <td bgcolor=\"#EBECF5\">希望職種</td>
+            <td align='left'>{$_POST["_希望職種"]}</td>
         </tr>
         <tr>
             <td bgcolor=\"#EBECF5\">氏名/姓</td>
@@ -35,45 +35,78 @@ $body="
             <td align='left'>{$_POST["_フリガナ/名"]}</td>
         </tr>
         <tr>
-            <td bgcolor=\"#EBECF5\">会社名・学校名</td>
-            <td align='left'>{$_POST["_会社名・学校名"]}</td>
+            <td bgcolor=\"#EBECF5\">生年月日/年</td>
+            <td align='left'>{$_POST["_生年月日/年"]}</td>
+        </tr>
+        <tr>
+            <td bgcolor=\"#EBECF5\">生年月日/月</td>
+            <td align='left'>{$_POST["_生年月日/月"]}</td>
+        </tr>
+        <tr>
+            <td bgcolor=\"#EBECF5\">生年月日/日</td>
+            <td align='left'>{$_POST["_生年月日/日"]}</td>
         </tr>
         <tr>
             <td bgcolor=\"#EBECF5\">郵便番号上3桁</td>
             <td align='left'>{$_POST["_郵便番号上3桁"]}</td>
         </tr>
         <tr>
-            <td bgcolor=\"#EBECF5\">所在地/都道府県</td>
-            <td align='left'>{$_POST["_所在地/都道府県"]}</td>
+            <td bgcolor=\"#EBECF5\">住所/都道府県</td>
+            <td align='left'>{$_POST["_住所/都道府県"]}</td>
         </tr>
         <tr>
-            <td bgcolor=\"#EBECF5\">所在地/市区町村</td>
-            <td align='left'>{$_POST["_所在地/市区町村"]}</td>
+            <td bgcolor=\"#EBECF5\">住所/市区町村</td>
+            <td align='left'>{$_POST["_住所/市区町村"]}</td>
         </tr>
         <tr>
-            <td bgcolor=\"#EBECF5\">所在地/番地ほか</td>
-            <td align='left'>{$_POST["_所在地/番地ほか"]}</td>
+            <td bgcolor=\"#EBECF5\">住所/番地ほか</td>
+            <td align='left'>{$_POST["_住所/番地ほか"]}</td>
         </tr>
         <tr>
-            <td bgcolor=\"#EBECF5\">所在地/アパートマンション名</td>
-            <td align='left'>{$_POST["所在地/アパートマンション名"]}</td>
+            <td bgcolor=\"#EBECF5\">住所/アパートマンション名</td>
+            <td align='left'>{$_POST["住所/アパートマンション名"]}</td>
         </tr>
         <tr>
-            <td bgcolor=\"#EBECF5\">電話番号</td>
-            <td align='left'>{$_POST["_電話番号"]}</td>
+            <td bgcolor=\"#EBECF5\">電話番号【自宅】</td>
+            < td align = 'left' >{$_POST["_電話番号【自宅】"]}</td>
         </tr>
         <tr>
-            <td bgcolor=\"#EBECF5\">email	</td>
-            <td align='left'>{$_POST["_email"]}</td>
+            <td bgcolor=\"#EBECF5\">電話番号【携帯】</td>
+            < td align = 'left' >{$_POST["_電話番号【携帯】"]}</td>
         </tr>
         <tr>
-            <td bgcolor=\"#EBECF5\">お問合せ詳細</td>
-            <td align='left'>{$_POST["_お問合せ詳細"]}</td>
+            <td bgcolor=\"#EBECF5\">email</td>
+            < td align = 'left' >{$_POST["_email"]}</td>
+        </tr>
+        <tr>
+            <td bgcolor=\"#EBECF5\">最終学歴/学校名</td>
+            < td align = 'left' >{$_POST["_最終学歴/学校名"]}</td>
+        </tr>
+        <tr>
+            <td bgcolor=\"#EBECF5\">最終学歴/学部名</td>
+            < td align = 'left' >{$_POST["_最終学歴/学部名"]}</td>
+        </tr>
+        <tr>
+            <td bgcolor=\"#EBECF5\">最終学歴/学科名</td>
+            < td align = 'left' >{$_POST["_最終学歴/学科名"]}</td>
+        </tr>
+        <tr>
+            <td bgcolor=\"#EBECF5\">卒業年度</td>
+            < td align = 'left' >{$_POST["_卒業年度"]}</td>
+        </tr>
+        <tr>
+            <td bgcolor=\"#EBECF5\">資格・技能・職歴など</td>
+            < td align = 'left' >{$_POST["資格・技能・職歴など"]}</td>
+        </tr>
+        <tr>
+            <td bgcolor=\"#EBECF5\">その他</td>
+            < td align = 'left' >{$_POST["その他"]}</td>
         </tr>
         <tr>
             <td bgcolor=\"#EBECF5\">Submit</td>
-            <td align='left'>{$_POST["Submit"]}</td>
+            < td align = 'left' >{$_POST["Submit"]}</td>
         </tr>
+        
     </table>
 </body>
 </html>
@@ -100,7 +133,6 @@ function sendmailto($mailto, $mailsub, $mailbd)
     $smtp           = new smtp($smtpserver, $smtpserverport, true, $smtpuser, $smtppass); //这里面的一个true是表示使用身份验证,否则不使用身份验证.
     $smtp->debug    = TRUE; //是否显示发送的调试信息
     $smtp->sendmail($smtpemailto, $smtpusermail, $mailsubject, $mailbody, $mailtype);
-
 }
 echo "
 <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"><head>
