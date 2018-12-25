@@ -48,19 +48,108 @@
             if (errors) alert('The following error(s) occurred:\n' + errors);
             document.MM_returnValue = (errors == '');
         }
-        function form_check(thisform) {
-            with (thisform) {
-                for(var i=0;i<thisform.length;i++){
-                    if(thisform[i].value==null||thisform[i].value==""){
-                        if(thisform[i].id !== "住所/アパートマンション名" && thisform[i].id !== "資格・技能・職歴など"){
-                            alert(thisform[i].id+"は入力必須です");
-                            return false;
-                        }
-                    }
-                }
-                return true;
-            }
-        }
+        $(document).ready(function () {
+            $("#form_validate").submit(function (e) {
+                const new_fname = $("#氏名姓").val();
+                if(new_fname === "" || new_fname === null){
+                    alert("氏名/姓は入力必須です");
+                    return false;
+                };
+                const new_lname = $("#氏名名").val();
+                if(new_lname === "" || new_lname === null){
+                    alert("氏名/名は入力必須です");
+                    return false;
+                };
+                const new_pfname = $("#フリガナ姓").val();
+                if(new_pfname === "" || new_pfname === null){
+                    alert("フリガナ/姓は入力必須です");
+                    return false;
+                };
+                const new_plname = $("#フリガナ名").val();
+                if(new_plname === "" || new_plname === null){
+                    alert("フリガナ/名は入力必須です");
+                    return false;
+                };
+                const birthday_year = $("#生年月日年").val();
+                const reg_year = /^\d{4}$/;
+                if(!reg_year.test(birthday_year)){
+                    alert("生年月日/年は入力必須です");
+                    return false;
+                };
+                const birthday_mon = $("#生年月日月").val();
+                const reg_mon = /^([123456789]|1[012])$/;
+                if(!reg_mon.test(birthday_mon)){
+                    alert("生年月日/月は入力必須です");
+                    return false;
+                };
+                const birthday_day = $("#生年月日日").val();
+                const reg_day = /^([1-9]|[12][0-9]|3[01])$/;
+                if(!reg_day.test(birthday_day)){
+                    alert("生年月日/日は入力必須です");
+                    return false;
+                };
+                const postal_code = $("#郵便番号上3桁").val();
+                const postal_num = /^\d{3}-\d{4}$/;
+                if(!postal_num.test(postal_code)){
+                    alert("郵便番号上7桁は入力必須です,数値フォーマットでなければなりません");
+                    return false;
+                };
+                const location = $("#住所都道府県").val();
+                if(location === "" || location === null){
+                    alert("住所/都道府県は入力必須です");
+                    return false;
+                };
+                const location_town = $("#住所市区町村").val();
+                if(location_town === "" || location_town === null){
+                    alert("住所/市区町村は入力必須です");
+                    return false;
+                };
+                const location_address = $("#住所番地ほか").val();
+                if(location_address === "" || location_address === null){
+                    alert("住所/番地ほかは入力必須です");
+                    return false;
+                };
+                const tel_number = $("#電話番号【自宅】").val();
+                const tel = /^\d{2}-\d{4}-\d{4}$/;
+                if(!tel.test(tel_number)){
+                    alert("電話番号【自宅】は入力必須です");
+                    return false;
+                };
+                const phone_number = $("#電話番号【携帯】").val();
+                const phone = /^\d{3}-\d{4}-\d{4}$/;
+                if(!phone.test(phone_number)){
+                    alert("電話番号【携帯】は入力必須です");
+                    return false;
+                };
+                const regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                const new_email = $("#email").val();
+                if(!(regex.test(new_email))){
+                    alert("emailは入力必須です");
+                    return false;
+                };
+                const school_name = $("#最終学歴学校名").val();
+                if(school_name === "" || school_name === null){
+                    alert("最終学歴/学校名は入力必須です");
+                    return false;
+                };
+                const faculty_name = $("#最終学歴学部名").val();
+                if(faculty_name === "" || faculty_name === null){
+                    alert("最終学歴/学部名は入力必須です");
+                    return false;
+                };
+                const department_name = $("#最終学歴学科名").val();
+                if(department_name === "" || department_name === null){
+                    alert("最終学歴/学科名は入力必須です");
+                    return false;
+                };
+                const graduation = $("#卒業年度").val();
+                const reg_graduation = /^\d{4}$/;
+                if(!reg_graduation.test(graduation)){
+                    alert("卒業年度は入力必須です");
+                    return false;
+                };
+            })
+        })
     </script>
 </head>
 
@@ -87,7 +176,7 @@
                         </tbody>
                     </table>
                     <div>
-                        <form action="email_link.php" method="post" onsubmit="return form_check(this)">
+                        <form action="email_link.php" method="post" id="form_validate">
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered" style="font-size: 14px">
                                 <tbody>
                                     <tr>
@@ -123,8 +212,8 @@
                                         <td bgcolor="#FFFFFF" width="35%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>氏　　名</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            姓<input class="form-control" name="_氏名/姓" type="text" id="氏名/姓" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
-                                            名<input class="form-control" name="_氏名/名" type="text" id="氏名/名" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            姓<input class="form-control" name="_氏名/姓" type="text" id="氏名姓" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            名<input class="form-control" name="_氏名/名" type="text" id="氏名名" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
                                         </td>
                                     </tr>
                                     <tr>
@@ -132,19 +221,19 @@
                                             <font color="#FF3300">（全角カタカナ）</font>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ/姓" style="display: inline-block;width: 90%;margin-left: 5px">
-                                            名<input class="form-control" name="_フリガナ/名" type="text" id="フリガナ/名" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ姓" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            名<input class="form-control" name="_フリガナ/名" type="text" id="フリガナ名" style="display: inline-block;width: 90%;margin-left: 5px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial">
                                             <span>生年月日</span></td>
                                         <td bgcolor="#F8F4F9" class="note"> 西暦
-                                            <input class="form-control" name="_生年月日/年" style="display: inline;width: 30%" type="text" id="生年月日/年" size="8" placeholder="年">
+                                            <input class="form-control" name="_生年月日/年" style="display: inline;width: 30%" type="text" id="生年月日年" size="8" placeholder="年">
 
-                                            <input class="form-control" name="_生年月日/月" style="display: inline;width: 25%" type="text" id="生年月日/月" size="4" placeholder="月">
+                                            <input class="form-control" name="_生年月日/月" style="display: inline;width: 25%" type="text" id="生年月日月" size="4" placeholder="月">
 
-                                            <input class="form-control" name="_生年月日/日" style="display: inline;width: 25%" type="text" id="生年月日/日" size="4" placeholder="日">
+                                            <input class="form-control" name="_生年月日/日" style="display: inline;width: 25%" type="text" id="生年月日日" size="4" placeholder="日">
                                             <font color="#FF3300">（半角数字）</font>
                                         </td>
                                     </tr>
@@ -162,12 +251,12 @@
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             〒
-                                            <input class="form-control" style="display: inline;width: 90%;" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" onblur="MM_validateForm('郵便番号上3桁','','NisNum');return document.MM_returnValue" size="3" maxlength="3" placeholder="例：xxx-xxxx（半角数字）">
+                                            <input class="form-control" style="display: inline;width: 90%;" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" size="3" maxlength="8" placeholder="例：xxx-xxxx（半角数字）">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <select name="_住所/都道府県" class="form-control" id="住所/都道府県">
+                                            <select name="_住所/都道府県" class="form-control" id="住所都道府県">
                                                 <option value="" selected="">都道府県</option>
                                                 <option value="北海道">北海道</option>
                                                 <option value="青森県">青森県</option>
@@ -221,12 +310,12 @@
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder=" ・市区町村" name="_住所/市区町村" type="text" id="住所/市区町村" size="15">
+                                            <input class="form-control" placeholder=" ・市区町村" name="_住所/市区町村" type="text" id="住所市区町村" size="15">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder=" ・番地ほか" name="_住所/番地ほか" type="text" id="住所/番地ほか" size="15">
+                                            <input class="form-control" placeholder=" ・番地ほか" name="_住所/番地ほか" type="text" id="住所番地ほか" size="15">
                                         </td>
                                     </tr>
                                     <tr>
@@ -262,17 +351,17 @@
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・学校名" name="_最終学歴/学校名" type="text" id="最終学歴/学校名">
+                                            <input class="form-control" placeholder="・学校名" name="_最終学歴/学校名" type="text" id="最終学歴学校名">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・学部名" name="_最終学歴/学部名" type="text" id="最終学歴/学部名">
+                                            <input class="form-control" placeholder="・学部名" name="_最終学歴/学部名" type="text" id="最終学歴学部名">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・学科名" name="_最終学歴/学科名" type="text" id="最終学歴/学科名">
+                                            <input class="form-control" placeholder="・学科名" name="_最終学歴/学科名" type="text" id="最終学歴学科名">
                                         </td>
                                     </tr>
                                     <tr>

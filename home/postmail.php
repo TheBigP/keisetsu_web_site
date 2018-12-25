@@ -51,19 +51,68 @@ header("Pragma: no-cache");?>
             if (errors) alert('The following error(s) occurred:\n' + errors);
             document.MM_returnValue = (errors == '');
         }
-        function form_check(thisform) {
-            with (thisform) {
-                for(var i=0;i<thisform.length;i++){
-                    if(thisform[i].value==null||thisform[i].value==""){
-                        if(thisform[i].id !== "所在地/アパートマンション名"){
-                            alert(thisform[i].id+"は入力必須です");
-                            return false;
-                        }
-                    }
-                }
-                return true;
-            }
-        }
+        $(document).ready(function () {
+            $("#form_validate").submit(function (e) {
+                const new_fname = $("#氏名姓").val();
+                if(new_fname === "" || new_fname === null){
+                    alert("氏名/姓は入力必須です");
+                    return false;
+                };
+                const new_lname = $("#氏名名").val();
+                if(new_lname === "" || new_lname === null){
+                    alert("氏名/名は入力必須です");
+                    return false;
+                };
+                const new_pfname = $("#フリガナ姓").val();
+                if(new_pfname === "" || new_pfname === null){
+                    alert("フリガナ/姓は入力必須です");
+                    return false;
+                };
+                const new_plname = $("#フリガナ名").val();
+                if(new_plname === "" || new_plname === null){
+                    alert("フリガナ/名は入力必須です");
+                    return false;
+                };
+                const school_name = $("#会社名・学校名").val();
+                if(school_name === "" || school_name === null){
+                    alert("会社名・学校名は入力必須です");
+                    return false;
+                };
+                const postal_code = $("#郵便番号上3桁").val();
+                const postal_num = /^\d{3}-\d{4}$/;
+                if(!postal_num.test(postal_code)){
+                    alert("郵便番号上7桁は入力必須です,数値フォーマットでなければなりません");
+                    return false;
+                };
+                const location = $("#所在地都道府県").val();
+                if(location === "" || location === null){
+                    alert("所在地/都道府県は入力必須です");
+                    return false;
+                };
+                const location_town = $("#所在地市区町村").val();
+                if(location_town === "" || location_town === null){
+                    alert("所在地/市区町村は入力必須です");
+                    return false;
+                };
+                const location_address = $("#所在地番地ほか").val();
+                if(location_address === "" || location_address === null){
+                    alert("所在地/番地ほかは入力必須です");
+                    return false;
+                };
+                const phone_number = $("#電話番号").val();
+                const tel = /^\d{2}-\d{4}-\d{4}$/;
+                if(!tel.test(phone_number)){
+                    alert("電話番号は入力必須です");
+                    return false;
+                };
+                const regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                const new_email = $("#email").val();
+                if(!(regex.test(new_email))){
+                    alert("emailは入力必須です");
+                    return false;
+                };
+            })
+        })
     </script>
 </head>
 
@@ -88,7 +137,7 @@ header("Pragma: no-cache");?>
                         </tbody>
                     </table>
                     <div>
-                        <form action="email.php" method="post" onsubmit="return form_check(this)">
+                        <form action="email.php" method="post" id="form_validate">
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered fontsize">
                                 <tbody>
                                     <tr>
@@ -107,8 +156,8 @@ header("Pragma: no-cache");?>
                                         <td bgcolor="#FFFFFF" width="35%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>氏　　名</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            姓<input class="form-control" name="_氏名/姓" type="text" id="氏名/姓" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
-                                            名<input class="form-control" name="_氏名/名" type="text" id="氏名/名" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            姓<input class="form-control" name="_氏名/姓" type="text" id="氏名姓" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            名<input class="form-control" name="_氏名/名" type="text" id="氏名名" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
                                         </td>
                                     </tr>
                                     <tr>
@@ -116,8 +165,8 @@ header("Pragma: no-cache");?>
                                             <font color="#FF3300">（全角カタカナ）</font>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ/姓" style="display: inline-block;width: 90%;margin-left: 5px">
-                                            名<input class="form-control" name="_フリガナ/名" type="text" id="フリガナ/名" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ姓" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            名<input class="form-control" name="_フリガナ/名" type="text" id="フリガナ名" style="display: inline-block;width: 90%;margin-left: 5px">
                                         </td>
                                     </tr>
                                     <tr>
@@ -132,12 +181,12 @@ header("Pragma: no-cache");?>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             〒
-                                            <input class="form-control" style="display: inline;width: 90%;" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" onblur="MM_validateForm('_郵便番号上3桁','','NisNum');return document.MM_returnValue" size="6" maxlength="6" placeholder="例：xxx-xxxx（半角数字）">
+                                            <input class="form-control" style="display: inline;width: 90%;" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" size="6" maxlength="8" placeholder="例：xxx-xxxx（半角数字）">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <select name="_所在地/都道府県" class="form-control" id="所在地/都道府県">
+                                            <select name="_所在地/都道府県" class="form-control" id="所在地都道府県">
                                                 <option value="" selected="">都道府県</option>
                                                 <option value="北海道">北海道</option>
                                                 <option value="青森県">青森県</option>
@@ -191,12 +240,12 @@ header("Pragma: no-cache");?>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・市区町村" name="_所在地/市区町村" type="text" id="所在地/市区町村" size="15">
+                                            <input class="form-control" placeholder="・市区町村" name="_所在地/市区町村" type="text" id="所在地市区町村" size="15">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・番地ほか" name="_所在地/番地ほか" type="text" id="所在地/番地ほか" size="15">
+                                            <input class="form-control" placeholder="・番地ほか" name="_所在地/番地ほか" type="text" id="所在地番地ほか" size="15">
                                         </td>
                                     </tr>
                                     <tr>
@@ -208,7 +257,7 @@ header("Pragma: no-cache");?>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>電話番号</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号" type="number" id="電話番号">
+                                            <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号" type="text" id="電話番号">
                                         </td>
                                     </tr>
                                     <tr>

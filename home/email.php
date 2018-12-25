@@ -39,7 +39,7 @@ $body="
             <td align='left'>{$_POST["_会社名・学校名"]}</td>
         </tr>
         <tr>
-            <td bgcolor=\"#EBECF5\">郵便番号上3桁</td>
+            <td bgcolor=\"#EBECF5\">郵便番号上7桁</td>
             <td align='left'>{$_POST["_郵便番号上3桁"]}</td>
         </tr>
         <tr>
