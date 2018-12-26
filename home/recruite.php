@@ -69,7 +69,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td bgcolor="#FFFFFF" class="fontsize" style="line-height:700%" width="50%">全学科</td>
+                                    <td bgcolor="#FFFFFF" class="fontsize" style="line-height:500%" width="50%">全学科</td>
                                 </tr>
                                 <tr>
                                     <td bgcolor="#FFFFFF" class="fontsize"><img src="./image/p_1.gif" alt="" width="10" height="6">設計
