@@ -403,9 +403,9 @@
                                 <tbody>
                                     <tr>
                                         <td align="center">
-                                            <input type="submit" name="Submit" style="width: 30%;margin-right: 10px;height:25%" value="確認画面へ">
+                                            <input type="submit" name="Submit" style="width: 30%;margin-right: 10px;height:25%;font-size: 14px" value="確認画面へ">
 
-                                            <input type="reset" name="Submit2" style="width: 30%;margin-left: 10px;height:25%" value="リセット" onclick="javascript: top.location.href = 'postmail_link.php'">
+                                            <input type="reset" name="Submit2" style="width: 30%;margin-left: 10px;height:25%;font-size: 14px" value="リセット" onclick="javascript: top.location.href = 'postmail_link.php'">
                                         </td>
                                     </tr>
                                 </tbody>

@@ -3,7 +3,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 ini_set('display_errors',0);
 require 'email.class.php';
 
-$mailto='m13804017041@163.com';  //收件人
+$mailto='recruit-hp@keisetsu.co.jp';  //收件人
 $subject=""; //邮件主题
 $body="
 <!DOCTYPE html>
