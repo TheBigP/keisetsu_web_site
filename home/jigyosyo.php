@@ -25,13 +25,12 @@
                                 <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                                     <tbody>
                                         <tr>
-                                            <th rowspan="3" bgcolor="#FFFFFF" class="fontsize" width="25%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地
+                                            <th rowspan="2" bgcolor="#FFFFFF" class="fontsize" width="25%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地
                                             </th>
                                         <tr>
-                                            <td class="fontsize">千葉県習志野市茜浜1－2－6</td>
-                                        </tr>
-                                        <tr>
-                                            <td align="right"><a href="http://maps.google.co.jp/maps?f=l&amp;hl=ja&amp;geocode=&amp;time=&amp;date=&amp;ttype=&amp;q=%E4%BA%AC%E8%A8%AD%E5%B7%A5%E6%A5%AD&amp;near=%E5%8D%83%E8%91%89%E7%9C%8C%E7%BF%92%E5%BF%97%E9%87%8E%E5%B8%82%E8%8C%9C%E6%B5%9C+1-2-6&amp;ie=UTF8&amp;z=19&amp;iwloc=A&amp;om=1" target="map"><img src="./image/bt_googlemap.gif" alt="京設工業 本社 詳細地図はこちら" align="left" border="0"></a></td>
+                                            <td class="fontsize">千葉県習志野市茜浜1－2－6
+                                                <a href="http://maps.google.co.jp/maps?f=l&amp;hl=ja&amp;geocode=&amp;time=&amp;date=&amp;ttype=&amp;q=%E4%BA%AC%E8%A8%AD%E5%B7%A5%E6%A5%AD&amp;near=%E5%8D%83%E8%91%89%E7%9C%8C%E7%BF%92%E5%BF%97%E9%87%8E%E5%B8%82%E8%8C%9C%E6%B5%9C+1-2-6&amp;ie=UTF8&amp;z=19&amp;iwloc=A&amp;om=1" target="map"><img src="./image/bt_googlemap.gif" alt="京設工業 本社 詳細地図はこちら" align="left" border="0"></a>
+                                            </td>
                                         </tr>
                             </tr>
                             <tr>
@@ -56,7 +55,7 @@
                                         <th bgcolor="#FFFFFF" class="fontsize" width="25%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地
                                         </th>
                                         <td bgcolor="#FFFFFF" class="fontsize">
-                                            <p>千葉県習志野市茜浜1－2－6　（本社内）</p>
+                                            <p style="margin: 0;">千葉県習志野市茜浜1－2－6　（本社内）</p>
                                         </td>
                                     </tr>
                                     <tr>

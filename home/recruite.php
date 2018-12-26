@@ -15,10 +15,10 @@
                 <div id="left">
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <td class="under10"><img src="./image/bmida_shinsotsu.jpg" alt="新卒採用情報" width="100%"></td>
+                            <td class="under10"><img src="./image/bmida_shinsotsu.jpg" alt="新卒採用情報" width="100%" height="100%"></td>
                         </tr>
                         <tr>
-                            <td class="under10"><img src="./image/bn_rec_shinsotsubosyuyoko.jpg" alt="募集要項" width="100%" height="30px">
+                            <td class="under10"><img src="./image/bn_rec_shinsotsubosyuyoko.jpg" alt="募集要項" width="100%" height="75%">
                             </td>
                         </tr>
                         <tr>
@@ -47,8 +47,8 @@
                                     </th>
                                 </tr>
                                 <tr>
-                                    <td bgcolor="#FFFFFF" width="50%">
-                                        <div class="container" style="padding-top: 0">
+                                    <td bgcolor="#FFFFFF" width="50%" style="padding-bottom: 0px">
+                                        <div class="container" style="padding-top: 0;margin-top: 0">
                                             <div class="row">
                                                 <div class=".col-xs-6 .col-md-4"><img src="./image/p_1.gif" alt="" width="10" height="6"></div>
                                                 <div class=".col-xs-6 .col-sm-6 .col-md-8 line-div">
@@ -69,7 +69,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td bgcolor="#FFFFFF" class="fontsize" style="line-height:800%" width="50%">全学科</td>
+                                    <td bgcolor="#FFFFFF" class="fontsize" style="line-height:700%" width="50%">全学科</td>
                                 </tr>
                                 <tr>
                                     <td bgcolor="#FFFFFF" class="fontsize"><img src="./image/p_1.gif" alt="" width="10" height="6">設計

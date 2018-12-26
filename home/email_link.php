@@ -3,7 +3,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 ini_set('display_errors',0);
 require 'email.class.php';
 
-$mailto='recruit-hp@keisetsu.co.jp';  //收件人
+$mailto='m13804017041@163.com';  //收件人
 $subject=""; //邮件主题
 $body="
 <!DOCTYPE html>
@@ -152,7 +152,7 @@ echo "
                         <br><br>
                         <hr width=\"400\">
                         <form>
-                            <input type=\"button\" value=\"トップに戻る\" onclick=\"window.open(&quot;http://117.120.6.137:8081/keisetsu/home/index.php&quot;,&quot;_top&quot;)\">
+                            <input style=\"width: 30%;font-size: 14px\" type=\"button\" value=\"トップに戻る\" onclick=\"window.open(&quot;http://117.120.6.137:8081/keisetsu/home/index.php&quot;,&quot;_top&quot;)\">
                         </form>
                         <br><br>
                     </div>

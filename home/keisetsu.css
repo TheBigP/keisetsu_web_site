@@ -30,6 +30,11 @@ td.note {
 }
 .align-enkaku{
     text-align: right;
+	width: 100px;
+}
+.line-text{
+	line-height: 260%;
+	text-align: center;
 }
 span.note {
 	font-size: 14px;
