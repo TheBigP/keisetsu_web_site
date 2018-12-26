@@ -1,4 +1,4 @@
-<?php header('Content-type: text/html; charset=utf-8');?>
+<?php include 'useragent.php'; ?>
 <!DOCTYPE html>
 <html lang="ja">
 

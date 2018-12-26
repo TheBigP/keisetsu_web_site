@@ -1,7 +1,5 @@
-<?php header('Content-type: text/html; charset=utf-8');
-header("Cache-Control: no-store, no-cache, must-revalidate");
-header("Cache-Control: post-check=0, pre-check=0", false);
-header("Pragma: no-cache"); ?>
+<?php include 'useragent.php'; ?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -31,7 +29,7 @@ header("Pragma: no-cache"); ?>
                                         </div>
                                     </tr>
                                     <tr>
-                                        <td style="padding: 5% 5% 5% 5%">
+                                        <td style="padding: 5% 5% 5% 5%;font-size: 14px">
                                             コンピューター・ソフトウェア開発、ソフトウェア検証、機械設計、電気設計、デザイン、技術者派遣事業という５つの部門でみなさまにご提案・ご提供いたしております。
                                         </td>
                                     </tr>
@@ -61,7 +59,7 @@ header("Pragma: no-cache"); ?>
                                         </div>
                                     </tr>
                                     <tr>
-                                        <td style="padding: 5% 5% 5% 5%">京設工業では、ソフトウェア開発、
+                                        <td style="padding: 5% 5% 5% 5%;font-size: 14px">京設工業では、ソフトウェア開発、
                                             機械設計、電気・電子回路設計、
                                             プラスティック容器設計、DTP技術者
                                             などの募集をしております。
@@ -95,7 +93,7 @@ header("Pragma: no-cache"); ?>
                                         </div>
                                     </tr>
                                     <tr>
-                                        <td style="padding: 5% 5% 5% 5%">「常に新しいものを求め、変化を
+                                        <td style="padding: 5% 5% 5% 5%;font-size: 14px">「常に新しいものを求め、変化を
                                             恐れず、変化を楽しむ」 という
                                             企業カルチャーを持つ京設工業
                                             で一緒に働きませんか？
@@ -121,24 +119,22 @@ header("Pragma: no-cache"); ?>
                                     <tr>
                                         <div class="menu-font4">
                                             <div class="menu-font-4">
-                                                <div class="font-div">エントリー</div>
-                                                <div class="font-div">entry</div>
+                                                <div class="font-div">会社案内</div>
+                                                <div class="font-div">company</div>
                                             </div>
                                         </div>
                                     </tr>
                                     <tr>
-                                        <td style="padding: 5% 5% 5% 5%">京設工業は昭和３７年に創業され、
-                                            ５０有余年に渡り営業を続けております。
-                                            主力業務は時代の流れの中で大きく変化してきておりますが。
+                                        <td style="padding: 5% 5% 5% 5%;font-size: 14px">〒275-0024　千葉県習志野市茜浜1-2-6<br>
+                                            ＴＥＬ．047-453-7711　 ＦＡＸ．047-453-0670<br>
+                                            【営業品目】
+                                            コンピューター・ソフトウェア開発、
+                                            ソフトウェア検証、機械設計、電気設計、
+                                            デザイン、技術者派遣事業
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <ul class="nav nav-pills flex-column" style="padding: 0 0 5% 5%">
-                                <li class="nav-item">
-                                    <a href="recruite_kojin.php"><img src="./image/bt_syosai.gif" alt="エントリーについて詳しくはこちら" width="86" height="24" border="0"></a>
-                                </li>
-                            </ul>
                             <!-- 向左的三角形 -->
                             <div class="triangle_border_left color-4">
                                 <span></span>
@@ -170,9 +166,9 @@ header("Pragma: no-cache"); ?>
                         </tr>
                     </table>
                     <img src="./image/bn_whatnew.jpg" alt="What's New " width="100%">
-                    <!--                    <div class="column2">-->
-                    <!--                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E4%25BA%25AC%25E8%25A8%25AD%25E5%25B7%25A5%25E6%25A5%25AD%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE-893386934127550%2F&tabs=timeline&width=510&height=360&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>-->
-                    <!--                    </div>-->
+                    <div class="column2">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E4%25BA%25AC%25E8%25A8%25AD%25E5%25B7%25A5%25E6%25A5%25AD%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE-893386934127550%2F&tabs=timeline&width=510&height=360&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,7 +1,4 @@
-<?php header('Content-type: text/html; charset=utf-8');
-header("Cache-Control: no-store, no-cache, must-revalidate");
-header("Cache-Control: post-check=0, pre-check=0", false);
-header("Pragma: no-cache");?>
+<?php include 'useragent.php'; ?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -42,7 +39,7 @@ header("Pragma: no-cache");?>
                                 </th>
                             </tr>
                             <tr>
-                                <td bgcolor="#FFFFFF" style="font-size: 15px; padding: 5px;">ソフトウェア開発エンジニア　（※実務未経験者も歓迎）</td>
+                                <td bgcolor="#FFFFFF" style="font-size: 14px; padding: 5px;">ソフトウェア開発エンジニア　（※実務未経験者も歓迎）</td>
                             </tr>
                             <tr>
                                 <th bgcolor="#F8F4F9" class="fontsize"><img src="./image/p_2.gif" alt="" width="9" height="10">業務内容

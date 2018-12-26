@@ -15,7 +15,7 @@ body {
 	font-size: 14px;
 }
 .row {
-	font-size: 1.2rem;
+	/*font-size: 1.2rem;*/
 }
 td.note {
 	border-top-width: 1px;
@@ -27,6 +27,9 @@ td.note {
 	border-collapse:collapse;
 	padding-left: 10px;
 	font-size:14px;
+}
+.align-enkaku{
+    text-align: right;
 }
 span.note {
 	font-size: 14px;
@@ -313,7 +316,7 @@ border-color:transparent #00FFBA transparent transparent;/*透明 黄 透明 透
 	border: #00FFBA solid;
 }
 td.under10 {
-	padding-bottom: 10px;
+	/*padding-bottom: 10px;*/
 	text-align: left;
 }
 td.top10 {
@@ -509,8 +512,11 @@ html {font-size: 62.5%!important; /* 10÷16=62.5% */}
 	/* placeholder颜色  */
 	color: #aab2bd;
 	/* placeholder字体大小  */
-	font-size: 10px;
+	font-size: 13px;
 	/* placeholder位置  */
 	text-align: left;
 	padding: 0;
+}
+.input-size{
+    font-size: 20px;
 }

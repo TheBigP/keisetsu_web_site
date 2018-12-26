@@ -1,7 +1,4 @@
-<?php header('Content-type: text/html; charset=utf-8');
-header("Cache-Control: no-store, no-cache, must-revalidate");
-header("Cache-Control: post-check=0, pre-check=0", false);
-header("Pragma: no-cache");?>
+<?php include 'useragent.php'; ?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -141,7 +138,7 @@ header("Pragma: no-cache");?>
                             <table width="100%" border="0" cellpadding="5" cellspacing="0" class="table table-bordered fontsize">
                                 <tbody>
                                     <tr>
-                                        <td bgcolor="#FFFFFF" width="30%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>お問合せ内容</span>
+                                        <td bgcolor="#FFFFFF" width="30%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial;font-size: 15px"><span>お問合せ内容</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             <select class="form-control" name="_お問合せ内容" id="お問合せ内容">
@@ -156,8 +153,8 @@ header("Pragma: no-cache");?>
                                         <td bgcolor="#FFFFFF" width="35%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>氏　　名</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            姓<input class="form-control" name="_氏名/姓" type="text" id="氏名姓" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
-                                            名<input class="form-control" name="_氏名/名" type="text" id="氏名名" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            姓<input class="form-control" name="_氏名/姓" type="text" id="氏名姓" size="15" style="display: inline-block;width: 90%;margin-left: 5px;font-size: 15px">
+                                            名<input class="form-control" name="_氏名/名" type="text" id="氏名名" size="15" style="display: inline-block;width: 90%;margin-left: 5px;font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
@@ -165,15 +162,15 @@ header("Pragma: no-cache");?>
                                             <font color="#FF3300">（全角カタカナ）</font>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ姓" style="display: inline-block;width: 90%;margin-left: 5px">
-                                            名<input class="form-control" name="_フリガナ/名" type="text" id="フリガナ名" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ姓" style="display: inline-block;width: 90%;margin-left: 5px;font-size: 15px">
+                                            名<input class="form-control" name="_フリガナ/名" type="text" id="フリガナ名" style="display: inline-block;width: 90%;margin-left: 5px;font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>会社名・学校名</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" name="_会社名・学校名" type="text" id="会社名・学校名">
+                                            <input class="form-control" name="_会社名・学校名" type="text" id="会社名・学校名" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
@@ -181,7 +178,7 @@ header("Pragma: no-cache");?>
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             〒
-                                            <input class="form-control" style="display: inline;width: 90%;" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" size="6" maxlength="8" placeholder="例：xxx-xxxx（半角数字）">
+                                            <input class="form-control" style="display: inline;width: 90%;font-size: 15px;" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" size="6" maxlength="8" placeholder="例：xxx-xxxx（半角数字）">
                                         </td>
                                     </tr>
                                     <tr>
@@ -240,38 +237,35 @@ header("Pragma: no-cache");?>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・市区町村" name="_所在地/市区町村" type="text" id="所在地市区町村" size="15">
+                                            <input class="form-control" placeholder="・市区町村" name="_所在地/市区町村" type="text" id="所在地市区町村" size="15" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・番地ほか" name="_所在地/番地ほか" type="text" id="所在地番地ほか" size="15">
+                                            <input class="form-control" placeholder="・番地ほか" name="_所在地/番地ほか" type="text" id="所在地番地ほか" size="15" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・建物名" name="所在地/アパートマンション名" type="text" id="所在地/アパートマンション名" size="15">
+                                            <input class="form-control" placeholder="・建物名" name="所在地/アパートマンション名" type="text" id="所在地/アパートマンション名" size="15" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>電話番号</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号" type="text" id="電話番号">
-                                        </td>
-                                    </tr>
-                                    <tr>
+                                            <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号" type="text" id="電話番号" style="font-size: 15px" </td> </tr> <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>メールアドレス</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="（半角数字）" name="_email" type="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <input class="form-control" placeholder="（半角数字）" name="_email" type="email" id="email" aria-describedby="emailHelp" placeholder="Enter email" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>お問合せ詳細</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <textarea class="form-control" placeholder="出来るだけ詳しくご記入ください。" name="_お問合せ詳細" cols="40" rows="5" id="お問合せ詳細"></textarea>
+                                            <textarea class="form-control" placeholder="出来るだけ詳しくご記入ください。" name="_お問合せ詳細" cols="40" rows="5" id="お問合せ詳細" style="font-size: 15px"></textarea>
                                         </td>
                                     </tr>
                                 </tbody>

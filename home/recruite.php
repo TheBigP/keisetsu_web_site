@@ -1,7 +1,4 @@
-<?php header('Content-type: text/html; charset=utf-8');
-header("Cache-Control: no-store, no-cache, must-revalidate");
-header("Cache-Control: post-check=0, pre-check=0", false);
-header("Pragma: no-cache");?>
+<?php include 'useragent.php'; ?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -21,7 +18,7 @@ header("Pragma: no-cache");?>
                             <td class="under10"><img src="./image/bmida_shinsotsu.jpg" alt="新卒採用情報" width="100%"></td>
                         </tr>
                         <tr>
-                            <td class="under10"><img src="./image/bn_rec_shinsotsubosyuyoko.jpg" alt="募集要項" width="100%" height="50px">
+                            <td class="under10"><img src="./image/bn_rec_shinsotsubosyuyoko.jpg" alt="募集要項" width="100%" height="30px">
                             </td>
                         </tr>
                         <tr>

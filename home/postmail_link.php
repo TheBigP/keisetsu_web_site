@@ -1,4 +1,4 @@
-<?php header('Content-type: text/html; charset=utf-8'); ?>
+<?php include 'useragent.php'; ?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -212,8 +212,8 @@
                                         <td bgcolor="#FFFFFF" width="35%"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>氏　　名</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            姓<input class="form-control" name="_氏名/姓" type="text" id="氏名姓" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
-                                            名<input class="form-control" name="_氏名/名" type="text" id="氏名名" size="15" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            姓<input class="form-control" name="_氏名/姓" type="text" id="氏名姓" size="15" style="display: inline-block;width: 90%;margin-left: 5px;font-size: 15px">
+                                            名<input class="form-control" name="_氏名/名" type="text" id="氏名名" size="15" style="display: inline-block;width: 90%;margin-left: 5px;font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
@@ -221,19 +221,19 @@
                                             <font color="#FF3300">（全角カタカナ）</font>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ姓" style="display: inline-block;width: 90%;margin-left: 5px">
-                                            名<input class="form-control" name="_フリガナ/名" type="text" id="フリガナ名" style="display: inline-block;width: 90%;margin-left: 5px">
+                                            姓<input class="form-control" name="_フリガナ/姓" type="text" id="フリガナ姓" style="display: inline-block;width: 90%;margin-left: 5px;font-size: 15px">
+                                            名<input class="form-control" name="_フリガナ/名" type="text" id="フリガナ名" style="display: inline-block;width: 90%;margin-left: 5px;font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial">
                                             <span>生年月日</span></td>
                                         <td bgcolor="#F8F4F9" class="note"> 西暦
-                                            <input class="form-control" name="_生年月日/年" style="display: inline;width: 30%" type="text" id="生年月日年" size="8" placeholder="年">
+                                            <input class="form-control" name="_生年月日/年" style="display: inline;width: 30%;font-size: 15px" type="text" id="生年月日年" size="8" placeholder="年">
 
-                                            <input class="form-control" name="_生年月日/月" style="display: inline;width: 25%" type="text" id="生年月日月" size="4" placeholder="月">
+                                            <input class="form-control" name="_生年月日/月" style="display: inline;width: 25%;font-size: 15px" type="text" id="生年月日月" size="4" placeholder="月">
 
-                                            <input class="form-control" name="_生年月日/日" style="display: inline;width: 25%" type="text" id="生年月日日" size="4" placeholder="日">
+                                            <input class="form-control" name="_生年月日/日" style="display: inline;width: 25%;font-size: 15px" type="text" id="生年月日日" size="4" placeholder="日">
                                             <font color="#FF3300">（半角数字）</font>
                                         </td>
                                     </tr>
@@ -251,7 +251,7 @@
                                         </td>
                                         <td bgcolor="#F8F4F9">
                                             〒
-                                            <input class="form-control" style="display: inline;width: 90%;" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" size="3" maxlength="8" placeholder="例：xxx-xxxx（半角数字）">
+                                            <input class="form-control" style="display: inline;width: 90%;font-size: 15px;" name="_郵便番号上3桁" type="text" id="郵便番号上3桁" size="3" maxlength="8" placeholder="例：xxx-xxxx（半角数字）">
                                         </td>
                                     </tr>
                                     <tr>
@@ -310,38 +310,38 @@
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder=" ・市区町村" name="_住所/市区町村" type="text" id="住所市区町村" size="15">
+                                            <input class="form-control" placeholder=" ・市区町村" name="_住所/市区町村" type="text" id="住所市区町村" size="15" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder=" ・番地ほか" name="_住所/番地ほか" type="text" id="住所番地ほか" size="15">
+                                            <input class="form-control" placeholder=" ・番地ほか" name="_住所/番地ほか" type="text" id="住所番地ほか" size="15" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder=" ・アパートマンション名" name="住所/アパートマンション名" type="text" id="住所/アパートマンション名" size="40">
+                                            <input class="form-control" placeholder=" ・アパートマンション名" name="住所/アパートマンション名" type="text" id="住所/アパートマンション名" size="40" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>電話番号【自宅】</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号【自宅】" type="text" id="電話番号【自宅】">
+                                            <input class="form-control" placeholder="例：03-3333-3333 （半角数字）" name="_電話番号【自宅】" type="text" id="電話番号【自宅】" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>電話番号【携帯】</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="例：090-3333-3333 （半角数字）" name="_電話番号【携帯】" type="text" id="電話番号【携帯】">
+                                            <input class="form-control" placeholder="例：090-3333-3333 （半角数字）" name="_電話番号【携帯】" type="text" id="電話番号【携帯】" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#FFFFFF"><img src="./image/p_3.gif" alt="" width="15" height="17" style="vertical-align: initial"><span>メールアドレス</span>
                                         </td>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="（半角数字）" name="_email" type="text" id="email">
+                                            <input class="form-control" placeholder="（半角数字）" name="_email" type="text" id="email" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
@@ -351,22 +351,22 @@
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・学校名" name="_最終学歴/学校名" type="text" id="最終学歴学校名">
+                                            <input class="form-control" placeholder="・学校名" name="_最終学歴/学校名" type="text" id="最終学歴学校名" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・学部名" name="_最終学歴/学部名" type="text" id="最終学歴学部名">
+                                            <input class="form-control" placeholder="・学部名" name="_最終学歴/学部名" type="text" id="最終学歴学部名" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9">
-                                            <input class="form-control" placeholder="・学科名" name="_最終学歴/学科名" type="text" id="最終学歴学科名">
+                                            <input class="form-control" placeholder="・学科名" name="_最終学歴/学科名" type="text" id="最終学歴学科名" style="font-size: 15px">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td bgcolor="#F8F4F9" style="vertical-align: unset">・卒業年度　西暦
-                                            <input class="form-control" width="20%" placeholder="（半角数字）" style="display: inline;width: 34%;" name="_卒業年度" type="text" id="卒業年度" size="8">
+                                            <input class="form-control" width="20%" placeholder="（半角数字）" style="display: inline;width: 34%;font-size: 15px" name="_卒業年度" type="text" id="卒業年度" size="8">
                                             年度
                                         </td>
                                     </tr>
@@ -386,13 +386,13 @@
                                     <tr>
                                         <td class="hyo" width="35%"><img src="./image/p_3green.gif" alt="" width="15" height="17" style="vertical-align: initial">資格・技能・職歴等</td>
                                         <td bgcolor="#E0EBED">
-                                            <textarea class="form-control" name="資格・技能・職歴など" cols="40" rows="5" id="資格・技能・職歴など"></textarea>
+                                            <textarea class="form-control" name="資格・技能・職歴など" cols="40" rows="5" id="資格・技能・職歴など" style="font-size: 15px"></textarea>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="note"><img src="./image/p_3green.gif" alt="" width="15" height="17" style="vertical-align: initial">その他</td>
                                         <td bgcolor="#E0EBED">
-                                            <textarea class="form-control" name="その他" cols="40" rows="5" id="textarea2">自己PR・ご質問・希望条件等ありましたらご記入ください。</textarea>
+                                            <textarea class="form-control" name="その他" cols="40" rows="5" id="textarea2" style="font-size: 15px">自己PR・ご質問・希望条件等ありましたらご記入ください。</textarea>
                                         </td>
                                     </tr>
                                 </tbody>
