@@ -9,6 +9,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--放大界面问题-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<!--双击放大-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>ソフトウェア開発/検証・機械設計・電気設計・エンジニア派遣・DTPデザインの京設工業株式会社－ごあいさつ－/システムエンジニア/技術者/人材派遣/転職/プラスチック容器</title>
 
@@ -59,6 +61,8 @@
 
         $('#sidebarCollapse').on('click', function() {
             var sidebar_menu = $("#sidebar");
+
+            console.log("点击");
             if (sidebar_menu.hasClass("active")) {
                 $('#sidebar').removeClass('active');
                 $('.container').removeClass('active');
@@ -73,6 +77,19 @@
                 $('#sidebarCollapse').addClass('menu-content-change');
             }
         });
+        loadFacebook();
+        $("#frmFacebook").data("last_width", $("iframe").width());
+        window.addEventListener('resize', () => {
+            if (window.innerWidth - $("#frmFacebook").data("last_width") > 40) {
+                loadFacebook();
+            }
+        });
+
+        function loadFacebook() {
+            var src = "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E4%25BA%25AC%25E8%25A8%25AD%25E5%25B7%25A5%25E6%25A5%25AD%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE-893386934127550%2F&tabs=timeline&&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId&width=" + (window.innerWidth - 30);
+            // alert(src);
+            $("#frmFacebook").attr("src", src);
+        }
     });
     $(document).ready(function(e) {
         window.addEventListener('pageshow', function(event) {

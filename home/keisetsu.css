@@ -33,7 +33,7 @@ td.note {
 	width: 90px;
 }
 .line-text{
-	vertical-align: middle;
+	vertical-align: middle
 }
 span.note {
 	font-size: 14px;
@@ -421,6 +421,7 @@ td.under150 {
 .column2 {
 	height: 100%;
 	width: 100%;
+	min-height: 300px;
 }
 
 .isokatudo {
