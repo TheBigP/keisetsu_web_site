@@ -62,7 +62,6 @@
         $('#sidebarCollapse').on('click', function() {
             var sidebar_menu = $("#sidebar");
 
-            console.log("点击");
             if (sidebar_menu.hasClass("active")) {
                 $('#sidebar').removeClass('active');
                 $('.container').removeClass('active');
