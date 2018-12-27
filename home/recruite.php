@@ -15,7 +15,7 @@
                 <div id="left">
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <td class="under10"><img src="./image/bmida_shinsotsu.jpg" alt="新卒採用情報" width="100%" height="100%"></td>
+                            <td class="under10"><img src="./image/bmida_shinsotsu.jpg" alt="新卒採用情報" width="100%"></td>
                         </tr>
                         <tr>
                             <td class="under10"><img src="./image/bn_rec_shinsotsubosyuyoko.jpg" alt="募集要項" width="100%" height="75%">
@@ -69,7 +69,13 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td bgcolor="#FFFFFF" class="fontsize" style="line-height:600%" width="50%">全学科</td>
+                                    <td bgcolor="#FFFFFF" class="fontsize" width="50%" style="vertical-align: middle">
+                                        <div id="wrapper" style="width: 100%;height: inherit">
+                                            <div id="cell">
+                                                <div class="content">全学科</div>
+                                            </div>
+                                        </div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td bgcolor="#FFFFFF" class="fontsize"><img src="./image/p_1.gif" alt="" width="10" height="6">設計

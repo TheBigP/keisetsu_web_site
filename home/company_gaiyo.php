@@ -132,101 +132,101 @@
                     <table class="table table-bordered" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC" width="100%">
                         <tbody>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku"><span>昭和３７年</span><br><span>５月</span></td>
-                                <td class="note line-text">京葉設計事務所を設立。</td>
+                                <td bgcolor="#F8F4F9" class="note align-enkaku" width="15px!important"><span>昭和３７年</span><br><span>５月</span></td>
+                                <td class="note line-text" style="line-height: 260%;">京葉設計事務所を設立。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">昭和３８年<br>２月</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">昭和３８年<br>２月</td>
                                 <td class="hyo line-text">京葉設計事務所の商号を改め有限会社京設工業所とする。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">昭和４３年<br>４月</td>
-                                <td class="note line-text">東京営業所（現東京事業所）を設立。</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">昭和４３年<br>４月</td>
+                                <td class="note line-text" style="line-height: 260%;">東京営業所（現東京事業所）を設立。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">昭和４７年<br>６月</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">昭和４７年<br>６月</td>
                                 <td class="hyo line-text">有限会社京設工業所を京設工業株式会社とする。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">昭和４８年<br>４月</td>
-                                <td class="note line-text">京設工業株式会社本社ビルを新築。</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">昭和４８年<br>４月</td>
+                                <td class="note line-text" style="line-height: 260%;">京設工業株式会社本社ビルを新築。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">昭和５１年<br>７月</td>
-                                <td class="hyo line-text">四日市営業所(現四日市事業所)を設立。</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">昭和５１年<br>７月</td>
+                                <td class="hyo line-text" style="line-height: 260%;">四日市営業所(現四日市事業所)を設立。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">昭和５８年<br>３月</td>
-                                <td class="note line-text">茜浜事業所を設立。</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">昭和５８年<br>３月</td>
+                                <td class="note line-text" style="line-height: 260%;">茜浜事業所を設立。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">昭和５９年<br>４月</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">昭和５９年<br>４月</td>
                                 <td class="hyo line-text">システム・ソフト開発事業部を本社内に設置。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">平成　３年<br>８月</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">平成　３年<br>８月</td>
                                 <td class="note line-text">ソフトウェア・リサーチ・センター(ＳＲＣ)ビル完成。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">平成　３年<br>９月</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">平成　３年<br>９月</td>
                                 <td class="hyo line-text">システム・ソフト開発事業部をＳＲＣビルに移転。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">平成　４年<br>１月</td>
-                                <td class="note line-text">本社をＳＲＣビルに移転。</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">平成　４年<br>１月</td>
+                                <td class="note line-text" style="line-height: 260%;">本社をＳＲＣビルに移転。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">平成　８年<br>１１月</td>
-                                <td class="hyo line-text">人材派遣事業部を本社内に設置。</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">平成　８年<br>１１月</td>
+                                <td class="hyo line-text" style="line-height: 260%;">人材派遣事業部を本社内に設置。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">平成　９年<br>２月</td>
-                                <td class="note line-text">四日市事業所にて人材派遣業を開始。</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">平成　９年<br>２月</td>
+                                <td class="note line-text" style="line-height: 260%;">四日市事業所にて人材派遣業を開始。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">平成１４年<br>１１月</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">平成１４年<br>１１月</td>
                                 <td class="hyo line-text"> 本社・茜浜事業所・東京事業所 <br>
                                     ＩＳＯ９００１：２０００<br>
                                     ＩＳＯ１４００１：１９９６　同時認証取得
                                 </td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">平成１６年<br>１月</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">平成１６年<br>１月</td>
                                 <td class="note line-text"> 四日市事業所 <br>
                                     ＩＳＯ９００１：２０００ <br>
                                     ＩＳＯ１４００１：１９９６　認証取得
                                 </td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">平成１８年<br>１月</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">平成１８年<br>１月</td>
                                 <td class="hyo line-text">本社・四日市事業所にて有料職業紹介事業を開始。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">平成１８年<br>５月</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">平成１８年<br>５月</td>
                                 <td class="note line-text">ＩＳＯ１４００１：２００４　認証更新</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">平成１８年<br>１１月</td>
-                                <td class="hyo line-text">鈴鹿事務所を開設。</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">平成１８年<br>１１月</td>
+                                <td class="hyo line-text" style="line-height: 260%;">鈴鹿事務所を開設。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">平成２１年<br>１１月</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">平成２１年<br>１１月</td>
                                 <td class="note line-text">ＩＳＯ９００１：２００８　認証更新</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">平成２２年<br>９月</td>
-                                <td class="hyo line-text">鈴鹿事務所を四日市事業所に吸収統合</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">平成２２年<br>９月</td>
+                                <td class="hyo line-text" style="line-height: 260%;">鈴鹿事務所を四日市事業所に吸収統合</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">平成２４年<br>１０月</td>
-                                <td class="note line-text">厚木事務所を開設。</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">平成２４年<br>１０月</td>
+                                <td class="note line-text" style="line-height: 260%;">厚木事務所を開設。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="hyo align-enkaku">平成２８年<br>９月</td>
-                                <td class="hyo line-text">厚木事務所を移転。</td>
+                                <td  bgcolor="#F8F4F9" class="hyo align-enkaku">平成２８年<br>９月</td>
+                                <td class="hyo line-text" style="line-height: 260%;">厚木事務所を移転。</td>
                             </tr>
                             <tr>
-                                <td align="center" bgcolor="#F8F4F9" class="note align-enkaku">平成２８年<br>９月</td>
+                                <td  bgcolor="#F8F4F9" class="note align-enkaku">平成２８年<br>９月</td>
                                 <td class="note line-text">システム・ソフト開発事業部　メディカルグループ<br>
                                     ＩＳＯ１３４８５：２００３　認証取得
                                 </td>

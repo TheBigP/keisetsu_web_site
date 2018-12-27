@@ -19,10 +19,7 @@
                             </td>
                         </tr>
                     </table>
-                    <table class="table table-bordered" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:0px">
-                        <tbody>
-                            <tr>
-                                <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
+                    <table width="100%" class="table table-bordered" border="0" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
                                     <tbody>
                                         <tr>
                                             <th rowspan="2" bgcolor="#FFFFFF" class="fontsize" width="25%"><img src="./image/p_2.gif" alt="" width="9" height="10">所在地

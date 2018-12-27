@@ -272,7 +272,7 @@
                             </table>
                             <img src="./image/line_note.gif" alt="" width="100%" height="1">
                             <br>
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 6px">
                                 <tbody>
                                     <tr>
                                         <td align="center">
