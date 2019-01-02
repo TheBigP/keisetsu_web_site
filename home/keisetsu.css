@@ -220,11 +220,12 @@ td.text {
 	border: #0000FF solid;
 }
 .menu-font-1{
+	margin: 0 !important;
 	padding: 2%;
 	/*margin: 4% 0 0 4%;*/
 	border:#0000FF double;
-	width: 112px;
-	height: 48px;
+	width: 100%;
+	height: 100%;
 	font-size: 12px;
 	background-color:#0000FF;
 }
@@ -239,8 +240,8 @@ td.text {
 	padding: 2%;
 	/*margin: 4% 0 0 4%;*/
 	border:#FF7A00 double;
-	width: 104px;
-	height: 48px;
+	width: 100%;
+	height: 100%;
 	font-size: 12px;
 	background-color:#FF7A00;
 	bottom:0;
@@ -256,8 +257,8 @@ td.text {
 	padding: 2%;
 	/*margin: 4% 0 0 4%;*/
 	border:#00A300 double;
-	width: 104px;
-	height: 48px;
+	width: 100%;
+	height: 100%;
 	font-size: 12px;
 	background-color:#00A300;
 }
@@ -272,8 +273,8 @@ td.text {
 	padding: 2%;
 	/*margin: 4% 0 0 4%;*/
 	border:#00FFBA double;
-	width: 104px;
-	height: 48px;
+	width: 100%;
+	height: 100%;
 	font-size: 12px;
 	background-color:#00FFBA;
 }
