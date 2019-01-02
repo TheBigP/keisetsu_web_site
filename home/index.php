@@ -30,7 +30,7 @@
                                     </tr>
                                     <tr>
                                         <td style="padding: 5% 5% 5% 5%;font-size: 14px">
-                                            コンピューター・ソフトウェア開発、ソフトウェア検証、機械設計、電気設計、デザイン、技術者派遣事業という５つの部門でみなさまにご提案・ご提供いたしております。
+                                            <span style="font-size: 14px !important;">コンピューター・ソフトウェア開発、ソフトウェア検証、機械設計、電気設計、デザイン、技術者派遣事業という５つの部門でみなさまにご提案・ご提供いたしております。</span>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -59,10 +59,11 @@
                                         </div>
                                     </tr>
                                     <tr>
-                                        <td style="padding: 5% 5% 5% 5%;font-size: 14px">京設工業では、ソフトウェア開発、
+                                        <td style="padding: 5% 5% 5% 5%;font-size: 14px">
+                                            <span style="font-size: 14px !important;">京設工業では、ソフトウェア開発、
                                             機械設計、電気・電子回路設計、
                                             プラスティック容器設計、DTP技術者
-                                            などの募集をしております。
+                                            などの募集をしております。</span>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -93,10 +94,12 @@
                                         </div>
                                     </tr>
                                     <tr>
-                                        <td style="padding: 5% 5% 5% 5%;font-size: 14px">「常に新しいものを求め、変化を
+                                        <td style="padding: 5% 5% 5% 5%;font-size: 14px">
+                                            <span style="font-size: 14px !important;">「常に新しいものを求め、変化を
                                             恐れず、変化を楽しむ」 という
                                             企業カルチャーを持つ京設工業
                                             で一緒に働きませんか？
+                                            </span>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -125,12 +128,14 @@
                                         </div>
                                     </tr>
                                     <tr>
-                                        <td style="padding: 5% 5% 5% 5%;font-size: 14px">〒275-0024<br>千葉県習志野市茜浜1-2-6<br>
+                                        <td style="padding: 5% 5% 5% 5%;font-size: 14px">
+                                            <span style="font-size: 14px !important;">〒275-0024<br>千葉県習志野市茜浜1-2-6<br>
                                             ＴＥＬ．047-453-7711<br>ＦＡＸ．047-453-0670<br>
                                             【営業品目】
                                             コンピューター・ソフトウェア開発、
                                             ソフトウェア検証、機械設計、電気設計、
                                             デザイン、技術者派遣事業
+                                            </span>
                                         </td>
                                     </tr>
                                 </tbody>
