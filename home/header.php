@@ -2,11 +2,11 @@
     <!-- Sidebar  -->
     <nav id="sidebar">
         <ul class="list-unstyled" style="font-size: 14px;">
-            <li><a href="index.php" align="left">
+            <li class="li-border" style="border-top-style:solid;"><a href="index.php" align="left">
                     HOME </a></li>
-            <li><a href="prdt_serv.php" align="left">
+            <li class="li-border"><a href="prdt_serv.php" align="left">
                     製品＆サービス </a></li>
-            <li>
+            <li class="li-border">
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">事業所紹介</a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li>
@@ -23,7 +23,7 @@
                     </li>
                 </ul>
             </li>
-            <li>
+            <li class="li-border">
                 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">ISOの取り組み</a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li>
@@ -34,7 +34,7 @@
                     </li>
                 </ul>
             </li>
-            <li>
+            <li class="li-border">
                 <a href="#Submenu" data-toggle="collapse" aria-expanded="false">採用情報</a>
                 <ul class="collapse list-unstyled" id="Submenu">
                     <li>
@@ -57,10 +57,10 @@
                     </li>
                 </ul>
             </li>
-            <li><a href="postmail.php" align="left">
+            <li class="li-border"><a href="postmail.php" align="left">
                     お問い合わせ</a></li>
             <li>
-            <li>
+            <li class="li-border">
                 <a href="#companySubmenu" data-toggle="collapse" aria-expanded="false">会社案内</a>
                 <ul class="collapse list-unstyled" id="companySubmenu">
                     <li>
@@ -71,7 +71,7 @@
                     </li>
                 </ul>
             </li>
-            <li><a href="sitemap.php" align="left">
+            <li class="li-border"><a href="sitemap.php" align="left">
                     サイトマップ</a></li>
             <li>
         </ul>
@@ -81,10 +81,10 @@
     <nav class="navbar navbar-expand-lg menubar sticky default-skin" id="navbar-example2">
         <div class="container-fluid">
             <button type="button" id="sidebarCollapse" class="menu-trigger right menu-content" style="line-height: initial;"></button>
-            <img src="./image/keisetsu_Logo_KEISETSU.png" alt="京設工業株式会社" class="img-position" align="left" />
+            <a href="index.php" class="img-position" align="left" ><img src="./image/keisetsu_Logo_KEISETSU.png" style="width: 100%;height: 100%" align="left" alt="京設工業株式会社" /></a>
             <div style="margin-right: auto;margin-left: auto;height: 48px">
-                <img src="./image/keisetsu_Logo_K.png" height="24px" style="margin-bottom: 12px">
-                <a href="index.php" style="color:white;font-size:25px;padding: 0;margin: 0 0 0 0 ;" class="navbar-brand">京設工業株式会社</a>
+                <img src="./image/KEISETSU_Logo.png" height="20px" style="display: block;margin-top: 6%">
+                <div style="height: 14px;color:white;font-size:10px;line-height: 100%;margin-top: 3%;text-align: center">京設工業株式会社</div>
             </div>
         </div>
     </nav>

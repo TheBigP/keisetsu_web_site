@@ -181,7 +181,8 @@ td.text {
 	/*border-left-color: #CCCCCC;*/
 	/*line-height: 145%;*/
 	height: 100%;
-	border: #FF7A00 solid;
+	border: #dd4b39 solid;
+	background-color:#fbebe9;
 }
 .entry {
 	/* padding-top: 9px;
@@ -201,7 +202,8 @@ td.text {
 	/*border-left-color: #CCCCCC;*/
 	/*line-height: 145%;*/
 	height: 100%;
-	border: #00A300 solid;
+	border: #1dcd00 solid;
+	background-color:#e8fae5;
 }
 .pdserv {
 	/* padding-top: 9px;
@@ -218,33 +220,34 @@ td.text {
 	 /*line-height: 145%;*/
 	 /*height: 273px;*/
 
-	border: #0000FF solid;
+	border: #55acee solid;
+	background-color:#ebeef4;
 }
 .menu-font-1{
 	margin: 0 !important;
 	padding: 2%;
 	/*margin: 4% 0 0 4%;*/
-	border:#0000FF double;
+	border: #55acee double;
 	width: 100%;
 	height: 100%;
-	font-size: 12px;
-	background-color:#0000FF;
+	font-size: 11px;
+	background-color:#55acee;
 }
 .menu-font1{
 	/*padding: 2%;*/
 	margin: 4% 0 0 4%;
 	width: 118px;
 	height: 54px;
-	border: #0000FF double;
+	border: 4px #55acee double;
 }
 .menu-font-2{
 	padding: 2%;
 	/*margin: 4% 0 0 4%;*/
-	border:#FF7A00 double;
+	border:#dd4b39 double;
 	width: 100%;
 	height: 100%;
-	font-size: 12px;
-	background-color:#FF7A00;
+	font-size: 11px;
+	background-color:#dd4b39;
 	bottom:0;
 }
 .menu-font2{
@@ -252,39 +255,39 @@ td.text {
 	margin: 4% 0 0 4%;
 	width: 110px;
 	height: 54px;
-	border: #FF7A00 double;
+	border: 4px #dd4b39 double;
 }
 .menu-font-3{
 	padding: 2%;
 	/*margin: 4% 0 0 4%;*/
-	border:#00A300 double;
+	border:#1dcd00 double;
 	width: 100%;
 	height: 100%;
-	font-size: 12px;
-	background-color:#00A300;
+	font-size: 11px;
+	background-color:#1dcd00;
 }
 .menu-font3{
 	/*padding: 2%;*/
 	margin: 4% 0 0 4%;
 	width: 110px;
 	height: 54px;
-	border: #00A300 double;
+	border: 4px #1dcd00 double;
 }
 .menu-font-4{
 	padding: 2%;
 	/*margin: 4% 0 0 4%;*/
-	border:#00FFBA double;
+	border:#3b5998 double;
 	width: 100%;
 	height: 100%;
-	font-size: 12px;
-	background-color:#00FFBA;
+	font-size: 11px;
+	background-color:#3b5998;
 }
 .menu-font4{
 	/*padding: 2%;*/
 	margin: 4% 0 0 4%;
 	width: 110px;
 	height: 54px;
-	border: #00FFBA double;
+	border: 4px #3b5998 double;
 }
 .font-div{
 	color: white;
@@ -294,23 +297,23 @@ td.text {
 	display:block;
 	width:0;
 	height:0;
-	border-width:50px 32px 0px 0;
+	border-width:32px 32px 0px 0;
 	border-style:solid;
 	position:relative;
 	top:0px;
 	margin-left: auto;
 }
 .color-1 span{
-	border-color:transparent #0000FF transparent transparent;/*透明 黄 透明 透明 */
+	border-color:transparent #55acee transparent transparent;/*透明 黄 透明 透明 */
 }
 .color-2 span{
-	border-color:transparent #FF7A00 transparent transparent;/*透明 黄 透明 透明 */
+	border-color:transparent #dd4b39 transparent transparent;/*透明 黄 透明 透明 */
 }
 .color-3 span{
-	border-color:transparent #00A300 transparent transparent;/*透明 黄 透明 透明 */
+	border-color:transparent #1dcd00 transparent transparent;/*透明 黄 透明 透明 */
 }
 .color-4 span{
-border-color:transparent #00FFBA transparent transparent;/*透明 黄 透明 透明 */
+border-color:transparent #3b5998 transparent transparent;/*透明 黄 透明 透明 */
 }
 .company {
 	/*padding-left: 2%;*/
@@ -319,7 +322,8 @@ border-color:transparent #00FFBA transparent transparent;/*透明 黄 透明 透
 	/*background-repeat: no-repeat;*/
 	/*text-align: left;*/
 	/*height: 273px;*/
-	border: #00FFBA solid;
+	border: #3b5998 solid;
+	background-color: #eef7fd;
 }
 td.under10 {
 	/*padding-bottom: 10px;*/
@@ -478,7 +482,7 @@ td.under7 {
 	border-bottom-color: #CCCCCC;
 }
 .f_violet {
-	color: #210063;
+	color: #336698;
 	text-align: left;
 	padding: 12px;
 	line-height: 1.5;
@@ -534,4 +538,19 @@ html {font-size: 62.5%!important; /* 10÷16=62.5% */}
 #cell {
 	display: table-cell;
 	vertical-align: middle;
+}
+.bgcolor-img{
+	font-size: 12px;
+	text-align: center;
+	color: #ffffff;
+	background: url("./image/KS_logo.png") no-repeat ,linear-gradient(#336698, #55acee);
+	background-position:50% 50%;
+}
+.li-border{
+	border-bottom-style:solid;
+}
+.bgcolor-position{
+	/*width: 30px;*/
+	/*height: 200px;*/
+	/*background-position: top;*/
 }
