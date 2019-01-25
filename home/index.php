@@ -29,7 +29,7 @@
         </div>
         <div id="page-content-wrapper">
             <div class="page-content inset" data-spy="scroll" data-target="#spy">
-                <div class="row" style="padding: 0 2%">
+                <div class="row" style="padding: 0 4%">
                     <div class="col-6 col-md-4" style="padding-right:0.5%;padding-bottom:0%;padding-left:0%">
                       <a href="prdt_serv.php">
                         <div class="pdserv fontsize">
@@ -38,7 +38,7 @@
                                 <tr>
                                     <div class="menu-font1">
                                         <div class="menu-font-1">
-                                            <div class="font-div">製品＆サービス</div>
+                                            <div class="font-div" style="font-size: 14px"><b>製品＆サービス</b></div>
                                             <div class="font-div">product & service</div>
                                         </div>
                                     </div>
@@ -65,7 +65,7 @@
                                 <tr>
                                     <div class="menu-font2">
                                         <div class="menu-font-2">
-                                            <div class="font-div">採用情報</div>
+                                            <div class="font-div" style="font-size: 14px"><b>採用情報</b></div>
                                             <div class="font-div">recruit</div>
                                         </div>
                                     </div>
@@ -85,7 +85,7 @@
                        </a>
                     </div>
                 </div>
-                <div class="row" style="padding: 0 2%">
+                <div class="row" style="padding: 0 4%">
                     <div class="col-6 col-md-4" style="padding:0.5% 0.5% 0% 0%;">
                        <a href="recruite_kojin.php">
                         <div class="entry fontsize" style="position: relative;">
@@ -94,7 +94,7 @@
                                 <tr>
                                     <div class="menu-font3">
                                         <div class="menu-font-3">
-                                            <div class="font-div">エントリー</div>
+                                            <div class="font-div" style="font-size: 14px"><b>エントリー</b></div>
                                             <div class="font-div">entry</div>
                                         </div>
                                     </div>
@@ -121,7 +121,7 @@
                                 <tr>
                                     <div class="menu-font4">
                                         <div class="menu-font-4">
-                                            <div class="font-div">企業情報</div>
+                                            <div class="font-div" style="font-size: 14px"><b>企業情報</b></div>
                                             <div class="font-div">company</div>
                                         </div>
                                     </div>
@@ -143,7 +143,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="padding-top: 5px">
+        <div class="row" style="padding-top: 5px;">
             <div class="col-12 col-md-8">
                 <div id="left">
                     <!--<table border="0" cellpadding="0" cellspacing="0">
