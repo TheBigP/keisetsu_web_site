@@ -2,7 +2,7 @@
     <!-- Sidebar  -->
     <nav id="sidebar">
         <ul class="list-unstyled" style="font-size: 14px;">
-            <li class="li-border" style="border-top-style:solid;"><a href="index.php" align="left">
+            <li class="li-border" style="border-top: 0.5px solid #FFFFFF;"><a href="index.php" align="left">
                     HOME </a></li>
             <li class="li-border"><a href="prdt_serv.php" align="left">
                     製品＆サービス </a></li>
@@ -71,7 +71,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="li-border"><a href="sitemap.php" align="left">
+            <li><a href="sitemap.php" align="left">
                     サイトマップ</a></li>
             <li>
         </ul>

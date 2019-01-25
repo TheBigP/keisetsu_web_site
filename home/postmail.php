@@ -98,13 +98,13 @@
                 };
                 const phone_number = $("#電話番号").val();
                 const tel = /^\d{2}-\d{4}-\d{4}$/;
-                if(!tel.test(phone_number)){
+                if(!phone_number){
                     alert("電話番号は入力必須です");
                     return false;
                 };
                 const regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
                 const new_email = $("#email").val();
-                if(!(regex.test(new_email))){
+                if(!new_email){
                     alert("emailは入力必須です");
                     return false;
                 };

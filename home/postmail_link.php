@@ -72,19 +72,19 @@
                 };
                 const birthday_year = $("#生年月日年").val();
                 const reg_year = /^\d{4}$/;
-                if(!reg_year.test(birthday_year)){
+                if(!birthday_year){
                     alert("生年月日/年は入力必須です");
                     return false;
                 };
                 const birthday_mon = $("#生年月日月").val();
                 const reg_mon = /^([123456789]|1[012])$/;
-                if(!reg_mon.test(birthday_mon)){
+                if(!birthday_mon){
                     alert("生年月日/月は入力必須です");
                     return false;
                 };
                 const birthday_day = $("#生年月日日").val();
                 const reg_day = /^([1-9]|[12][0-9]|3[01])$/;
-                if(!reg_day.test(birthday_day)){
+                if(!birthday_day){
                     alert("生年月日/日は入力必須です");
                     return false;
                 };
@@ -111,19 +111,19 @@
                 };
                 const tel_number = $("#電話番号【自宅】").val();
                 const tel = /^\d{2}-\d{4}-\d{4}$/;
-                if(!tel.test(tel_number)){
+                if(!tel_number){
                     alert("電話番号【自宅】は入力必須です");
                     return false;
                 };
                 const phone_number = $("#電話番号【携帯】").val();
                 const phone = /^\d{3}-\d{4}-\d{4}$/;
-                if(!phone.test(phone_number)){
+                if(!phone_number){
                     alert("電話番号【携帯】は入力必須です");
                     return false;
                 };
                 const regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
                 const new_email = $("#email").val();
-                if(!(regex.test(new_email))){
+                if(!new_email){
                     alert("emailは入力必須です");
                     return false;
                 };
@@ -144,7 +144,7 @@
                 };
                 const graduation = $("#卒業年度").val();
                 const reg_graduation = /^\d{4}$/;
-                if(!reg_graduation.test(graduation)){
+                if(!graduation){
                     alert("卒業年度は入力必須です");
                     return false;
                 };
