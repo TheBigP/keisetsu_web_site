@@ -19,8 +19,10 @@
                     <table border="2" cellpadding="12" cellspacing="2" bgcolor="#210063" style="border: 2px solid #336698;margin-bottom: 10px">
                         <tr>
                             <td bgcolor="#F4F3F9" class="f_violet fontsize">
-                                この度の熊本地震により被災されました方々に、心よりお見舞い申し上げます。
-                                また、被災地の一日も早い復興を心よりお祈りいたします。
+                                この度の平成３０年北海道胆振東部地震により被
+                                災された皆様に、心よりお見舞い申し上げます。
+                                また、被災地の一日も早い復興を心よりお祈りい
+                                たします。
                             </td>
                         </tr>
                     </table>
@@ -29,27 +31,19 @@
         </div>
         <div id="page-content-wrapper">
             <div class="page-content inset" data-spy="scroll" data-target="#spy">
-                <div class="row" style="padding: 0 4%">
-                    <div class="col-6 col-md-4" style="padding-right:0.5%;padding-bottom:0%;padding-left:0%">
+                <div class="row" style="padding: 0 15px">
+                    <div class="col-6 col-md-4" style="padding-right:0.5%;padding-bottom:0%;padding-left:0%;">
                       <a href="prdt_serv.php">
-                        <div class="pdserv fontsize">
-                            <table border="0" cellpadding="30" cellspacing="0" style="padding-top: 30px">
-                                <tbody>
-                                <tr>
-                                    <div class="menu-font1">
-                                        <div class="menu-font-1">
-                                            <div class="font-div" style="font-size: 14px"><b>製品＆サービス</b></div>
-                                            <div class="font-div">product & service</div>
-                                        </div>
-                                    </div>
-                                </tr>
-                                <tr>
-                                    <td style="padding: 5% 10% 5% 10%">
-                                        <div><img src="./image/product_service.png" style="width: 100%;height: 100%;"/></div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                        <div class="pdserv fontsize" id="pdserv" style="width: 100%;">
+                            <div class="menu-font1">
+                                <div class="menu-font-1">
+                                    <div class="font-div" style="font-size: 14px"><b>製品＆サービス</b></div>
+                                    <div class="font-div">product & service</div>
+                                </div>
+                            </div>
+                            <div style="padding: 5% 10% 1% 10%;display:flex;align-items:center;justify-content:center;">
+                                <img src="./image/product_service.png" id="img-width-pdserv"/>
+                            </div>
                             <!-- 向左的三角形 -->
                             <div class="triangle_border_left color-1">
                                 <span></span>
@@ -57,57 +51,41 @@
                         </div>
                       </a>
                     </div>
-                    <div class="col-6 col-md-4" style="padding-right:0%;padding-left:0.5%;">
+                    <div class="col-6 col-md-4" style="padding-right:0%;padding-bottom:0%;padding-left:0.5%;">
                        <a href="recruite.php">
-                        <div class="recruit fontsize" style="position: relative;">
-                            <table border="0" cellpadding="3" cellspacing="0">
-                                <tbody>
-                                <tr>
-                                    <div class="menu-font2">
-                                        <div class="menu-font-2">
-                                            <div class="font-div" style="font-size: 14px"><b>採用情報</b></div>
-                                            <div class="font-div">recruit</div>
-                                        </div>
-                                    </div>
-                                </tr>
-                                <tr>
-                                    <td style="padding: 5% 10% 5% 10%;font-size: 14px">
-                                        <div><img src="./image/recruit.png" style="width: 100%;height: 100%;"/></div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                        <div class="recruit fontsize" id="recruit" style="width: 100%;">
+                            <div class="menu-font2">
+                                <div class="menu-font-2">
+                                    <div class="font-div" style="font-size: 14px"><b>採用情報</b></div>
+                                    <div class="font-div">recruit</div>
+                                </div>
+                            </div>
+                            <div style="padding: 5% 10% 1% 10%;font-size: 14px;display:flex;align-items:center;justify-content:center;">
+                                <img src="./image/recruit.png" id="img-width-recruit"/>
+                            </div>
                             <!-- 向左的三角形 -->
-                            <div class="triangle_border_left color-2" style="position: absolute;bottom: 0;right: 0;">
+                           <div class="triangle_border_left color-2">
                                 <span></span>
                             </div>
                         </div>
                        </a>
                     </div>
                 </div>
-                <div class="row" style="padding: 0 4%">
+                <div class="row" style="padding: 0 15px">
                     <div class="col-6 col-md-4" style="padding:0.5% 0.5% 0% 0%;">
                        <a href="recruite_kojin.php">
-                        <div class="entry fontsize" style="position: relative;">
-                            <table border="0" cellpadding="3" cellspacing="0">
-                                <tbody>
-                                <tr>
-                                    <div class="menu-font3">
-                                        <div class="menu-font-3">
-                                            <div class="font-div" style="font-size: 14px"><b>エントリー</b></div>
-                                            <div class="font-div">entry</div>
-                                        </div>
-                                    </div>
-                                </tr>
-                                <tr>
-                                    <td style="padding: 5% 10% 5% 10%;font-size: 14px">
-                                        <div><img src="./image/entry.png" style="width: 100%;height: 100%;"/></div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                        <div class="entry fontsize" id="entry" style="width: 100%;">
+                            <div class="menu-font3">
+                                <div class="menu-font-3">
+                                    <div class="font-div" style="font-size: 14px"><b>エントリー</b></div>
+                                    <div class="font-div">entry</div>
+                                </div>
+                            </div>
+                            <div style="padding: 5% 10% 0% 10%;font-size: 14px;display:flex;align-items:center;justify-content:center;">
+                                <img src="./image/entry.png" id="img-width-entry"/>
+                            </div>
                             <!-- 向左的三角形 -->
-                            <div class="triangle_border_left color-3" style="position: absolute;bottom: 0;right: 0;">
+                            <div class="triangle_border_left color-3">
                                 <span></span>
                             </div>
                         </div>
@@ -115,24 +93,16 @@
                     </div>
                     <div class="col-6 col-md-4" style="padding:0.5% 0% 0% 0.5%;">
                       <a href="company.php">
-                        <div class="company fontsize">
-                            <table border="0" cellpadding="3" cellspacing="0">
-                                <tbody>
-                                <tr>
-                                    <div class="menu-font4">
-                                        <div class="menu-font-4">
-                                            <div class="font-div" style="font-size: 14px"><b>企業情報</b></div>
-                                            <div class="font-div">company</div>
-                                        </div>
-                                    </div>
-                                </tr>
-                                <tr>
-                                    <td style="padding: 5% 10% 5% 10%;font-size: 14px">
-                                        <div><img src="./image/company.png" style="width: 100%;height: 100%;"/></div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                        <div class="company fontsize" id="company" style="width: 100%;">
+                            <div class="menu-font4">
+                                <div class="menu-font-4">
+                                    <div class="font-div" style="font-size: 14px"><b>企業情報</b></div>
+                                    <div class="font-div">company</div>
+                                </div>
+                            </div>
+                            <div style="padding: 5% 10% 0% 10%;font-size: 14px;display:flex;align-items:center;justify-content:center;">
+                                <img src="./image/company.png" id="img-width-company"/>
+                            </div>
                             <!-- 向左的三角形 -->
                             <div class="triangle_border_left color-4">
                                 <span></span>
@@ -188,5 +158,42 @@
         <?php include 'footer.php'; ?>
     </div>
 </body>
-
+<script>
+    window.onload = function(){
+        var imgs_pdserv = document.getElementById("img-width-pdserv");
+        var imgs_recruit = document.getElementById("img-width-recruit");
+        var imgs_entry = document.getElementById("img-width-entry");
+        var imgs_company = document.getElementById("img-width-company");
+        var contentLeft_pdserv = document.getElementById("pdserv");
+        var contentLeft_recruit = document.getElementById("recruit");
+        var contentLeft_entry = document.getElementById("entry");
+        var contentLeft_company = document.getElementById("company");
+        imgs_pdserv.style["width"] = contentLeft_pdserv.offsetWidth - 105 + "px";
+        imgs_pdserv.style["height"] = contentLeft_pdserv.offsetHeight - 105 + "px";
+        imgs_recruit.style["width"] = contentLeft_recruit.offsetWidth - 105 + "px";
+        imgs_recruit.style["height"] = contentLeft_recruit.offsetHeight - 106 + "px";
+        imgs_entry.style["width"] = contentLeft_entry.offsetWidth - 105 + "px";
+        imgs_entry.style["height"] = contentLeft_entry.offsetHeight - 105 + "px";
+        imgs_company.style["width"] = contentLeft_company.offsetWidth - 105 + "px";
+        imgs_company.style["height"] = contentLeft_company.offsetHeight - 105 + "px";
+    }
+    window.onresize = function(){
+        var imgs_pdserv = document.getElementById("img-width-pdserv");
+        var imgs_recruit = document.getElementById("img-width-recruit");
+        var imgs_entry = document.getElementById("img-width-entry");
+        var imgs_company = document.getElementById("img-width-company");
+        var contentLeft_pdserv = document.getElementById("pdserv");
+        var contentLeft_recruit = document.getElementById("recruit");
+        var contentLeft_entry = document.getElementById("entry");
+        var contentLeft_company = document.getElementById("company");
+        imgs_pdserv.style["width"] = contentLeft_pdserv.offsetWidth - 105 + "px";
+        imgs_pdserv.style["height"] = contentLeft_pdserv.offsetHeight - 105 + "px";
+        imgs_recruit.style["width"] = contentLeft_recruit.offsetWidth - 105 + "px";
+        imgs_recruit.style["height"] = contentLeft_recruit.offsetHeight - 106 + "px";
+        imgs_entry.style["width"] = contentLeft_entry.offsetWidth - 105 + "px";
+        imgs_entry.style["height"] = contentLeft_entry.offsetHeight - 105 + "px";
+        imgs_company.style["width"] = contentLeft_company.offsetWidth - 105 + "px";
+        imgs_company.style["height"] = contentLeft_company.offsetHeight - 105 + "px";
+    }
+</script>
 </html>

@@ -181,7 +181,7 @@ td.text {
 	/*border-left-color: #CCCCCC;*/
 	/*line-height: 145%;*/
 	height: 100%;
-	border: #dd4b39 solid;
+	border: 2px #dd4b39 solid;
 	background-color:#fbebe9;
 }
 .entry {
@@ -201,8 +201,7 @@ td.text {
 	/*border-left-style: solid;*/
 	/*border-left-color: #CCCCCC;*/
 	/*line-height: 145%;*/
-	height: 100%;
-	border: #1dcd00 solid;
+	border: 2px #1dcd00 solid;
 	background-color:#e8fae5;
 }
 .pdserv {
@@ -220,7 +219,7 @@ td.text {
 	 /*line-height: 145%;*/
 	 /*height: 273px;*/
 
-	border: #55acee solid;
+	border: 2px #55acee solid;
 	background-color:#ebeef4;
 }
 .menu-font-1{
@@ -322,7 +321,7 @@ border-color:transparent #3b5998 transparent transparent;/*透明 黄 透明 透
 	/*background-repeat: no-repeat;*/
 	/*text-align: left;*/
 	/*height: 273px;*/
-	border: #3b5998 solid;
+	border: 2px #3b5998 solid;
 	background-color: #eef7fd;
 }
 td.under10 {
