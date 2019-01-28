@@ -169,13 +169,17 @@
         var contentLeft_entry = document.getElementById("entry");
         var contentLeft_company = document.getElementById("company");
         imgs_pdserv.style["width"] = contentLeft_pdserv.offsetWidth - 105 + "px";
-        imgs_pdserv.style["height"] = contentLeft_pdserv.offsetHeight - 105 + "px";
+        imgs_pdserv.style["height"] = contentLeft_pdserv.offsetWidth - 105 + "px";
         imgs_recruit.style["width"] = contentLeft_recruit.offsetWidth - 105 + "px";
-        imgs_recruit.style["height"] = contentLeft_recruit.offsetHeight - 106 + "px";
+        imgs_recruit.style["height"] = contentLeft_recruit.offsetWidth - 106 + "px";
         imgs_entry.style["width"] = contentLeft_entry.offsetWidth - 105 + "px";
-        imgs_entry.style["height"] = contentLeft_entry.offsetHeight - 105 + "px";
+        imgs_entry.style["height"] = contentLeft_entry.offsetWidth - 105 + "px";
         imgs_company.style["width"] = contentLeft_company.offsetWidth - 105 + "px";
-        imgs_company.style["height"] = contentLeft_company.offsetHeight - 105 + "px";
+        imgs_company.style["height"] = contentLeft_company.offsetWidth - 105 + "px";
+        contentLeft_pdserv.style["height"] = contentLeft_pdserv.offsetWidth+ "px";
+        contentLeft_recruit.style["height"] = contentLeft_recruit.offsetWidth + "px";
+        contentLeft_entry.style["height"] = contentLeft_entry.offsetWidth + "px";
+        contentLeft_company.style["height"] = contentLeft_company.offsetWidth + "px";
     }
     window.onresize = function(){
         var imgs_pdserv = document.getElementById("img-width-pdserv");
@@ -187,13 +191,17 @@
         var contentLeft_entry = document.getElementById("entry");
         var contentLeft_company = document.getElementById("company");
         imgs_pdserv.style["width"] = contentLeft_pdserv.offsetWidth - 105 + "px";
-        imgs_pdserv.style["height"] = contentLeft_pdserv.offsetHeight - 105 + "px";
+        imgs_pdserv.style["height"] = contentLeft_pdserv.offsetWidth - 105 + "px";
         imgs_recruit.style["width"] = contentLeft_recruit.offsetWidth - 105 + "px";
-        imgs_recruit.style["height"] = contentLeft_recruit.offsetHeight - 106 + "px";
+        imgs_recruit.style["height"] = contentLeft_recruit.offsetWidth - 106 + "px";
         imgs_entry.style["width"] = contentLeft_entry.offsetWidth - 105 + "px";
-        imgs_entry.style["height"] = contentLeft_entry.offsetHeight - 105 + "px";
+        imgs_entry.style["height"] = contentLeft_entry.offsetWidth - 105 + "px";
         imgs_company.style["width"] = contentLeft_company.offsetWidth - 105 + "px";
-        imgs_company.style["height"] = contentLeft_company.offsetHeight - 105 + "px";
+        imgs_company.style["height"] = contentLeft_company.offsetWidth - 105 + "px";
+        contentLeft_pdserv.style["height"] = contentLeft_pdserv.offsetWidth + "px";
+        contentLeft_recruit.style["height"] = contentLeft_recruit.offsetWidth + "px";
+        contentLeft_entry.style["height"] = contentLeft_entry.offsetWidth + "px";
+        contentLeft_company.style["height"] = contentLeft_company.offsetWidth + "px";
     }
 </script>
 </html>
