@@ -291,6 +291,9 @@ td.text {
 .font-div{
 	color: white;
 }
+.triangle_border_left{
+	position:absolute;right:1%;bottom:0;
+}
 /*向左*/
 .triangle_border_left span{
 	display:block;
